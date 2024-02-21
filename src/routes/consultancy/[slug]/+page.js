@@ -1,12 +1,14 @@
-import { error } from "@sveltejs/kit";
 /** @type {import('./$types').PageLoad} */ 
+import { error } from "@sveltejs/kit";
+import { data } from "$lib/index.js";
 
 export function load({ params }) {
-  if (params.slug != "hello-world") {
-    return {
-      title: "Hello world!",
-      content: "Welcome to our blog. Lorem ipsum dolor sit amet...",
-    };
-  }
+  let formattedSlug=params.slug.replaceAll("-"," ");
+  let requiredIndex=data.findIndex(item=> {
+    return item.name.toLowerCase()==formattedSlug
+  });
+
+  if(requiredIndex!==-1) return data[requiredIndex];
+
   error(404, "Not found");
 }

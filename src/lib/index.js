@@ -1,7 +1,21 @@
 export const data=[
     {
         name: "AECC Global",
-        address: "" 
+        address: "Kamal Pokhari",
+        phone: "01-5970315",
+        about: "AECC Global is a leading global international education consultancy, headquartered in Melbourne, Australia. We have supported the study abroad dreams of 50K+ international students, connecting them to the right study opportunities through over 750+ top educational institutions. AECC Global's EdTEch is a unified digital ecosystem that makes international education research and application a seamless self-guided process and is supported by our expert education guidance counsellors. AECC Global's strength lies in its 450+ highly committed employees across 42 branches in 15 countries and growing. Almost all our Education Counsellors have been international students at some point in their lives, so we really understand what it’s like to be considering international study.",
+        socials: {
+            facebook: "https://www.facebook.com/AECCNepal/",
+            instagram: "https://www.instagram.com/aecc.nepal/",
+            youtube: "https://www.youtube.com/channel/UCCtwo7tqTfkr__pio4WQCkg",
+            linkedin: "https://www.linkedin.com/company/aecc-global-nepal/"
+        },
+        images: [
+            "https://lh3.googleusercontent.com/p/AF1QipODIg-OLM7l5La7DiN2unyh6ztQwCJdhv9rTkdw=s0", 
+            "https://lh3.googleusercontent.com/p/AF1QipMKv9o_JWGLzFAotMIIq_nN_Rb3zcKak9s7-ciV=s0"
+        ],
+        testPreparations: ["IELTS", "TOEFL", "PTE", "GRE", "GMAT"],
+        countriesFocused: ["Australia", "Canada", "UK", "USA", "New Zealand", "France", "Cyprus", "Germany", "Switzerland", "UAE"]
     },
     {
         name: "Education Tree Global",
