@@ -16,7 +16,9 @@
 
 <div class="landing-img">
     <div class="landing-tagline">
-        Explore the best <span>Consultancy</span> and <span>University</span> for abroad study!
+        <div class="tagline-txt">
+            Explore the best <span>Consultancy</span><br>for abroad study!
+        </div>
     </div>
 </div>
 
@@ -30,10 +32,10 @@
         {/each}
     </div>
     <div class="left-right">
-        <div class="left" on:click={()=> scrollingConsultancies.scrollBy({left: -300, behavior: "smooth"})}>
+        <div class="left" on:click={()=> scrollingConsultancies.scrollBy({left: -365, behavior: "smooth"})}>
             <i class="fa-solid fa-chevron-left"></i>
         </div>
-        <div class="right" on:click={()=> scrollingConsultancies.scrollBy({left: 300, behavior: "smooth"})}>
+        <div class="right" on:click={()=> scrollingConsultancies.scrollBy({left: 365, behavior: "smooth"})}>
             <i class="fa-solid fa-chevron-right"></i>
         </div>
     </div>
@@ -46,19 +48,18 @@
     <div class="sub-title">Test Guides</div>
     <div class="test-guides-inner">
         <div class="test-card">
-            <a href="/ielts">IELTS</a>
+            <a href="/test-guides/ielts">IELTS</a>
         </div>
         <div class="test-card">
-            <a href="/pte">PTE</a>
+            <a href="/test-guides/pte">PTE</a>
         </div>
         <div class="test-card">
-            <a href="/sat">SAT</a>
+            <a href="/test-guides/sat">SAT</a>
         </div>
         <div class="test-card">
-            <a href="toefl">TOEFL</a>
+            <a href="/test-guides/toefl">TOEFL</a>
         </div>
     </div>
-    <!-- IELTS, PTE, SAT, TOEFL -->
 </div>
 
 <div class="faqs">

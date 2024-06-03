@@ -2,7 +2,13 @@
 	/** @type {import('./$types').PageData} */
 	export let data;
 
-	console.log(data);
+	let currImgUrl= data.images[0],
+		activeImg=0;
+
+	const changeImage=i=>{
+		currImgUrl= data.images[i];
+		activeImg= i;
+	}
 </script>
 
 <div class="consultancy-container">
@@ -36,7 +42,6 @@
 		<div class="data-nav">
 			<ul>
 				<li><a href="#about">About</a></li>
-				<li><a href="#images">Images</a></li>
 				<li><a href="#major-countries">Major countries</a></li>
 				<li><a href="#test-preparations">Test preparations</a></li>
 				<li><a href="#map">Map</a></li>
@@ -44,8 +49,15 @@
 		</div>
 		<div class="consultancy-data-bottom">
 			<h2 class="data-sub-title" id="about">About</h2>
+			<div class="data-imgs">
+				<img src={currImgUrl} alt="">
+				<div class="lines">
+					{#each data.images as image, i}
+					<div class={activeImg==i?"line active-line":"line"} on:click={()=>changeImage(i)}></div>
+					{/each}
+				</div>
+			</div>
 			<p>{data.about}</p>
-			<h2 class="data-sub-title" id="images">Images</h2>
 			<h2 class="data-sub-title" id="major-countries">Major countries</h2>
 			<div class="data-countries">
 				{#each data.countriesFocused as country}
@@ -88,7 +100,6 @@
 		width: 100%;
 		height: 350px;
 		background-image: url($lib/img/sydney.jpg);
-		background-image: url("https://lh3.googleusercontent.com/p/AF1QipMKv9o_JWGLzFAotMIIq_nN_Rb3zcKak9s7-ciV=s0");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -166,12 +177,12 @@
 	}
 	.data-nav li{
 		padding: 1rem .5rem;
-		width: 20%;
+		width: 25%;
 		text-align: center;
 		border: 2px solid var(--blue);
 		cursor: pointer;
 	}
-	.data-nav li:first-of-type, .data-nav li:nth-of-type(2), .data-nav li:nth-of-type(3), .data-nav li:nth-of-type(4){
+	.data-nav li:first-of-type, .data-nav li:nth-of-type(2), .data-nav li:nth-of-type(3){
 		border-right: none;
 	}
 	.data-nav li:first-of-type{
@@ -214,6 +225,35 @@
 		border: 1px solid var(--blue);
 		border-radius: 3px;
 	}
+	.data-imgs{
+		margin-bottom: 1rem;
+		position: relative;
+	}
+	.data-imgs img{
+		width: 100%;
+		height: 400px;
+		object-fit: cover;
+	}
+	.lines{
+		width: max-content;
+		display: flex;
+		position: absolute;
+		bottom: 1rem;
+		left: 50%;
+		right: 50%;
+		transform: translateX(-50%);
+	}
+	.line{
+		margin: .25rem;
+		width: 100px;
+		height: 5px;
+		background-color: #dcdcdc;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	.active-line{
+		background-color: #797979;
+	}
 	.enquire-msg{
 		margin-top: 3rem;
 		font-size: 1.5rem;
@@ -227,7 +267,7 @@
 		color: #000;
 	}
 	.consultancy-data .socials{
-		margin-top: 3rem;
+		margin: 3rem 0 2rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;

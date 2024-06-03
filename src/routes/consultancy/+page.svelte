@@ -21,7 +21,7 @@
         width: max-content;
         text-align: center;
         font-size: 2rem;
-        border-bottom: 2px solid var(--green);
+        border-bottom: 2px solid var(--blue);
     }
     .consultancies-inner{
         display: flex;
