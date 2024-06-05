@@ -1,40 +1,43 @@
 <script>
-	/** @type {import('./$types').PageData} */
 	export let data;
+	
+	let currData= Object.assign({}, data),
+		currImgUrl= currData.images[0],
+		activeImg= 0,
+		openEnquiry= false;
 
-	let currImgUrl= data.images[0],
-		activeImg=0;
-
-	const changeImage=i=>{
-		currImgUrl= data.images[i];
+	const changeImage= i=>{
+		currImgUrl= currData.images[i];
 		activeImg= i;
 	}
 </script>
 
+
+{#if currData.address && currData.phone}
 <div class="consultancy-container">
 	<div class="consultancy-landing">
 		<div class="landing-background">
 			<div class="landing-txts">
-				<h1>{data.name}</h1>
+				<h1>{currData.name}</h1>
 				<p>
-					<span><i class="fa-solid fa-location-dot"></i>{data.address},</span> 
-					<span><i class="fa-solid fa-phone"></i>{data.phone}</span>
+					<span><i class="fa-solid fa-location-dot"></i>{currData.address},</span> 
+					<span><i class="fa-solid fa-phone"></i>{currData.phone}</span>
 				</p>
 				<div class="socials">
-					<a href={data.socials.facebook} target="_blank">
+					<a href={currData.socials.facebook} target="_blank">
 						<i class="fa-brands fa-square-facebook"></i>
 					</a>
-					<a href={data.socials.instagram} target="_blank">
+					<a href={currData.socials.instagram} target="_blank">
 						<i class="fa-brands fa-instagram"></i>
 					</a>
-					<a href={data.socials.youtube} target="_blank">
+					<a href={currData.socials.youtube} target="_blank">
 						<i class="fa-brands fa-youtube"></i>
 					</a>
-					<a href={data.socials.linkedin} target="_blank">
+					<a href={currData.socials.linkedin} target="_blank">
 						<i class="fa-brands fa-linkedin"></i>
 					</a>
 				</div>
-				<button class="enquire">Enquire <i class="fa-solid fa-chevron-right"></i></button>
+				<button class="enquire" on:click={()=> openEnquiry= true}>Enquire <i class="fa-solid fa-chevron-right"></i></button>
 			</div>
 		</div>
 	</div>
@@ -52,48 +55,78 @@
 			<div class="data-imgs">
 				<img src={currImgUrl} alt="">
 				<div class="lines">
-					{#each data.images as image, i}
+					{#each currData.images as image, i}
 					<div class={activeImg==i?"line active-line":"line"} on:click={()=>changeImage(i)}></div>
 					{/each}
 				</div>
 			</div>
-			<p>{data.about}</p>
+			<p>{currData.about}</p>
 			<h2 class="data-sub-title" id="major-countries">Major countries</h2>
 			<div class="data-countries">
-				{#each data.countriesFocused as country}
+				{#each currData.countriesFocused as country}
 				<span class="data-country">{country}</span>
 				{/each}
 			</div>
 			<h2 class="data-sub-title" id="test-preparations">Test preparations</h2>
 			<div class="data-tests">
-				{#each data.testPreparations as test}
+				{#each currData.testPreparations as test}
 				<span class="data-test">{test}</span>
 				{/each}
 			</div>
 			<div class="enquire-msg">
 				<span>Have any queries?</span>
-				<button class="enquire">Enquire <i class="fa-solid fa-chevron-right"></i></button>
+				<button class="enquire" on:click={()=> openEnquiry= true}>Enquire <i class="fa-solid fa-chevron-right"></i></button>
 			</div>
 			<h2 class="data-sub-title" id="map">Map</h2>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2924028197476!2d85.32511167494923!3d27.708256825452246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1909b99b93a9%3A0x8d5a9aa79e4a45f0!2sAECC%20Global!5e0!3m2!1sen!2snp!4v1708522830177!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<div class="socials">
 				<span>Social links:</span>
-				<a href={data.socials.facebook} target="_blank">
+				<a href={currData.socials.facebook} target="_blank">
 					<i class="fa-brands fa-square-facebook"></i>
 				</a>
-				<a href={data.socials.instagram} target="_blank">
+				<a href={currData.socials.instagram} target="_blank">
 					<i class="fa-brands fa-instagram"></i>
 				</a>
-				<a href={data.socials.youtube} target="_blank">
+				<a href={currData.socials.youtube} target="_blank">
 					<i class="fa-brands fa-youtube"></i>
 				</a>
-				<a href={data.socials.linkedin} target="_blank">
+				<a href={currData.socials.linkedin} target="_blank">
 					<i class="fa-brands fa-linkedin"></i>
 				</a>
 			</div>
 		</div>
 	</div>
 </div>
+
+{#if openEnquiry}
+<div class="enquire-modal">
+	<div class="enquire-modal-inner">
+		<i class="cross-modal fa-solid fa-times" on:click={()=> openEnquiry=false}></i>
+		<h2>Have any queries? We will reach out to you soon!</h2>
+		<input type="text" placeholder="Full name">
+		<input type="email" placeholder="Email">
+		<input type="number" placeholder="Phone number">
+		<select>
+			<option value="Australia">Australia</option>
+			<option value="USA">USA</option>
+			<option value="Canada">Canada</option>
+			<option value="Germany">Germany</option>
+			<option value="New Zealand">New Zealand</option>
+			<option value="United Kingdom">United Kingdom</option>
+			<option value="Japan">Japan</option>
+			<option value="Singapore">Singapore</option>
+			<option value="South Korea">South Korea</option>
+			<option value="Help me decide">Others / Help me decide</option>
+		</select>
+		<textarea placeholder="Enter your queries..."></textarea>
+		<button class="submit" on:click={()=> openEnquiry=false}>Submit</button>
+	</div>
+</div>
+{/if}
+
+{:else}
+<h1>Our name is I dont know</h1>
+{/if}
 
 <style>
 	.consultancy-landing{
@@ -144,7 +177,7 @@
 	.socials i:hover{
 		color: #dcdcdc;
 	}
-	.enquire{
+	.enquire, .submit{
 		margin-top: 1rem;
 		width: 125px;
 		height: 35px;
@@ -158,7 +191,7 @@
 		align-items: center;
 		transition: .3s;
 	}
-	.enquire:hover{
+	.enquire:hover, .submit{
 		background-color: var(--blue);
 	}
 	.enquire i{
@@ -279,5 +312,56 @@
 	.consultancy-data .socials i{
 		font-size: 2rem;
 		color: var(--blue);
+	}
+
+	/* enquire modal */
+	.enquire-modal{
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(0,0,0,.5);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: fixed; 
+		top: 50%;
+		bottom: 50%;
+		left: 50%;
+		right: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1000;
+	}
+	.cross-modal{
+		font-size: 1.25rem;
+		color: #797979;
+		position: absolute;
+		right: 2rem;
+		top: 1rem;
+		cursor: pointer;
+	}
+	.enquire-modal-inner{
+		padding: 3.5rem 2rem 2rem 2rem;
+		width: 700px;
+		background-color: #fff;
+		border: 2px solid #dcdcdc;
+		border-radius: 3px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		position: relative;
+	}
+	.enquire-modal-inner h2{
+		margin-bottom: 1rem;	
+	}
+	.enquire-modal input, select, textarea{
+		margin: .5rem 0;
+		padding: 0 .5rem;
+		width: 100%;
+		height: 35px;
+		outline: none;
+	}
+	textarea{
+		padding: .5rem;
+		height: 100px;
 	}
 </style>

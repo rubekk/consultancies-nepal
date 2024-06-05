@@ -3,24 +3,20 @@
 </script>
 
 <div class="header">
-    <div class="title">
+    <div class="header-title">
         <a href="/">Consultancies<span>Nepal</span></a>
     </div>
-    <div class="right">
-        <ul>
-            <li on:mouseover={()=> showTestGuides=true} on:mouseleave={()=> showTestGuides=false}>
-                <a href="./test-guides">Test guides<i class="fa-solid fa-chevron-down"></i></a>
-                {#if showTestGuides}
-                <div on:mouseenter={()=> showTestGuides=true} on:mouseleave={()=> showTestGuides=false} class="test-guide-list">
-                    <li><a href="/test-guides/ielts">IELTS</a></li>
-                    <li><a href="/test-guides/pte">PTE</a></li>
-                    <li><a href="/test-guides/sat">SAT</a></li>
-                    <li><a href="/test-guides/toefl">TOEFL</a></li>
-                </div>
-                {/if}
-            </li>
-            <li><a href="./consultancy">Top Consultancies</a></li>
-        </ul>
+    <div class="header-right">
+        <div class="header-test-guides-dropdown">
+            <a class="parent-a" href="./test-guides">Test guides<i class="fa-solid fa-chevron-down"></i></a>
+            <div class="drop-down">
+                <li><a href="/test-guides/ielts">IELTS</a></li>
+                <li><a href="/test-guides/pte">PTE</a></li>
+                <li><a href="/test-guides/sat">SAT</a></li>
+                <li><a href="/test-guides/toefl">TOEFL</a></li>
+            </div>
+        </div>
+        <div class="header-top-consultancies"><a href="./consultancy">Top Consultancies</a></div>
     </div>
 </div>
 
@@ -32,41 +28,51 @@
         align-items: center;
         border-bottom: 1px solid #797979;
     }
-    .title{
-        font-size: 1.25rem;
+    .header-title{
+        font-size: 1.35rem;
         font-weight: bold;
     }
-    .title span{
-        margin-left: .2rem;
+    .header-title span{
+        margin-left: .1rem;
         color: var(--blue);
     }
-    .right ul{
+    .header-right{
+        width: max-content;
         display: flex;
+        justify-content: center;
+        align-items: center;
         gap: 30px;
     }
-    .right li{
-        list-style: none;
-        cursor: pointer;
+    .header-test-guides-dropdown{
+        position: relative;
     }
-    .right ul i{
-        margin-left: .5rem;
+    .header-test-guides-dropdown:hover .drop-down{
+        display: block;
+    }
+    .parent-a i{
+        margin-left: .25rem;
         color: #797979;
     }
-    .test-guide-list{
-        width: 200px;
-        background-color: #000;
+    .drop-down{
+        background-color: #797979;
+        border-radius: 3px;
         position: absolute;
-        top: 3.3rem;
-        right: 14rem;
+        top: 1.5rem;
+        left: -.5rem;
+        display: none;
     }
-    .test-guide-list li{
-        padding: .5rem 0;
-        width: 100%;
+    .drop-down li{
+        padding: .5rem 1rem;
+        width: 125px;
         text-align: center;
-        color: #fff;
-        border-bottom: 1px solid #797979;
+        border-bottom: 1px solid #fff;
+        cursor: pointer;
     }
-    .test-guide-list a{
+    .drop-down a{
         color: #fff;
     }
+    .drop-down a:hover{
+        color: #000;
+    }
+   
 </style>

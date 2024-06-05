@@ -19,47 +19,168 @@ export const data=[
     },
     {
         name: "Education Tree Global",
-        address: ""
+        address: "Kamal Pokhari",
+        phone: "01-5911944",
+        about: "EDUCATION TREE was founded in 2021 by a team of industry experts with 15+ years of successful student placements in some of the best universities and colleges in the world. Since then, EDUCATION TREE has expanded its professional educational counseling services to assist students planning to study in Australia, New Zealand, UK, US, Canada and many more, providing student enrollment and visa assistance. It offers English test preparatory classes like IELTS, PTE, TOEFL, SAT, GMAT, GRE from professional and experienced mentors. EDUCATION TREE works closely with a number of educational institutions in Australia, Canada, New Zealand, UK, USA and many more to ensure we are kept up to date on all of the different courses, admission requirements, scholarships, post study work and other opportunities available to our clients on their interests and requirements. We help them to better meet the needs of future international students. If you are looking to complete your international education journey in any of the countries we serve.",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: ["asds"],
+        testPrepartions: ["IELTS", "TOEFL", "GRE", "GMAT", "SAT", "PTE", "Duolingo"],
+        countriesFocused: ["Ireland", "Canada", "New Zealand", "UK", "USA", "Australia"]
     },
     {
         name: "Global Reach",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "Abroad Study Center",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "Access Education Network",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "SIEC Education",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "Student's Destination Pvt. Ltd.",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "E-planet Education Planet",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "Global Choice Education Consultant",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "Unicampus Education Network",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "Kangaroo Education Foundation Pvt. Ltd.",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     },
     {
         name: "Kathmandu Infosys Educational Consultancy",
-        address: ""
+        address: "",
+        phone: "",
+        about: "",
+        socials: {
+            facebook: "",
+            instagram: "",
+            youtube: "",
+            linkedin: ""
+        },
+        images: [],
+        testPrepartions: [],
+        countriesFocused: []
     }
 ]
 
