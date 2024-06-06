@@ -60,6 +60,7 @@
         top: 1.5rem;
         left: -.5rem;
         display: none;
+        z-index: 999;
     }
     .drop-down li{
         padding: .5rem 1rem;

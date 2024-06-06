@@ -31,7 +31,7 @@
     <div bind:this={scrollingConsultancies} class="top-consultancies-inner">
         {#each data as indData,i}
         {#if i<=5}
-        <Card name={indData.name} address="Bagbazar, Kathmandu" />
+        <Card name={indData.name} address={indData.address? indData.address: "Putalisadak, Kathmandu"} imgSrc={indData.thumbnailImage? indData.thumbnailImage : ""}/>
         {/if}
         {/each}
     </div>

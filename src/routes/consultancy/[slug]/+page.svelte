@@ -1,39 +1,55 @@
 <script>
-	export let data;
+	export let data= {
+        name: "AECC Global",
+        address: "Kamal Pokhari",
+        phone: "01-5970315",
+        about: "AECC Global is a leading global international education consultancy, headquartered in Melbourne, Australia. We have supported the study abroad dreams of 50K+ international students, connecting them to the right study opportunities through over 750+ top educational institutions. AECC Global's EdTEch is a unified digital ecosystem that makes international education research and application a seamless self-guided process and is supported by our expert education guidance counsellors. AECC Global's strength lies in its 450+ highly committed employees across 42 branches in 15 countries and growing. Almost all our Education Counsellors have been international students at some point in their lives, so we really understand what it’s like to be considering international study.",
+        socials: {
+            facebook: "https://www.facebook.com/AECCNepal/",
+            instagram: "https://www.instagram.com/aecc.nepal/",
+            youtube: "https://www.youtube.com/channel/UCCtwo7tqTfkr__pio4WQCkg",
+            linkedin: "https://www.linkedin.com/company/aecc-global-nepal/"
+        },
+        images: [
+            "https://lh3.googleusercontent.com/p/AF1QipODIg-OLM7l5La7DiN2unyh6ztQwCJdhv9rTkdw=s0", 
+            "https://lh3.googleusercontent.com/p/AF1QipMKv9o_JWGLzFAotMIIq_nN_Rb3zcKak9s7-ciV=s0"
+        ],
+        testPreparations: ["IELTS", "TOEFL", "PTE", "GRE", "GMAT"],
+        countriesFocused: ["Australia", "Canada", "UK", "USA", "New Zealand", "France", "Cyprus", "Germany", "Switzerland", "UAE"]
+    };
 	
-	let currData= Object.assign({}, data),
-		currImgUrl= currData.images[0],
+	let currImgUrl= data.images[0],
 		activeImg= 0,
 		openEnquiry= false;
 
 	const changeImage= i=>{
-		currImgUrl= currData.images[i];
+		currImgUrl= data.images[i];
 		activeImg= i;
 	}
 </script>
 
 
-{#if currData.address && currData.phone}
+{#if data.address && data.phone}
 <div class="consultancy-container">
 	<div class="consultancy-landing">
 		<div class="landing-background">
 			<div class="landing-txts">
-				<h1>{currData.name}</h1>
+				<h1>{data.name}</h1>
 				<p>
-					<span><i class="fa-solid fa-location-dot"></i>{currData.address},</span> 
-					<span><i class="fa-solid fa-phone"></i>{currData.phone}</span>
+					<span><i class="fa-solid fa-location-dot"></i>{data.address},</span> 
+					<span><i class="fa-solid fa-phone"></i>{data.phone}</span>
 				</p>
 				<div class="socials">
-					<a href={currData.socials.facebook} target="_blank">
+					<a href={data.socials.facebook} target="_blank">
 						<i class="fa-brands fa-square-facebook"></i>
 					</a>
-					<a href={currData.socials.instagram} target="_blank">
+					<a href={data.socials.instagram} target="_blank">
 						<i class="fa-brands fa-instagram"></i>
 					</a>
-					<a href={currData.socials.youtube} target="_blank">
+					<a href={data.socials.youtube} target="_blank">
 						<i class="fa-brands fa-youtube"></i>
 					</a>
-					<a href={currData.socials.linkedin} target="_blank">
+					<a href={data.socials.linkedin} target="_blank">
 						<i class="fa-brands fa-linkedin"></i>
 					</a>
 				</div>
@@ -55,21 +71,21 @@
 			<div class="data-imgs">
 				<img src={currImgUrl} alt="">
 				<div class="lines">
-					{#each currData.images as image, i}
+					{#each data.images as image, i}
 					<div class={activeImg==i?"line active-line":"line"} on:click={()=>changeImage(i)}></div>
 					{/each}
 				</div>
 			</div>
-			<p>{currData.about}</p>
+			<p>{data.about}</p>
 			<h2 class="data-sub-title" id="major-countries">Major countries</h2>
 			<div class="data-countries">
-				{#each currData.countriesFocused as country}
+				{#each data.countriesFocused as country}
 				<span class="data-country">{country}</span>
 				{/each}
 			</div>
 			<h2 class="data-sub-title" id="test-preparations">Test preparations</h2>
 			<div class="data-tests">
-				{#each currData.testPreparations as test}
+				{#each data.testPreparations as test}
 				<span class="data-test">{test}</span>
 				{/each}
 			</div>
@@ -81,16 +97,16 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2924028197476!2d85.32511167494923!3d27.708256825452246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1909b99b93a9%3A0x8d5a9aa79e4a45f0!2sAECC%20Global!5e0!3m2!1sen!2snp!4v1708522830177!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<div class="socials">
 				<span>Social links:</span>
-				<a href={currData.socials.facebook} target="_blank">
+				<a href={data.socials.facebook} target="_blank">
 					<i class="fa-brands fa-square-facebook"></i>
 				</a>
-				<a href={currData.socials.instagram} target="_blank">
+				<a href={data.socials.instagram} target="_blank">
 					<i class="fa-brands fa-instagram"></i>
 				</a>
-				<a href={currData.socials.youtube} target="_blank">
+				<a href={data.socials.youtube} target="_blank">
 					<i class="fa-brands fa-youtube"></i>
 				</a>
-				<a href={currData.socials.linkedin} target="_blank">
+				<a href={data.socials.linkedin} target="_blank">
 					<i class="fa-brands fa-linkedin"></i>
 				</a>
 			</div>

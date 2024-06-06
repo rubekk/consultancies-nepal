@@ -7,7 +7,7 @@
     <div class="page-title">List of Consultancies</div>
     <div class="consultancies-inner">
         {#each data as indData}
-        <Card name={indData.name} address="Bagbazar, Kathmandu" />
+        <Card name={indData.name} address={indData.address? indData.address: "Putalisadak, Kathmandu"} imgSrc={indData.thumbnailImage? indData.thumbnailImage : ""}/>
         {/each}
     </div>
 </div>
