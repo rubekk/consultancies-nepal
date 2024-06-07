@@ -1,7 +1,8 @@
 <script>
     import "./app.css";
+    import { data, faqData, countryData } from "$lib/index.js";
     import Card from "../components/Card.svelte";
-    import { data, faqData } from "$lib/index.js";
+    import CountryCard from "../components/CountryCard.svelte";
     import ieltsImg from "$lib/img/ielts.jpeg";    
     import pteImg from "$lib/img/pte.jpeg";    
     import satImg from "$lib/img/sat.jpeg";    
@@ -80,6 +81,20 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="study-abroad">
+    <div class="sub-title">Study Abroad Destinations</div>
+    <div class="study-abroad-inner">
+        {#each countryData as cData, i}
+        {#if i<=5}
+        <CountryCard countryData= {cData} />
+        {/if}
+        {/each}
+    </div>
+    <button class="load-more-btn">
+        <a href="./study-abroad">Load more</a>
+    </button>
 </div>
 
 <div class="faqs">

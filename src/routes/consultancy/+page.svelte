@@ -10,6 +10,8 @@
         <Card name={indData.name} address={indData.address? indData.address: "Putalisadak, Kathmandu"} imgSrc={indData.thumbnailImage? indData.thumbnailImage : ""}/>
         {/each}
     </div>
+
+    <h4>Didn't find a consultancy you were looking for? <a href="https://forms.google.com" target="_blank">Suggest for addition!</a></h4>
 </div>
 
 <style>
@@ -29,5 +31,13 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 15px;
+    }
+    h4{
+        margin: 3rem 0 0;
+        text-align: center;
+    }
+    h4 a{
+        color: blue;
+        text-decoration: underline;
     }
 </style>

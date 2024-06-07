@@ -59,7 +59,7 @@ li{
 }
 
 /* top consultancies */
-.top-consultancies, .test-guides, .text-guides-innner, .faqs{
+.top-consultancies, .test-guides, .text-guides-innner, .study-abroad, .faqs{
     margin: auto;
     width: 1150px;
     padding: 3rem 2rem 6rem;
@@ -170,8 +170,24 @@ li{
     align-items: center;
 }
 
+/* study abroad */
+.study-abroad-inner{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 /* faqs */
+.faqs{
+    width: 100%;
+    background-color: #dcdcdc;
+}
 .faqs-inner{
+    margin: auto;
+    width: 1150px;
     display: flex;
 }
 .questions{
@@ -201,7 +217,6 @@ li{
     width: 50%;
     padding: 1rem;
     text-align: justify;
-    /* background-color: #ffe7cb; */
     background-color: #dcdcdc;
     border: 2px solid var(--blue);
     border-radius: 3px;

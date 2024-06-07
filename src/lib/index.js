@@ -258,3 +258,46 @@ export const faqData=[
         answer: "Sorry, we cannot guarantee the success of applications. However, we strive to feature trusted and authentic consultancies on our platform, ensuring they provide valuable support and guidance to enhance your chances of a successful application. Our commitment is to connect you with reliable services that prioritize your academic and career goals."
     }
 ]
+
+export const countryData= [
+    {
+        countryName: "Australia",
+        imgSrc: "https://i.natgeofe.com/k/b76526f3-bb84-489d-b229-56bcc08aa915/australia-sydney-opera-house.jpg?wp=1&w=1084.125&h=611.625"
+    },
+    {
+        countryName: "USA",
+        imgSrc: "https://imaginary.abcmedia.no/resize?width=980&aspectratio=16:9&nocrop=false&interlace=true&url=https%3A%2F%2Fabcnyheter.drpublish.aptoma.no%2Fout%2Fimages%2Farticle%2F%2F2024%2F03%2F07%2F195987533%2F1%2Foriginal%2F102618801.jpg"
+    },
+    {
+        countryName: "Canada",
+        imgSrc: "https://img.freepik.com/premium-photo/flag-with-city-toronto-background_865967-9029.jpg"
+    },
+    {
+        countryName: "United Kingdom",
+        imgSrc: "https://wherewouldyougo.com/wp-content/uploads/2015/11/Big-Ben-Flag-United-Kingdom.jpg"
+    },
+    {
+        countryName: "New Zealand",
+        imgSrc: "https://ichef.bbci.co.uk/news/976/cpsprodpb/EECD/production/_127033116_gettyimages-457521250.jpg"
+    },
+    {
+        countryName: "Japan",
+        imgSrc: "https://media.cnn.com/api/v1/images/stellar/prod/230210161917-01-japan-never-traveler-culture-tokyo.jpg?c=16x9&q=h_833,w_1480,c_fill"
+    },
+    {
+        countryName: "South Korea",
+        imgSrc: "https://img.freepik.com/premium-photo/south-korea-flag-blown-by-wind-with-blue-sky-background_508524-1307.jpg"
+    },
+    {
+        countryName: "Singapore",
+        imgSrc: "https://www.hindustantimes.com/ht-img/img/2023/08/09/1600x900/jisun-han-cjSsSQ7Yedk-unsplash_1691566310229_1691566339521.jpg"
+    },
+    {
+        countryName: "Germany",
+        imgSrc: "https://cms-b-assets.familysearch.org/dims4/default/0d7e5f3/2147483647/strip/true/crop/800x500+0+0/resize/1240x775!/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F1d%2Fcf%2F1c3b8742492885308a4fe157e68b%2Fadobestock-111595871-500x800.jpg"
+    },
+    {
+        countryName: "Europe",
+        imgSrc: "https://www.tripsavvy.com/thmb/QfosXL5IxkrNMv7fOesk8PjuVeg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/arch-bridge-over-river-amidst-buildings-against-sky-1197599230-9db0e4e8119241b9bb050eba5eab1549.jpg"
+    }
+]
