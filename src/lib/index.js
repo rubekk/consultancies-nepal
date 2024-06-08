@@ -301,3 +301,61 @@ export const countryData= [
         imgSrc: "https://www.tripsavvy.com/thmb/QfosXL5IxkrNMv7fOesk8PjuVeg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/arch-bridge-over-river-amidst-buildings-against-sky-1197599230-9db0e4e8119241b9bb050eba5eab1549.jpg"
     }
 ]
+
+export const testData= [
+    {
+        testName: "IELTS",
+        testDetail: "The International English Language Testing System (IELTS) is a widely recognized English proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the IELTS can be your first step towards achieving your goals. This article will cover the IELTS test pattern, its relevance for further studies, and the costs associated with taking the exam."
+    },
+    {
+        testName: "PTE",
+        testDetail: "The Pearson Test of English (PTE) is an increasingly popular English language proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the PTE can be your gateway to success. This article will cover the PTE test pattern, its relevance for further studies, and the costs associated with taking the exam."
+    },
+    {
+        testName: "SAT",
+        testDetail: "The SAT (Scholastic Assessment Test) is a standardized test widely used for college admissions in the United States and other countries. Whether you're planning to pursue undergraduate studies in the U.S. or looking to strengthen your college application elsewhere, understanding the SAT is crucial. This article will cover the SAT test pattern, its relevance for further studies, and the costs associated with taking the exam."
+    },
+    {
+        testName: "TOEFL",
+        testDetail: "The Test of English as a Foreign Language (TOEFL) is a standardized test that measures English language proficiency for non-native speakers. It's widely accepted by universities, employers, and immigration authorities worldwide. This article will cover the TOEFL test pattern, its relevance for further studies, and the costs associated with taking the exam."
+    },
+    {
+        testName: "GRE",
+        testDetail: "The Graduate Record Examination (GRE) is a standardized test that is an admissions requirement for many graduate schools in the United States and other countries. The GRE is designed to measure your readiness for        graduate-level work and is a critical component of your application to many graduate programs. This article will cover the GRE test pattern, its relevance for further studies, and the costs associated with taking the exam."
+    },
+    {
+        testName: "GMAT",
+        testDetail: "The Graduate Management Admission Test (GMAT) is a standardized exam used by business schools worldwide to assess applicants for MBA and other graduate management programs. The GMAT is designed to measure analytical writing, quantitative, verbal, and integrated reasoning skills that are critical for success in business school. This article will cover the GMAT test pattern, its relevance for further studies, and the costs associated with taking the exam."
+    }
+]
+
+export const classesData= [
+    {
+        consultancyName: "Merit International P. Ltd",
+        address: "Putalisadak, Kathmandu",
+        phone: "01-5900799",
+        imgSrc: "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/438174719_836051675226879_8841766323594396074_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IIhYS_hShJYQ7kNvgGIFE3W&_nc_ht=scontent.fktm3-1.fna&oh=00_AYBfq0iCHgpVKpZ6iOJ8tvCHg7gid2mAMOwKyKwFKDZVxw&oe=666927C7"
+    },
+    {
+        consultancyName: "HCRC Education Hub",
+        address: "Kumaripati, Lalitpur",
+        phone: "01-5902650",
+        imgSrc: "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/444479558_405704722437871_7367806173043308976_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RKbsrhgJpTQQ7kNvgHUo4nV&_nc_ht=scontent.fktm3-1.fna&oh=00_AYBGx65-DhJFa9MJywEXkGqG3x9_QRtnDcw2TYbz3YWUjQ&oe=66690ABD"
+    },
+    {
+        consultancyName: "Golden Eminent International Pvt. Ltd.",
+        address: "Bagbazaar, Kathmandu",
+        phone: "01-5916061",
+        imgSrc: "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/444990781_927656249373017_2730542847259226082_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XMFxESxFReYQ7kNvgFdo6_A&_nc_ht=scontent.fktm3-1.fna&oh=00_AYAluuGWOFX7Z9DA6_Ryekf274-0ahOSpDj3lckr0hkVlw&oe=666904CC"
+    },
+    {
+        consultancyName: "Once Education Consultancy",
+        address: "Putalisadak, Kathmandu",
+        phone: "01-4520206",
+        imgSrc: "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/441142906_862151582611258_7217381658544713640_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=apgd0WAQOzcQ7kNvgFIbnmZ&_nc_ht=scontent.fktm3-1.fna&oh=00_AYA985hSGnEVC-wloVpEUupVcxmknZZKwIz7yneYpXHeog&oe=66692563"
+    }
+]
+
+export const countriesList= ["australia", "usa", "canada", "new zealand", "united kingdom", "japan", "singapore", "germany", "europe"];
+
+export const testList= ["ielts", "sat", "pte", "toefl", "gre", "gmat"];

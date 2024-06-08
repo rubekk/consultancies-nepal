@@ -1,4 +1,7 @@
-<div class="study-usa-container">
+<script>
+    import "./../style.css";
+</script>
+<div class="study-abroad-blog-container">
     <h1>Study in the USA: A Comprehensive Guide for Nepali Students</h1>
 
     <img src="https://i.natgeofe.com/k/b76526f3-bb84-489d-b229-56bcc08aa915/australia-sydney-opera-house.jpg?wp=1&w=1084.125&h=611.625" alt="IELTS Image">
@@ -218,46 +221,3 @@
     <h2>Conclusion</h2>
     <p>Studying in the USA offers Nepali students unparalleled opportunities for academic growth, cultural exchange, and career advancement. By understanding the requirements, costs, and benefits, you can make an informed decision and embark on an exciting educational journey. Whether you aim to pursue engineering, business, healthcare, or the arts, the USA provides a diverse and enriching environment to achieve your dreams. Prepare diligently, make the most of available resources, and take the first step towards a bright future.</p>
 </div>
-
-<style>
-    .study-usa-container{
-        margin: 2rem auto;
-        padding: 0 1rem;
-        width: 800px;
-        border-left: 2px solid #dcdcdc;
-        border-right: 2px solid #dcdcdc;
-        text-align: justify;
-    }
-    img{
-        margin: 2rem 0;
-        width: 100%;
-    }
-    h1, h2, h3, h4 {
-        color: #2c3e50;
-    }
-    h2{
-        margin: 2rem 0 .5rem;
-    }
-    h3{
-        margin: 1.5rem 0 .5rem;
-    }
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-    }
-    th, td {
-        padding: 10px;
-        text-align: left;
-        border: 1px solid #ddd;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-    tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-    tr:hover {
-        background-color: #f1f1f1;
-    }
-</style>

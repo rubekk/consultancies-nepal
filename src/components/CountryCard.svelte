@@ -1,5 +1,6 @@
 <script>
     export let countryData;
+
     let formattedCountry= countryData.countryName.toLowerCase().replaceAll(" ","-");
 </script>
 
@@ -16,6 +17,7 @@
         height: 225px;
         position: relative;
         cursor: pointer;
+        box-shadow: 3px 3px 3px rgb(46 128 187 / 20%);
     }
     .country-card-img{
         width: 100%;
@@ -23,8 +25,11 @@
         border-radius: 5px;
     }
     .country-card-txt{
+        padding: .25rem .5rem;
         width: max-content;
         color: #fff;
+        background-color: rgba(0,0,0,.5);
+        border-radius: 3px;
         position: absolute;
         left: 50%;
         right: 50%;

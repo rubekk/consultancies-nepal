@@ -1,8 +1,9 @@
 <script>
+    import "./../style.css";
     import ieltsImg from "$lib/img/ielts.jpeg";
 </script>
 
-<div class="ielts-container">
+<div class="test-container">
     <h1>Everything You Need to Know About IELTS: Test Pattern, Relevance, and Costs</h1>
     <img src={ieltsImg} alt="IELTS Image">
     <p>The International English Language Testing System (IELTS) is a widely recognized English proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the IELTS can be your first step towards achieving your goals. This article will cover the IELTS test pattern, its relevance for further studies, and the costs associated with taking the exam.</p>
@@ -31,33 +32,3 @@
     <h2>Conclusion</h2>
     <p>The IELTS exam is a crucial step for anyone aiming to study, work, or migrate to an English-speaking country. Understanding the test pattern can help you prepare effectively, and being aware of the costs ensures you can budget accordingly. A strong IELTS score not only enhances your chances of university admission but also plays a vital role in securing visas and scholarships. Investing time and resources in preparing for the IELTS can pave the way for countless opportunities in your academic and professional journey.</p>
 </div>
-
-<style>
-    .ielts-container{
-        margin: 2rem auto;
-        padding: 0 1rem;
-        width: 800px;
-        border-left: 2px solid #dcdcdc;
-        border-right: 2px solid #dcdcdc;
-        text-align: justify;
-    }
-    h1{
-        font-style: italic;
-        font-weight: bold;
-    }
-    img{
-        margin: 2rem 0;
-        width: 100%;
-    }
-    h2{
-        margin: 2rem 0 .5rem;
-    }
-    p{
-        margin: .25rem 0;
-    }
-    .bold{
-        font-size: 1.1rem;
-        font-style: italic;
-        font-weight: bolder;
-    }
-</style>

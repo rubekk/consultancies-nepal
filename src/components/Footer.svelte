@@ -4,11 +4,9 @@
     <div class="footer-top">
         <h2>Important Links</h2>
         <div class="links">
+            <span><a href="/study-abroad">Study Abroad</a></span>
+            <span><a href="/upcoming-classes">Upcoming Classes</a></span>
             <span><a href="/test-guides">Test guides</a></span>
-            <span><a href="/test-guides/ielts">IELTS</a></span>
-            <span><a href="/test-guides/pte">PTE</a></span>
-            <span><a href="/test-guides/toefl">TOEFL</a></span>
-            <span><a href="/test-guides/sat">SAT</a></span>
             <span><a href="/consultancy">Top Consultancies</a></span>
         </div>
     </div>
@@ -59,5 +57,31 @@
         margin: 0 .25rem;
         font-size: 1.25rem;
         cursor: pointer;
+    }
+
+    /* media queries */
+    @media (max-width: 750px){
+        .footer{
+            padding: 2rem 0 0;
+        }
+        .links{
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-bottom{
+            padding: 1rem;
+        }
+    }
+    @media (max-width: 550px){
+        .footer-bottom{
+            display: flex;
+            flex-direction: column;
+        }
+        .social-links{
+            margin-top: 1rem;
+        }
     }
 </style>

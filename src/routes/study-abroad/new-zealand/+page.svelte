@@ -1,4 +1,6 @@
-<script></script>
+<script>
+    import "./../style.css";
+</script>
 
 <div class="study-abroad-blog-container">
     <h1>Study in New Zealand: A Comprehensive Guide for Nepali Students</h1>
@@ -251,50 +253,3 @@
         potential for success in the global arena.
     </p>
 </div>
-
-<style>
-    .study-abroad-blog-container {
-        margin: 2rem auto;
-        padding: 0 1rem;
-        width: 800px;
-        border-left: 2px solid #dcdcdc;
-        border-right: 2px solid #dcdcdc;
-        text-align: justify;
-    }
-    img {
-        margin: 2rem 0;
-        width: 100%;
-    }
-    h1,
-    h2,
-    h3,
-    h4 {
-        color: #2c3e50;
-    }
-    h2 {
-        margin: 2rem 0 0.5rem;
-    }
-    h3 {
-        margin: 1.5rem 0 0.5rem;
-    }
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-    }
-    th,
-    td {
-        padding: 10px;
-        text-align: left;
-        border: 1px solid #ddd;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-    tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-    tr:hover {
-        background-color: #f1f1f1;
-    }
-</style>

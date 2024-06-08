@@ -1,4 +1,6 @@
 <script>
+	import {countriesList, testList } from "$lib/index.js";
+
 	export let data= {
         name: "AECC Global",
         address: "Kamal Pokhari",
@@ -25,6 +27,32 @@
 	const changeImage= i=>{
 		currImgUrl= data.images[i];
 		activeImg= i;
+	}
+
+	const checkCountry= country=>{
+		let euroCountries= ["france", "estonia", "italy", "denmark", "greece", "portugal", "poland", "finland", "australia", "norway", "switzerland", "cyprus", "ireland", "mauritius"];
+		let lowCountry= country.toLowerCase();
+
+		if(euroCountries.includes(lowCountry)) lowCountry= "europe";
+		else if(lowCountry=="uk") lowCountry= "united kingdom";
+
+		return countriesList.includes(lowCountry);
+	}
+
+	const getCountryURL= country=>{
+		let euroCountries= ["france", "estonia", "italy", "denmark", "greece", "portugal", "poland", "finland",  "norway", "switzerland", "cyprus", "ireland", "mauritius"];
+		let lowCountry= country.toLowerCase();
+
+		if(euroCountries.includes(lowCountry)) lowCountry= "europe";
+		else if(lowCountry=="uk") lowCountry= "united kingdom";
+		
+		return `/study-abroad/${lowCountry.replaceAll(" ","-")}`;
+	}
+
+	const checkTest= test=>{
+		let lowTest= test.toLowerCase();
+
+		return testList.includes(lowTest);
 	}
 </script>
 
@@ -80,13 +108,25 @@
 			<h2 class="data-sub-title" id="major-countries">Major countries</h2>
 			<div class="data-countries">
 				{#each data.countriesFocused as country}
-				<span class="data-country">{country}</span>
+				<span class="data-country">
+					{#if checkCountry(country)}
+					<a href={getCountryURL(country)}>{country}</a>
+					{:else}
+					{country}
+					{/if}
+				</span>
 				{/each}
 			</div>
 			<h2 class="data-sub-title" id="test-preparations">Test preparations</h2>
 			<div class="data-tests">
 				{#each data.testPreparations as test}
-				<span class="data-test">{test}</span>
+				<span class="data-test">
+					{#if checkTest(test)}
+					<a href={`/test-guides/${test.toLowerCase()}`}>{test}</a>
+					{:else}
+					{test}
+					{/if}
+				</span>
 				{/each}
 			</div>
 			<div class="enquire-msg">
@@ -379,5 +419,29 @@
 	textarea{
 		padding: .5rem;
 		height: 100px;
+	}
+
+	/* media queries */
+	@media (max-width: 900px){
+		.landing-background{
+			left: 7rem;
+		}
+	}
+	@media (max-width: 800px){
+		.consultancy-data{
+			padding: 0;
+			width: 100%;
+		}
+		.consultancy-data-bottom{
+			border: none;
+		}
+	}
+	@media (max-width: 600px){
+		.landing-background{
+			left: 1rem;
+		}
+		.data-nav{
+			display: none;
+		}
 	}
 </style>
