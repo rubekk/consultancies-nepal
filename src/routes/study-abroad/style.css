@@ -10,6 +10,9 @@
     margin: 2rem 0 0;
     width: 100%;
 }
+.first-p{
+    margin-top: 2rem;
+}
 .study-abroad-blog-container h1, .study-abroad-blog-container h2, .study-abroad-blog-container h3, .study-abroad-blog-container h4 {
     color: #2c3e50;
 }

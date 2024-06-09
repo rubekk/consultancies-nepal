@@ -119,24 +119,24 @@ export const data=[
         mapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.564196357112!2d85.3226499!3d27.70521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a821df66ab%3A0x25f4e5baa445b9ee!2sSonya%20International%20Education%20and%20Careers%20(SIEC%20Nepal)!5e0!3m2!1sen!2snp!4v1717670301161!5m2!1sen!2snp"
     },
     {
-        name: "Student's Destination Pvt. Ltd.",
-        address: "Putalisadak, Kathmandu",
-        phone: "01 4241510",
-        about: "The student's destination center is located in Putalisadak, Kathmandu. It offers a structured approach to services and consultations for students aspiring to study abroad in 21 countries, which are top choices for international students worldwide. The center boasts unique resources and a step-by-step process designed to meet the educational needs of Nepal's growing student population. They offer comprehensive solutions by matching student profiles with the appropriate institutions, courses, and destinations. The center provides thorough information on study opportunities, criteria, and standard procedures, ensuring students find the right college and program, often with scholarship opportunities. They also assist with securing part-time employment for international students. Professional teams provide counseling to parents, students, and institutional clients regularly.",
+        name: "Alfa Beta Institute",
+        address: "Baneshwor, Kathmandu",
+        phone: "0-15970123",
+        about: "Alfa Beta, with three decades of expertise, is a leading global education consultancy in Nepal, representing over 500 institutions in 18 countries. It operates 11 centers in Nepal and one in Sydney, impacting over 10,000 students annually with services in test preparation, personalized counseling, and partnerships with top global universities.",
         socials: {
-            facebook: "https://www.facebook.com/www.sdpl.edu.np/",
-            instagram: "",
-            youtube: "",
-            linkedin: ""
+            facebook: "https://www.facebook.com/alfabetainstitute/",
+            instagram: "https://www.instagram.com/thealfabeta/",
+            youtube: "https://www.youtube.com/@thealfabeta",
+            linkedin: "https://www.linkedin.com/company/thealfabeta/"
         },
         images: [
-            "https://scontent.fktm3-1.fna.fbcdn.net/v/t1.18169-9/6913_970589276347095_6935755584501133627_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Lpo9MNp-cZQQ7kNvgFgf8Sl&_nc_ht=scontent.fktm3-1.fna&oh=00_AYBhIWeaD2jKFuz11mpN-ff6wA2-oXGkceZjUPljMOXHXQ&oe=6689169D",
-            "https://scontent.fktm3-1.fna.fbcdn.net/v/t1.18169-9/10653528_970600949679261_5175506193030289525_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=nEgZvz5KzIEQ7kNvgFpmQO6&_nc_ht=scontent.fktm3-1.fna&oh=00_AYCzQzUI2vDrSxUhLUuq6D-r__ttu3jrAiQajkMH0fvlsQ&oe=6689100A"
+            "https://lh3.googleusercontent.com/p/AF1QipMvqkBi2mZUxLviMg_-FcxJYj8LKn35pg1msSxy=s1360-w1360-h1020",
+            "https://lh3.googleusercontent.com/p/AF1QipOfbO9u-TYBDn9LU7Pqm3tk4HpEKjxEcsRip3Wt=s1360-w1360-h1020"
         ],
-        thumbnailImage: "https://www.collegesnepal.com/userfiles/images/student's%20destination.jpg",
-        testPreparations: ["TOEFL", "IELTS", "SAT", "GRE", "GMAT"],
-        countriesFocused: ["USA", "Australia", "Ireland", "New Zealand", "UK", "Canada", "South Korea", "Germany", "India", "Poland", "France"],
-        mapURL: ""
+        thumbnailImage: "https://alfabetaglobal.com/storage/uploads/setting/1696744603_logo.png",
+        testPreparations: ["TOEFL", "IELTS", "SAT", "GRE", "GMAT", "PTE"],
+        countriesFocused: ["USA", "Australia", "UK", "Canada", "Japan", "India"],
+        mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28262.83860799074!2d85.29871083637352!3d27.690881476256237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19bc2db1be7d%3A0x80d591b8bbfb6b28!2sAlfa%20Beta%20Institute!5e0!3m2!1sen!2snp!4v1717933300130!5m2!1sen!2snp"
     },
     {
         name: "Education Planet",

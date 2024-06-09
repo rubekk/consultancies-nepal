@@ -10,7 +10,7 @@
         alt="IELTS Image"
     />
 
-    <p>
+    <p class="first-p">
         Dreaming of pursuing higher education in a vibrant, cosmopolitan city?
         Singapore, known for its world-class education system, multicultural
         society, and dynamic economy, offers a plethora of opportunities for

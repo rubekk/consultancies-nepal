@@ -2,6 +2,10 @@
     import "./../style.css";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study in Germany</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in Germany: A Complete Guide for Nepali Students</h1>
 
@@ -10,7 +14,7 @@
         alt="IELTS Image"
     />
 
-    <p>
+    <p class="first-p">
         Are you considering studying abroad in a country known for its academic
         excellence and rich cultural heritage? Germany, with its world-renowned
         universities, vibrant cities, and diverse landscapes, offers an enticing

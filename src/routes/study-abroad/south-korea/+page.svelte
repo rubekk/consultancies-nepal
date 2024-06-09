@@ -2,6 +2,10 @@
     import "./../style.css";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study in South Korea</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in South Korea: A Complete Guide for Nepali Students</h1>
 
@@ -10,7 +14,7 @@
         alt="IELTS Image"
     />
 
-    <p>
+    <p class="first-p">
         Dreaming of pursuing higher education abroad? South Korea, a dynamic
         blend of tradition and innovation, offers a plethora of opportunities
         for Nepali students. In this comprehensive guide, we'll explore why

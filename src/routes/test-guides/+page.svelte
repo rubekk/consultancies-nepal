@@ -11,6 +11,10 @@
     let testImages= [ieltsImg, pteImg, satImg, toeflImg, greImg, gmatImg];
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Language Test Guides</title>
+</svelte:head>
+
 <div class="test-guides">
     <div class="sub-title">Test Guides</div>
     <div class="test-guides-inner">

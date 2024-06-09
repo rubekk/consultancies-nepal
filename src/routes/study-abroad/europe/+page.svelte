@@ -2,6 +2,10 @@
     import "./../style.css";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study in Europe</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in Europe: A Complete Guide for Nepali Students</h1>
 
@@ -10,7 +14,7 @@
         alt="IELTS Image"
     />
 
-    <p>
+    <p class="first-p">
         If you're considering studying abroad in a region rich in history,
         culture, and educational excellence, Europe presents an array of
         enticing opportunities for Nepali students. In this comprehensive guide,

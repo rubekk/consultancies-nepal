@@ -11,6 +11,10 @@
         </div>
     </div>
 
+    <div class="contact-link">
+        <a href="/contact">Contact</a>
+    </div>
+
     <div class="footer-bottom">
         <p>Consultancies Nepal | All rights reserved 2024</p>
         <div class="social-links">
@@ -36,16 +40,22 @@
         border-bottom: 2px solid var(--blue);
     }
     .links{
-        margin: 2rem auto 3rem;
+        margin: 2rem auto 0;
         width: max-content;
     }
-    .links span{
+    .links span, .contact-link a{
         margin: .5rem;
         padding: .5rem;
         color: #000;
         background-color: #dcdcdc;
         border-radius: 7px;
         cursor: pointer;
+    }
+    .contact-link{
+        margin: 2rem 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .footer-bottom{
         padding: 1rem 2rem;

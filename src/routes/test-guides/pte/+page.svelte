@@ -3,6 +3,10 @@
     import pteImg from "$lib/img/pte.jpeg";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Everything You Need to Know About PTE</title>
+</svelte:head>
+
 <div class="test-container">
     <h1>Everything You Need to Know About PTE: Test Pattern, Relevance, and Costs</h1>
     <img src={pteImg} alt="PTE Image">

@@ -144,6 +144,33 @@ li{
     border-radius: 3px;
 }
 
+/* class image modal */
+.class-img-modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+.class-img-modal i{
+    color: #fff;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 7rem;
+    top: 3rem;
+    cursor: pointer;
+}
+.class-img-modal img{
+    width: 60%;
+    max-height: 70%;
+    object-fit: contain;
+}
+
 /* media queries */
 @media (max-width: 1200px){
     .faqs-inner{
@@ -200,5 +227,15 @@ li{
     .landing-tagline{
         margin: 0 2rem;
         width: 250px;
+    }
+}
+@media (max-width: 425px){
+    .top-consultancies, .test-guides, .study-abroad, .upcoming-classes, .faqs{
+        padding: 3rem 1rem;
+    }
+}
+@media (max-width: 375px){
+    .top-consultancies, .test-guides, .study-abroad, .upcoming-classes, .faqs{
+        padding: 3rem .5rem;
     }
 }

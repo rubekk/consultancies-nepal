@@ -3,6 +3,10 @@
     import satImg from "$lib/img/sat.jpeg";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Everything You Need to Know About SAT</title>
+</svelte:head>
+
 <div class="test-container">
     <h1>Everything You Need to Know About SAT: Test Pattern, Relevance, and Costs</h1>
     <img src={satImg} alt="SAT Image">

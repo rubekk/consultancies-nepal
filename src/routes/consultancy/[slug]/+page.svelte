@@ -56,6 +56,9 @@
 	}
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - {data.name}</title>
+</svelte:head>
 
 {#if data.address && data.phone}
 <div class="consultancy-container">
@@ -134,7 +137,7 @@
 				<button class="enquire" on:click={()=> openEnquiry= true}>Enquire <i class="fa-solid fa-chevron-right"></i></button>
 			</div>
 			<h2 class="data-sub-title" id="map">Map</h2>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2924028197476!2d85.32511167494923!3d27.708256825452246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1909b99b93a9%3A0x8d5a9aa79e4a45f0!2sAECC%20Global!5e0!3m2!1sen!2snp!4v1708522830177!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<iframe src={data.mapURL} width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<div class="socials">
 				<span>Social links:</span>
 				<a href={data.socials.facebook} target="_blank">

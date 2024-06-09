@@ -3,6 +3,10 @@
     import ieltsImg from "$lib/img/ielts.jpeg";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Everything You Need to Know About IELTS</title>
+</svelte:head>
+
 <div class="test-container">
     <h1>Everything You Need to Know About IELTS: Test Pattern, Relevance, and Costs</h1>
     <img src={ieltsImg} alt="IELTS Image">

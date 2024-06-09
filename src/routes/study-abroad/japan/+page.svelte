@@ -2,6 +2,10 @@
     import "./../style.css";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study in Japan</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in Japan: A Complete Guide for Nepali Students</h1>
 
@@ -10,7 +14,7 @@
         alt="IELTS Image"
     />
     
-    <p>
+    <p class="first-p">
         Thinking about studying abroad? Japan, renowned for its rich cultural
         heritage, technological innovations, and top-tier education system, is
         an enticing destination for Nepali students. This comprehensive guide

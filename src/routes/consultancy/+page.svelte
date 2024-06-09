@@ -3,6 +3,10 @@
     import { data } from "$lib/index.js";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Top Consultancies in Nepal</title>
+</svelte:head>
+
 <div class="consultancies">
     <div class="page-title">List of Consultancies</div>
     <div class="consultancies-inner">

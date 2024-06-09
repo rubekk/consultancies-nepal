@@ -2,6 +2,10 @@
     import "./../style.css";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study in New Zealand</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in New Zealand: A Comprehensive Guide for Nepali Students</h1>
 
@@ -10,7 +14,7 @@
         alt="IELTS Image"
     />
 
-    <p>
+    <p class="first-p">
         Are you contemplating studying abroad? New Zealand, renowned for its
         picturesque landscapes, friendly locals, and world-class education
         system, stands out as an enticing option for Nepali students. This guide

@@ -1,6 +1,11 @@
 <script>
     import "./../style.css";
 </script>
+
+<svelte:head>
+  <title>StudyAbroadNP - Study in USA</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in the USA: A Comprehensive Guide for Nepali Students</h1>
 

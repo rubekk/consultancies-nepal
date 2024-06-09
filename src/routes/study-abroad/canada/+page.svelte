@@ -2,6 +2,10 @@
     import "./../style.css";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study in Canada</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in Canada: A Comprehensive Guide for Nepali Students</h1>
 
@@ -10,7 +14,7 @@
         alt="IELTS Image"
     />
 
-    <p>
+    <p class="first-p">
         Are you considering studying abroad? Canada, known for its top-notch
         education system, welcoming environment, and cultural diversity, emerges
         as a prime destination for Nepali students. This guide provides an

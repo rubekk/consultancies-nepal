@@ -75,4 +75,11 @@
     .view-more-btn i{
         font-size: .75rem;
     }
+
+    /* media queries */
+    @media (max-width: 425px){
+        .card{
+            width: 325px;
+        }
+    }
 </style>

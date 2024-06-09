@@ -2,6 +2,10 @@
     import "./../style.css";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study in United Kingdom</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in the UK: A Complete Guide for Nepali Students</h1>
 
@@ -10,7 +14,7 @@
         alt="IELTS Image"
     />
 
-    <p>
+    <p class="first-p">
         If you're considering studying abroad, the United Kingdom (UK) offers a
         plethora of opportunities for Nepali students. Renowned for its
         prestigious universities, rich cultural heritage, and vibrant cities,

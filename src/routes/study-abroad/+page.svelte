@@ -3,6 +3,10 @@
     import { countryData } from "$lib/index.js";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study Abroad Destinations</title>
+</svelte:head>
+
 <div class="countries">
     <div class="page-title">List of Countries</div>
     <div class="countries-inner">

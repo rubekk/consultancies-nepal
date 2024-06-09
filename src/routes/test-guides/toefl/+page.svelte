@@ -3,6 +3,10 @@
     import toeflImg from "$lib/img/toefl.jpeg";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Everything You Need to Know About TOEFL</title>
+</svelte:head>
+
 <div class="test-container">
     <h1>Everything You Need to Know About TOEFL: Test Pattern, Relevance, and Costs</h1>
     <img src={toeflImg} alt="TOEFL Image">
