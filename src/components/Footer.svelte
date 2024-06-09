@@ -18,9 +18,15 @@
     <div class="footer-bottom">
         <p>Consultancies Nepal | All rights reserved 2024</p>
         <div class="social-links">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-tiktok"></i>
+            <a href="https://www.facebook.com/profile.php?id=61560884097225" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/abroadstudy-np/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/abroadstudy-np/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
         </div>
     </div>
 </div>
@@ -63,8 +69,9 @@
         display: flex;
         justify-content: space-between;
     }
-    .social-links i{
+    .social-links a{
         margin: 0 .25rem;
+        color: #fff;
         font-size: 1.25rem;
         cursor: pointer;
     }
