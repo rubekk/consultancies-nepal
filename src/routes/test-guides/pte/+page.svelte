@@ -1,6 +1,5 @@
 <script>
     import "./../style.css";
-    import pteImg from "$lib/img/pte.jpeg";
 </script>
 
 <svelte:head>
@@ -9,7 +8,7 @@
 
 <div class="test-container">
     <h1>Everything You Need to Know About PTE: Test Pattern, Relevance, and Costs</h1>
-    <img src={pteImg} alt="PTE Image">
+    <img src="/imgs/pte.jpeg" alt="PTE Image">
     <p>The Pearson Test of English (PTE) is an increasingly popular English language proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the PTE can be your gateway to success. This article will cover the PTE test pattern, its relevance for further studies, and the costs associated with taking the exam.</p>
 
     <h2>Understanding the PTE Test Pattern</h2>

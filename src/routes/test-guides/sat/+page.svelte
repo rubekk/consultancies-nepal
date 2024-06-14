@@ -1,6 +1,5 @@
 <script>
     import "./../style.css";
-    import satImg from "$lib/img/sat.jpeg";
 </script>
 
 <svelte:head>
@@ -9,7 +8,7 @@
 
 <div class="test-container">
     <h1>Everything You Need to Know About SAT: Test Pattern, Relevance, and Costs</h1>
-    <img src={satImg} alt="SAT Image">
+    <img src="/imgs/sat.jpeg" alt="SAT Image">
     <p>The SAT (Scholastic Assessment Test) is a standardized test widely used for college admissions in the United States and other countries. Whether you're planning to pursue undergraduate studies in the U.S. or looking to strengthen your college application elsewhere, understanding the SAT is crucial. This article will cover the SAT test pattern, its relevance for further studies, and the costs associated with taking the exam.</p>
 
     <h2>Understanding the SAT Test Pattern</h2>

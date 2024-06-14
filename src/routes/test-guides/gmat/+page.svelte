@@ -1,6 +1,5 @@
 <script>
     import "./../style.css";
-    import gmatImg from "$lib/img/gmat.jpeg";
 </script>
 
 <svelte:head>
@@ -9,7 +8,7 @@
 
 <div class="test-container">
     <h1>Everything You Need to Know About GMAT: Test Pattern, Relevance, and Costs</h1>
-    <img src={gmatImg} alt="GMAT Image">
+    <img src="/imgs/gmat.jpeg" alt="GMAT Image">
     <p>The Graduate Management Admission Test (GMAT) is a standardized exam used by business schools worldwide to assess applicants for MBA and other graduate management programs. The GMAT is designed to measure analytical writing, quantitative, verbal, and integrated reasoning skills that are critical for success in business school. This article will cover the GMAT test pattern, its relevance for further studies, and the costs associated with taking the exam.</p>
 
     <h2>Understanding the GMAT Test Pattern</h2>

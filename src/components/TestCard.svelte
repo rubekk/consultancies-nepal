@@ -1,9 +1,9 @@
 <script>
-    export let testData, imgSrc;
+    export let testData;
 </script>
 
 <div class="test-card">
-    <img class="test-img" src={imgSrc} alt={`${testData.testName} Image`}>
+    <img class="test-img" src={testData.imgSrc} alt={`${testData.testName} Image`}>
     <div class="test-txt">
         <p class="test-explain">{testData.testDetail}</p>
         <a href={`/test-guides/${testData.testName.toLowerCase()}`}><button class="read-more">Read more</button></a>

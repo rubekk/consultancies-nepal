@@ -5,16 +5,9 @@
     import CountryCard from "../components/CountryCard.svelte";
     import TestCard from "../components/TestCard.svelte";
     import ClassCard from "../components/ClassCard.svelte";
-    import ieltsImg from "$lib/img/ielts.jpeg";    
-    import pteImg from "$lib/img/pte.jpeg";    
-    import satImg from "$lib/img/sat.jpeg";    
-    import toeflImg from "$lib/img/toefl.jpeg";    
-    import greImg from "$lib/img/gre.jpeg";    
-    import gmatImg from "$lib/img/gmat.jpeg";    
     
     let activeQuestion=0,
         faqAnswer=faqData[activeQuestion].answer,
-        testImages= [ieltsImg, pteImg, satImg, toeflImg, greImg, gmatImg],
         openClassImgModal= false,
         classImgModalSrc= "";
 
@@ -85,7 +78,7 @@
     <div class="test-guides-inner">
         {#each testData as tData, i}
         {#if i<=3}
-        <TestCard testData={tData} imgSrc={testImages[i]}/>
+        <TestCard testData={tData} />
         {/if}
         {/each}
     </div>

@@ -1,6 +1,5 @@
 <script>
     import "./../style.css";
-    import toeflImg from "$lib/img/toefl.jpeg";
 </script>
 
 <svelte:head>
@@ -9,7 +8,7 @@
 
 <div class="test-container">
     <h1>Everything You Need to Know About TOEFL: Test Pattern, Relevance, and Costs</h1>
-    <img src={toeflImg} alt="TOEFL Image">
+    <img src="/imgs/toefl.jpeg" alt="TOEFL Image">
     <p>The Test of English as a Foreign Language (TOEFL) is a standardized test that measures English language proficiency for non-native speakers. It's widely accepted by universities, employers, and immigration authorities worldwide. This article will cover the TOEFL test pattern, its relevance for further studies, and the costs associated with taking the exam.</p>
 
     <h2>Understanding the TOEFL Test Pattern</h2>

@@ -1,6 +1,5 @@
 <script>
     import "./../style.css";
-    import greImg from "$lib/img/gre.jpeg";
 </script>
 
 <svelte:head>
@@ -12,7 +11,7 @@
         Everything You Need to Know About GRE: Test Pattern, Relevance, and
         Costs
     </h1>
-    <img src={greImg} alt="GRE Image" />
+    <img src="/imgs/gre.jpeg" alt="GRE Image" />
     <p>
         The Graduate Record Examination (GRE) is a standardized test that is an
         admissions requirement for many graduate schools in the United States

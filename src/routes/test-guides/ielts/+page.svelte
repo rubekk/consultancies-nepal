@@ -1,6 +1,5 @@
 <script>
     import "./../style.css";
-    import ieltsImg from "$lib/img/ielts.jpeg";
 </script>
 
 <svelte:head>
@@ -9,7 +8,7 @@
 
 <div class="test-container">
     <h1>Everything You Need to Know About IELTS: Test Pattern, Relevance, and Costs</h1>
-    <img src={ieltsImg} alt="IELTS Image">
+    <img src="/imgs/ielts.jpeg" alt="IELTS Image">
     <p>The International English Language Testing System (IELTS) is a widely recognized English proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the IELTS can be your first step towards achieving your goals. This article will cover the IELTS test pattern, its relevance for further studies, and the costs associated with taking the exam.</p>
 
     <h2>Understanding the IELTS Test Pattern</h2>

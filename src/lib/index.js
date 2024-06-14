@@ -11,10 +11,9 @@ export const data=[
             linkedin: "https://www.linkedin.com/company/aecc-global-nepal/"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipODIg-OLM7l5La7DiN2unyh6ztQwCJdhv9rTkdw=s0", 
-            "https://lh3.googleusercontent.com/p/AF1QipMKv9o_JWGLzFAotMIIq_nN_Rb3zcKak9s7-ciV=s0"
+            "/imgs/aecc-global-1.jpeg"
         ],
-        thumbnailImage: "https://www.aeccglobal.com.np/images/new-logo.png",
+        thumbnailImage: "/imgs/aecc-global-logo.jpeg",
         testPreparations: ["IELTS", "TOEFL", "PTE", "GRE", "GMAT"],
         countriesFocused: ["Australia", "Canada", "UK", "USA", "New Zealand", "France", "Cyprus", "Germany", "Switzerland", "UAE"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2924028197476!2d85.32511167494923!3d27.708256825452246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1909b99b93a9%3A0x8d5a9aa79e4a45f0!2sAECC%20Global!5e0!3m2!1sen!2snp!4v1708522830177!5m2!1sen!2snp"
@@ -31,10 +30,10 @@ export const data=[
             linkedin: "https://www.linkedin.com/company/education-tree-global/"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipNJ9ujMBypoq42t-EalYKwCCQr44DRbRcH_9dIC=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipOOUd8T-UOKb-erWSspd5chVKtOtpF-LX_W8ccC=s1360-w1360-h1020"
+            "/imgs/education-tree-1.jpeg",
+            "/imgs/education-tree-2.jpeg"
         ],
-        thumbnailImage: "https://educationtreeglobal.com/wp-content/uploads/2023/11/etg-logo.png",
+        thumbnailImage: "/imgs/education-tree-logo.png",
         testPreparations: ["IELTS", "TOEFL", "GRE", "GMAT", "SAT", "PTE", "Duolingo"],
         countriesFocused: ["Ireland", "Canada", "New Zealand", "UK", "USA", "Australia"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14128.950173659707!2d85.3267093!3d27.7099511!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19da2055f597%3A0xbc17ca7ae739ffaa!2sEducation%20Tree%20Global!5e0!3m2!1sen!2snp!4v1717668081237!5m2!1sen!2snp"
@@ -51,10 +50,10 @@ export const data=[
             linkedin: "https://www.linkedin.com/school/global-reach/"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipMGB-8ri3eHQNPa9m-DUq-p7TtF9HIQ9SKCvzq-=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipNoY9otz_0jAQzRk54DPqJnM5JpZE1UaKrs919J=s1360-w1360-h1020"
+            "/imgs/global-reach-1.jpeg",
+            "/imgs/global-reach-1.jpeg"
         ],
-        thumbnailImage: "https://www.globalreach.in/images/logo.png",
+        thumbnailImage: "/imgs/global-reach-logo.jpg",
         testPreparations: ["IELTS", "TOEFL", "PTE"],
         countriesFocused: ["Australia", "UK", "Canada", "USA", "New Zealand", "Ireland", "Singapore", "Germany", "Switzerland", "France", "Europe", "Dubai", "Malaysia", "Thailand", "Mauritius"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.505325032665!2d85.3241116!3d27.7056646!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190651fd88cd%3A0xd492719427732ef5!2sGlobal%20Reach%20Nepal!5e0!3m2!1sen!2snp!4v1717668262635!5m2!1sen!2snp"
@@ -71,9 +70,9 @@ export const data=[
             linkedin: ""
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipOGkzvCERdDYSVvRGxfuvXjewJBapxCe0Ui4SbL=s1360-w1360-h1020"
+            "imgs/abroad-study-1.jpeg"
         ],
-        thumbnailImage: "https://lh3.googleusercontent.com/p/AF1QipOGkzvCERdDYSVvRGxfuvXjewJBapxCe0Ui4SbL=s1360-w1360-h1020",
+        thumbnailImage: "/imgs/abroad-study-logo.jpeg",
         testPreparations: ["IELTS"],
         countriesFocused: ["Australia", "USA"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.355954157012!2d85.323134!3d27.706818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1907e9ac06d3%3A0x770610506c40dabb!2sAbroad%20Study%20Center%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1717668312754!5m2!1sen!2snp"
@@ -90,10 +89,10 @@ export const data=[
             linkedin: "https://www.linkedin.com/company/accesseducationnetwork/?originalSubdomain=np"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipNs-oX3xTHTtCd0RdrSjh8o0NRi9TOo0B4vcsWj=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipM1Ksj1-SLRnIIT5ki-rGfwXy__3j9xzSz_XUu7=s1360-w1360-h1020"
+            "/imgs/access-education-1.jpeg",
+            "/imgs/access-education-2.jpeg"
         ],
-        thumbnailImage: "https://accessnepal.net/access/images/header.jpg",
+        thumbnailImage: "/imgs/access-education-logo.jpeg",
         testPreparations: ["IELTS", "PTE", "TOEFL"],
         countriesFocused: ["Australia", "New Zealand", "Canada", "UK", "USA"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.485757003773!2d85.31959247513558!3d27.70228452571529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a8f722023d%3A0xf104fa00bbe44d21!2sAccess%20Education%20Network%20(P.)%20Ltd.!5e0!3m2!1sen!2snp!4v1717669929842!5m2!1sen!2snp"
@@ -110,10 +109,10 @@ export const data=[
             linkedin: "https://www.linkedin.com/company/siec-india/"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipPux0uJeS0iHPm1rHjLEbdI_3Y3B9bjum9RfUpQ=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipPSfbRh_p0p8_a65HYwlAkQgeB6c1gJmsGTBm7e=s1360-w1360-h1020"
+            "/imgs/siec-education-1.jpeg",
+            "/imgs/siec-education-2.jpeg"
         ],
-        thumbnailImage: "https://www.siecindia.com/images/logo-siec.webp",
+        thumbnailImage: "/imgs/siec-education-logo.jpg",
         testPreparations: ["IELTS", "PTE", "TOEFL", "GRE", "GMAT", "SAT"],
         countriesFocused: ["Australia", "Canada", "New Zealand", "USA", "UK", "Germany", "Ireland", "Asia", "Europe", "Hong Kong"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.564196357112!2d85.3226499!3d27.70521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a821df66ab%3A0x25f4e5baa445b9ee!2sSonya%20International%20Education%20and%20Careers%20(SIEC%20Nepal)!5e0!3m2!1sen!2snp!4v1717670301161!5m2!1sen!2snp"
@@ -130,10 +129,10 @@ export const data=[
             linkedin: "https://www.linkedin.com/company/thealfabeta/"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipMvqkBi2mZUxLviMg_-FcxJYj8LKn35pg1msSxy=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipOfbO9u-TYBDn9LU7Pqm3tk4HpEKjxEcsRip3Wt=s1360-w1360-h1020"
+            "/imgs/alfa-beta-1.jpeg",
+            "/imgs/alfa-beta-2.jpeg"
         ],
-        thumbnailImage: "https://alfabetaglobal.com/storage/uploads/setting/1696744603_logo.png",
+        thumbnailImage: "/imgs/alfa-beta-logo.jpg",
         testPreparations: ["TOEFL", "IELTS", "SAT", "GRE", "GMAT", "PTE"],
         countriesFocused: ["USA", "Australia", "UK", "Canada", "Japan", "India"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28262.83860799074!2d85.29871083637352!3d27.690881476256237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19bc2db1be7d%3A0x80d591b8bbfb6b28!2sAlfa%20Beta%20Institute!5e0!3m2!1sen!2snp!4v1717933300130!5m2!1sen!2snp"
@@ -150,10 +149,10 @@ export const data=[
             linkedin: ""
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipObgG9WqcGR4s4A937ZQweACfthJjde2YOHfKdi=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipPOFx2u9XhJWOiQbRKtZxxqsRrM-agIJn-LBLei=s1360-w1360-h1020"
+            "/imgs/education-planet-1.jpeg",
+            "/imgs/education-planet-2.jpeg"
         ],
-        thumbnailImage: "https://eplanetintl.com/wp-content/themes/ep/assets/img/eplanet-logo.png",
+        thumbnailImage: "/imgs/education-planet-logo.jpg",
         testPreparations: ["IELTS", "TOEFL", "PTE", "SAT", "GRE", "GMAT"],
         countriesFocused: ["Australia", "USA", "Europe", "UK", "Canada"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.478336649057!2d85.3186108!3d27.705873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190780ace9e7%3A0x18295aad36923c64!2sEducation%20Planet!5e0!3m2!1sen!2snp!4v1717672158640!5m2!1sen!2snp"
@@ -170,10 +169,10 @@ export const data=[
             linkedin: ""
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipNSiORNyiy3BURdROAMS01DaqpH3S6m4I0-HMsg=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipPJxqYHxWYFPNsq5JNGaxaPkaion-aiKbgkMQGK=s1360-w1360-h1020"
+            "/imgs/golbal-choice-1.jpeg",
+            "/imgs/global-choice-2.jpeg"
         ],
-        thumbnailImage: "https://globalchoice.edu.np/globalchoice.png",
+        thumbnailImage: "/imgs/global-choice-logo.jpg",
         testPreparations: ["IELTS", "TOEFL", "GRE", "GMAT", "SAT"],
         countriesFocused: ["Australia", "New Zealand", "USA", "Japan", "UK"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.365369327528!2d85.3231072!3d27.7067453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1907eccee1ad%3A0x744c68992109ec02!2sGLOBAL%20CHOICE%20EDUCATION%20CONSULTANT!5e0!3m2!1sen!2snp!4v1717672452578!5m2!1sen!2snp"
@@ -190,10 +189,10 @@ export const data=[
             linkedin: "https://www.linkedin.com/company/unicampus-global/?originalSubdomain=np"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipM_lFvorOqlm93dL4IRPN5xbXMK4DVT4W0BfhPJ=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipN4xZDideDYb6x5SQ6U5SRqfSe4uqgpqBBaCFEj=s1360-w1360-h1020"
+            "/imgs/unicampus-education-1.jpeg",
+            "/imgs/unicampus-education-2.jpeg"
         ],
-        thumbnailImage: "https://site.myunicampus.com/assets/images/unicampus_logo.svg",
+        thumbnailImage: "/imgs/unicampus-education-logo.jpg",
         testPreparations: ["SAT", "GRE", "GMAT", "IELTS", "TOEFL", "PTE"],
         countriesFocused: ["Australia", "USA", "Canada", "New Zealand"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.596998669162!2d85.3234597!3d27.7049567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a80ee4c0a7%3A0x6ff78f4717bddeb1!2sUnicampus%20Education%20Network!5e0!3m2!1sen!2snp!4v1717672899459!5m2!1sen!2snp"
@@ -210,10 +209,10 @@ export const data=[
             linkedin: "https://www.linkedin.com/company/kangaroo-education-foundation/"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipPlyX6hpGNKDt1dIgh6ufQmsbXf0Ke_Ad1bod6x=s1360-w1360-h1020",
-            "https://lh3.googleusercontent.com/p/AF1QipOpiMq2aCfJz2MEtJH1S78FEcIjn--axLrQTrxz=s1360-w1360-h1020"
+            "/imgs/kangaroo-education-1.jpeg",
+            "/imgs/kangaroo-education-2.jpeg"
         ],
-        thumbnailImage: "https://kangarooedu.com/wp-content/uploads/2022/09/cropped-kangaroologo1.png",
+        thumbnailImage: "/imgs/kangaroo-education-logo.jpg",
         testPreparations: ["IELTS", "PTE", "TOEFL", "SAT", "GMAT", "GRE"],
         countriesFocused: ["Australia", "UK", "Canada", "New Zealand", "USA"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.954758880914!2d85.33406637513511!3d27.687793126354283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19263691028d%3A0x84ba3533c5d327ca!2sKangaroo%20Education%20Foundation%20Baneshwor!5e0!3m2!1sen!2snp!4v1717673211524!5m2!1sen!2snp"
@@ -230,10 +229,10 @@ export const data=[
             linkedin: "https://www.linkedin.com/company/kiecpage/?originalSubdomain=np"
         },
         images: [
-            "https://lh3.googleusercontent.com/p/AF1QipMUMv7SlrATbPNAbvp6D_zhm-oAHCA_HAIQvzH_=s2880-w2880-h1458-rw",
-            "https://lh3.googleusercontent.com/p/AF1QipNrRw36QaJlPG7ZV_y_77vIPpcQayW5Okcz746v=s2880-w2880-h1458-rw"
+            "/imgs/kiec-1.jpg",
+            "/imgs/kiec-2.jpg"
         ],
-        thumbnailImage: "https://www.kiec.edu.np/wp-content/uploads/2020/08/KIEC-Sym-Logo.png",
+        thumbnailImage: "/imgs/kiec-logo.jpg",
         testPreparations: ["TOEFL", "IELTS", "SAT", "GRE", "GMAT", "PTE"],
         countriesFocused: ["Australia", "USA", "UK", "New Zealand", "Canada", "Denmark", "Ireland", "Japan", "Switzerland"],
         mapURL: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.563637754796!2d85.31919697513452!3d27.668969327183635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19493860f83f%3A0xf2ecaf7fd31d9ee6!2sKIEC%20Lalitpur!5e0!3m2!1sen!2snp!4v1717673654465!5m2!1sen!2snp"
@@ -262,70 +261,76 @@ export const faqData=[
 export const countryData= [
     {
         countryName: "Australia",
-        imgSrc: "https://i.natgeofe.com/k/b76526f3-bb84-489d-b229-56bcc08aa915/australia-sydney-opera-house.jpg?wp=1&w=1084.125&h=611.625"
+        imgSrc: "/imgs/australia.jpeg"
     },
     {
         countryName: "USA",
-        imgSrc: "https://imaginary.abcmedia.no/resize?width=980&aspectratio=16:9&nocrop=false&interlace=true&url=https%3A%2F%2Fabcnyheter.drpublish.aptoma.no%2Fout%2Fimages%2Farticle%2F%2F2024%2F03%2F07%2F195987533%2F1%2Foriginal%2F102618801.jpg"
+        imgSrc: "/imgs/usa.jpeg"
     },
     {
         countryName: "Canada",
-        imgSrc: "https://img.freepik.com/premium-photo/flag-with-city-toronto-background_865967-9029.jpg"
+        imgSrc: "/imgs/canada.jpeg"
     },
     {
         countryName: "United Kingdom",
-        imgSrc: "https://wherewouldyougo.com/wp-content/uploads/2015/11/Big-Ben-Flag-United-Kingdom.jpg"
+        imgSrc: "/imgs/united-kingdom.jpeg"
     },
     {
         countryName: "New Zealand",
-        imgSrc: "https://ichef.bbci.co.uk/news/976/cpsprodpb/EECD/production/_127033116_gettyimages-457521250.jpg"
+        imgSrc: "/imgs/new-zealand.jpeg"
     },
     {
         countryName: "Japan",
-        imgSrc: "https://media.cnn.com/api/v1/images/stellar/prod/230210161917-01-japan-never-traveler-culture-tokyo.jpg?c=16x9&q=h_833,w_1480,c_fill"
+        imgSrc: "/imgs/japan.jpeg"
     },
     {
         countryName: "South Korea",
-        imgSrc: "https://img.freepik.com/premium-photo/south-korea-flag-blown-by-wind-with-blue-sky-background_508524-1307.jpg"
+        imgSrc: "/imgs/south-korea.jpeg"
     },
     {
         countryName: "Singapore",
-        imgSrc: "https://www.hindustantimes.com/ht-img/img/2023/08/09/1600x900/jisun-han-cjSsSQ7Yedk-unsplash_1691566310229_1691566339521.jpg"
+        imgSrc: "/imgs/singapore.jpeg"
     },
     {
         countryName: "Germany",
-        imgSrc: "https://cms-b-assets.familysearch.org/dims4/default/0d7e5f3/2147483647/strip/true/crop/800x500+0+0/resize/1240x775!/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F1d%2Fcf%2F1c3b8742492885308a4fe157e68b%2Fadobestock-111595871-500x800.jpg"
+        imgSrc: "/imgs/germany.jpeg"
     },
     {
         countryName: "Europe",
-        imgSrc: "https://www.tripsavvy.com/thmb/QfosXL5IxkrNMv7fOesk8PjuVeg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/arch-bridge-over-river-amidst-buildings-against-sky-1197599230-9db0e4e8119241b9bb050eba5eab1549.jpg"
+        imgSrc: "/imgs/europe.jpeg"
     }
 ]
 
 export const testData= [
     {
         testName: "IELTS",
-        testDetail: "The International English Language Testing System (IELTS) is a widely recognized English proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the IELTS can be your first step towards achieving your goals. This article will cover the IELTS test pattern, its relevance for further studies, and the costs associated with taking the exam."
+        testDetail: "The International English Language Testing System (IELTS) is a widely recognized English proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the IELTS can be your first step towards achieving your goals. This article will cover the IELTS test pattern, its relevance for further studies, and the costs associated with taking the exam.",
+        imgSrc: "/imgs/ielts.jpeg"
     },
     {
         testName: "PTE",
-        testDetail: "The Pearson Test of English (PTE) is an increasingly popular English language proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the PTE can be your gateway to success. This article will cover the PTE test pattern, its relevance for further studies, and the costs associated with taking the exam."
+        testDetail: "The Pearson Test of English (PTE) is an increasingly popular English language proficiency test designed for non-native English speakers. Whether you're planning to study, work, or migrate to an English-speaking country, understanding the PTE can be your gateway to success. This article will cover the PTE test pattern, its relevance for further studies, and the costs associated with taking the exam.",
+        imgSrc: "/imgs/pte.jpeg"
     },
     {
         testName: "SAT",
-        testDetail: "The SAT (Scholastic Assessment Test) is a standardized test widely used for college admissions in the United States and other countries. Whether you're planning to pursue undergraduate studies in the U.S. or looking to strengthen your college application elsewhere, understanding the SAT is crucial. This article will cover the SAT test pattern, its relevance for further studies, and the costs associated with taking the exam."
+        testDetail: "The SAT (Scholastic Assessment Test) is a standardized test widely used for college admissions in the United States and other countries. Whether you're planning to pursue undergraduate studies in the U.S. or looking to strengthen your college application elsewhere, understanding the SAT is crucial. This article will cover the SAT test pattern, its relevance for further studies, and the costs associated with taking the exam.",
+        imgSrc: "/imgs/sat.jpeg"
     },
     {
         testName: "TOEFL",
-        testDetail: "The Test of English as a Foreign Language (TOEFL) is a standardized test that measures English language proficiency for non-native speakers. It's widely accepted by universities, employers, and immigration authorities worldwide. This article will cover the TOEFL test pattern, its relevance for further studies, and the costs associated with taking the exam."
+        testDetail: "The Test of English as a Foreign Language (TOEFL) is a standardized test that measures English language proficiency for non-native speakers. It's widely accepted by universities, employers, and immigration authorities worldwide. This article will cover the TOEFL test pattern, its relevance for further studies, and the costs associated with taking the exam.",
+        imgSrc: "/imgs/toefl.jpeg"
     },
     {
         testName: "GRE",
-        testDetail: "The Graduate Record Examination (GRE) is a standardized test that is an admissions requirement for many graduate schools in the United States and other countries. The GRE is designed to measure your readiness for        graduate-level work and is a critical component of your application to many graduate programs. This article will cover the GRE test pattern, its relevance for further studies, and the costs associated with taking the exam."
+        testDetail: "The Graduate Record Examination (GRE) is a standardized test that is an admissions requirement for many graduate schools in the United States and other countries. The GRE is designed to measure your readiness for        graduate-level work and is a critical component of your application to many graduate programs. This article will cover the GRE test pattern, its relevance for further studies, and the costs associated with taking the exam.",
+        imgSrc: "/imgs/gre.jpeg"
     },
     {
         testName: "GMAT",
-        testDetail: "The Graduate Management Admission Test (GMAT) is a standardized exam used by business schools worldwide to assess applicants for MBA and other graduate management programs. The GMAT is designed to measure analytical writing, quantitative, verbal, and integrated reasoning skills that are critical for success in business school. This article will cover the GMAT test pattern, its relevance for further studies, and the costs associated with taking the exam."
+        testDetail: "The Graduate Management Admission Test (GMAT) is a standardized exam used by business schools worldwide to assess applicants for MBA and other graduate management programs. The GMAT is designed to measure analytical writing, quantitative, verbal, and integrated reasoning skills that are critical for success in business school. This article will cover the GMAT test pattern, its relevance for further studies, and the costs associated with taking the exam.",
+        imgSrc: "/imgs/gmat.jpeg"
     }
 ]
 

@@ -10,8 +10,8 @@
     <h1>Study in Europe: A Complete Guide for Nepali Students</h1>
 
     <img
-        src="https://i.natgeofe.com/k/b76526f3-bb84-489d-b229-56bcc08aa915/australia-sydney-opera-house.jpg?wp=1&w=1084.125&h=611.625"
-        alt="IELTS Image"
+        src="/imgs/europe.jpeg"
+        alt="Europe Image"
     />
 
     <p class="first-p">
