@@ -188,7 +188,7 @@
 	.consultancy-landing{
 		width: 100%;
 		height: 350px;
-		background-image: url($lib/img/sydney.jpg);
+		background-image: url("/imgs/consultancy-landing.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

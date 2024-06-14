@@ -1,12 +1,10 @@
 <script>
-    import studyAbroadImg from "$lib/img/studyabroad.png";
-
     let openMobileMenu= false;
 </script>
 
 <div class="header">
     <div class="header-title">
-        <img src={studyAbroadImg} alt="Study abroad logo">
+        <img src="/imgs/study-abroad-logo.png" alt="Study abroad logo">
         <a href="/">Study<span>Abroad</span>Np</a>
     </div>
 
