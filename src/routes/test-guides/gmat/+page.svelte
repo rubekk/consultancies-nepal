@@ -3,6 +3,10 @@
     import gmatImg from "$lib/img/gmat.jpeg";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Everything You Need to Know About GMAT</title>
+</svelte:head>
+
 <div class="test-container">
     <h1>Everything You Need to Know About GMAT: Test Pattern, Relevance, and Costs</h1>
     <img src={gmatImg} alt="GMAT Image">

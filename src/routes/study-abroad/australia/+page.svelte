@@ -2,6 +2,10 @@
     import "./../style.css";
 </script>
 
+<svelte:head>
+  <title>StudyAbroadNP - Study in Australia</title>
+</svelte:head>
+
 <div class="study-abroad-blog-container">
     <h1>Study in Australia: A Comprehensive Guide for Nepali Students</h1>
 

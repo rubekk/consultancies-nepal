@@ -182,9 +182,6 @@
 	</div>
 </div>
 {/if}
-
-{:else}
-<h1>Our name is I dont know</h1>
 {/if}
 
 <style>
