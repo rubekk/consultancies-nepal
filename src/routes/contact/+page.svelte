@@ -1,3 +1,31 @@
+<script>
+    import { initializeApp } from "firebase/app";
+    import { getFirestore, collection, addDoc } from "firebase/firestore";
+    import {firebaseConfig } from "$lib/firebaseConfig.js";
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app); 
+    const colRef= collection(db, "contact");
+
+    let formData= {
+        name: "",
+        email: "",
+        message: ""
+    }
+
+    const handleSubmit= async ()=>{
+        if(!formData.name || !formData.email || !formData.message) return;
+
+        await addDoc(colRef, formData);
+
+        formData= {
+            name: "",
+            email: "",
+            message: ""
+        }
+    }
+</script>
+
 <svelte:head>
   <title>StudyAbroadNP - Contact</title>
 </svelte:head>
@@ -6,19 +34,21 @@
     <div class="contact-txt">
         <span>Have questions or need any information?</span> <br>Get in touch with us through our contact form, or phone, and we'll be delighted to help you with any inquiries and provide the support you need!"
     </div>
-    <!-- <div class="contact-email">
-        info@abroadstudynp.com
-    </div> -->
+    <div class="contact-email">
+        <i class="fa-solid fa-envelope"></i> mailtostudyabroadnp@gmail.com
+    </div>
     <div class="contact-phone">
         <i class="fa-solid fa-phone"></i> +977 9745706122
     </div>
     <div class="contact-form">
         <h2>Contact information</h2>
         <div class="form">
-            <input type="text" placeholder="Full name">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Message">
-            <button class="submit-btn">Submit</button>
+            <form>
+                <input bind:value={formData.name} type="text" placeholder="Full name" required>
+                <input bind:value={formData.email} type="email" placeholder="Email" required>
+                <input bind:value={formData.message} type="text" placeholder="Message" required>
+                <button class="submit-btn" on:click={handleSubmit}>Send</button>
+            </form>
         </div>
     </div>
 </div>
@@ -37,7 +67,7 @@
     .contact-txt span{
         font-size: 1.25rem;
     }
-    .contact-phone{
+    .contact-email, .contact-phone{
         margin: 1rem 0;
         padding: .5rem 1rem;
         width: max-content;
@@ -45,7 +75,7 @@
         background-color: #797979;
         border-radius: 3px;
     }
-    .contact-phone i{
+    .contact-email i, .contact-phone i{
         margin-right: .5rem;
     }
     .form{

@@ -1,5 +1,12 @@
 <script>
 	import {countriesList, testList } from "$lib/index.js";
+	import { initializeApp } from "firebase/app";
+    import { getFirestore, collection, addDoc } from "firebase/firestore";
+    import {firebaseConfig } from "$lib/firebaseConfig.js";
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app); 
+    const colRef= collection(db, "enquire");
 
 	export let data= {
         name: "AECC Global",
@@ -22,7 +29,14 @@
 	
 	let currImgUrl= data.images[0],
 		activeImg= 0,
-		openEnquiry= false;
+		openEnquiry= false,
+		formData= {
+			name: "",
+			email: "",
+			phone: "",
+			country: "Australia",
+			message: ""
+		};
 
 	const changeImage= i=>{
 		currImgUrl= data.images[i];
@@ -54,6 +68,22 @@
 
 		return testList.includes(lowTest);
 	}
+
+	const handleSubmit= async ()=>{
+        if(!formData.name || !formData.email || !formData.phone || !formData.country || !formData.message) return;
+
+        await addDoc(colRef, formData);
+
+        formData= {
+			name: "",
+			email: "",
+			phone: "",
+			country: "Australia",
+			message: ""
+		}
+
+		openEnquiry= false;
+    }
 </script>
 
 <svelte:head>
@@ -162,23 +192,25 @@
 	<div class="enquire-modal-inner">
 		<i class="cross-modal fa-solid fa-times" on:click={()=> openEnquiry=false}></i>
 		<h2>Have any queries? We will reach out to you soon!</h2>
-		<input type="text" placeholder="Full name">
-		<input type="email" placeholder="Email">
-		<input type="number" placeholder="Phone number">
-		<select>
-			<option value="Australia">Australia</option>
-			<option value="USA">USA</option>
-			<option value="Canada">Canada</option>
-			<option value="Germany">Germany</option>
-			<option value="New Zealand">New Zealand</option>
-			<option value="United Kingdom">United Kingdom</option>
-			<option value="Japan">Japan</option>
-			<option value="Singapore">Singapore</option>
-			<option value="South Korea">South Korea</option>
-			<option value="Help me decide">Others / Help me decide</option>
-		</select>
-		<textarea placeholder="Enter your queries..."></textarea>
-		<button class="submit" on:click={()=> openEnquiry=false}>Submit</button>
+		<form>
+			<input bind:value={formData.name} type="text" placeholder="Full name" required>
+			<input bind:value={formData.email} type="email" placeholder="Email" required>
+			<input bind:value={formData.phone} type="number" placeholder="Phone number" required>
+			<select bind:value={formData.country} placeholder="Select a country" required>
+				<option value="Australia">Australia</option>
+				<option value="USA">USA</option>
+				<option value="Canada">Canada</option>
+				<option value="Germany">Germany</option>
+				<option value="New Zealand">New Zealand</option>
+				<option value="United Kingdom">United Kingdom</option>
+				<option value="Japan">Japan</option>
+				<option value="Singapore">Singapore</option>
+				<option value="South Korea">South Korea</option>
+				<option value="Help me decide">Others / Help me decide</option>
+			</select>
+			<textarea bind:value={formData.message} placeholder="Enter your queries..." required></textarea>
+			<button class="submit" on:click={handleSubmit}>Submit</button>
+		</form>
 	</div>
 </div>
 {/if}
@@ -414,7 +446,8 @@
 		padding: 0 .5rem;
 		width: 100%;
 		height: 35px;
-		outline: none;
+		border: 1px solid #000;
+        outline: none;
 	}
 	textarea{
 		padding: .5rem;

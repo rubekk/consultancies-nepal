@@ -21,10 +21,7 @@
             <a href="https://www.facebook.com/profile.php?id=61560884097225" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
             </a>
-            <a href="https://www.linkedin.com/company/abroadstudy-np/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/company/abroadstudy-np/" target="_blank">
+            <a href="https://www.linkedin.com/company/studyabroadnp/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
         </div>
