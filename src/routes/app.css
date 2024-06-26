@@ -25,7 +25,7 @@ li{
 
 /* landing image */
 .landing-img{
-    height: 500px;
+    height: 300px;
     width: 100vw;
     font-size: 2rem;
     text-align: center;
@@ -38,7 +38,7 @@ li{
 }
 .landing-tagline{
     padding: 1rem;
-    margin: 0 15rem;
+    margin: auto;
     width: 325px;
     height: 100%;
     color: #fff;

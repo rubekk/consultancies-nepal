@@ -98,9 +98,7 @@
     </p>
 
     <h2>Cost to Study in Australia (in NPR)</h2>
-
     <table>
-        <caption>Costs to Study in Australia (in NPR)</caption>
         <thead>
             <tr>
                 <th>Program</th>
@@ -133,7 +131,6 @@
 
     <h2>Language Score Requirements</h2>
     <table>
-        <caption>Language Score Requirements</caption>
         <thead>
             <tr>
                 <th>Test</th>
@@ -166,7 +163,6 @@
 
     <h2>Top Courses and Their Costs</h2>
     <table>
-        <caption>Top Courses and Their Costs</caption>
         <thead>
             <tr>
                 <th>Course</th>
@@ -280,9 +276,7 @@
     </ul>
 
     <h3>3. Salary Expectations</h3>
-
     <table>
-        <caption>Salary Expectations</caption>
         <thead>
             <tr>
                 <th>Field</th>

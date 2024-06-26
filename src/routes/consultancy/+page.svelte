@@ -15,7 +15,7 @@
         {/each}
     </div>
 
-    <h4>Didn't find a consultancy you were looking for? <a href="https://forms.google.com" target="_blank">Suggest for addition!</a></h4>
+    <h4>Didn't find a consultancy you were looking for? <a href="https://docs.google.com/forms/d/e/1FAIpQLScm1dfyg-SUrouBsOZ95tpnPXN0Q90vbg7PAPa8okacro_hMA/viewform?usp=sf_link" target="_blank">Suggest for addition!</a></h4>
 </div>
 
 <style>

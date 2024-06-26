@@ -95,9 +95,7 @@
     </ol>
 
     <h2>Cost of Studying in Canada (in NPR)</h2>
-
     <table>
-        <caption>Cost of Studying in Canada (in NPR)</caption>
         <thead>
             <tr>
                 <th>Program</th>
@@ -129,9 +127,7 @@
     </table>
 
     <h2>Language Score Requirements</h2>
-
     <table>
-        <caption>Language Score Requirements</caption>
         <thead>
             <tr>
                 <th>Test</th>
@@ -163,9 +159,7 @@
     </table>
 
     <h2>Top Courses and Their Costs</h2>
-
     <table>
-        <caption>Top Courses and Their Costs</caption>
         <thead>
             <tr>
                 <th>Course</th>

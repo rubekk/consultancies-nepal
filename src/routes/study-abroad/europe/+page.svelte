@@ -93,14 +93,11 @@
     </ol>
 
     <h2>Cost of Studying in Europe (in NPR)</h2>
-
     <p>
         The cost of studying in Europe varies depending on the country,
         university, and program of study. Here is a general overview:
     </p>
-
     <table>
-        <caption>Cost of Studying in Europe (in NPR)</caption>
         <thead>
             <tr>
                 <th>Program</th>
@@ -126,15 +123,12 @@
     </table>
 
     <h2>Language Score Requirements</h2>
-
     <p>
         Language proficiency requirements vary depending on the university and
         program. Here are the typical language score requirements for English
         proficiency:
     </p>
-
     <table>
-        <caption>Language Score Requirements</caption>
         <thead>
             <tr>
                 <th>Test</th>
