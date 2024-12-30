@@ -10,21 +10,21 @@
 
     <div class="header-right">
         <div class="header-study-abroad-dropdown">
-            <a class="header-study-abroad" href="/study-abroad">Study Abroad<i class="fa-solid fa-chevron-down"></i></a>
+            <a class="header-study-abroad" href="/study-abroad">Study Destinations<i class="fa-solid fa-chevron-down"></i></a>
             <div class="drop-down">
-                <li><a href="/study-abroad/australia">Study in Australia</a></li>
-                <li><a href="/study-abroad/usa">Study in USA</a></li>
-                <li><a href="/study-abroad/canada">Study in Canada</a></li>
-                <li><a href="/study-abroad/united-kingdom">Study in United Kingdom</a></li>
-                <li><a href="/study-abroad/new-zealand">Study in New Zealand</a></li>
-                <li><a href="/study-abroad/japan">Study in Japan</a></li>
-                <li><a href="/study-abroad/south-korea">Study in South Korea</a></li>
-                <li><a href="/study-abroad/singapore">Study in Singapore</a></li>
-                <li><a href="/study-abroad/germany">Study in Germany</a></li>
-                <li><a href="/study-abroad/europe">Study in Europe</a></li>
+                <li><a href="/study-abroad/australia">Australia</a></li>
+                <li><a href="/study-abroad/usa">USA</a></li>
+                <li><a href="/study-abroad/canada">Canada</a></li>
+                <li><a href="/study-abroad/united-kingdom">United Kingdom</a></li>
+                <li><a href="/study-abroad/new-zealand">New Zealand</a></li>
+                <li><a href="/study-abroad/japan">Japan</a></li>
+                <li><a href="/study-abroad/south-korea">South Korea</a></li>
+                <li><a href="/study-abroad/singapore">Singapore</a></li>
+                <li><a href="/study-abroad/germany">Germany</a></li>
+                <li><a href="/study-abroad/europe">Europe</a></li>
             </div>
         </div>
-        <a class="header-upcoming-classes" href="/upcoming-classes">Upcoming Classes</a>
+        <a class="header-upcoming-classes" href="/upcoming-classes">Universities</a>
         <div class="header-test-guides-dropdown">
             <a class="header-test-guides" href="/test-guides">Test guides<i class="fa-solid fa-chevron-down"></i></a>
             <div class="drop-down">
@@ -36,7 +36,7 @@
                 <li><a href="/test-guides/gmat">GMAT</a></li>
             </div>
         </div>
-        <div class="header-top-consultancies"><a href="/consultancy">Top Consultancies</a></div>
+        <div class="header-top-consultancies"><a href="/consultancy">Consultancies</a></div>
     </div>
 
     <div class="header-ham">
@@ -82,7 +82,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid #797979;
+        border-bottom: 1px solid #dcdcdc;
         position: relative;
     }
     .header-title{
@@ -100,14 +100,14 @@
     }
     .header-right{
         width: max-content;
+        font-size: .9rem;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 30px;
-        /* display: none; */
     }
     .header-right i{
-        margin-left: .25rem;
+        margin-left: .5rem;
         color: #797979;
     }
     .header-study-abroad-dropdown, .header-test-guides-dropdown{

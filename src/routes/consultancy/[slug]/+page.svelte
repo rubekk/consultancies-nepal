@@ -73,7 +73,6 @@
         if(!formData.name || !formData.email || !formData.phone || !formData.country || !formData.message) return;
 
         await addDoc(colRef, formData);
-
         formData= {
 			name: "",
 			email: "",

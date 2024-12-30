@@ -1,9 +1,13 @@
-<script> 
-    export let imgSrc="https://www.kiec.edu.np/wp-content/uploads/2020/08/KIEC-Sym-Logo.png",
-            name="Good Consultancy",
-            address="Kathmandu";
+<script>
+    export let imgSrc =
+            "https://www.kiec.edu.np/wp-content/uploads/2020/08/KIEC-Sym-Logo.png",
+        name = "Good Consultancy",
+        address = "Kathmandu";
 
-    let link="./consultancy/"+name.toLowerCase().replaceAll(" ","-");
+    import { Button } from 'flowbite-svelte';
+    import { ArrowRightOutline, CartSolid } from 'flowbite-svelte-icons';
+
+    let link = "./consultancy/" + name.toLowerCase().replaceAll(" ", "-");
 </script>
 
 <div class="card">
@@ -14,71 +18,75 @@
         <div class="consultancy-name" title={name}>{name}</div>
         <div class="consultancy-address"><i class="fa-solid fa-location-dot"></i> {address}</div>
         <button class="view-more-btn">
-            <a href={link}>View more <i class="fa-solid fa-chevron-right"></i></a>
+            <a href={link}>View more <i class="fa-solid fa-arrow-right"></i></a>
         </button>
     </div>
 </div>
-
 <style>
-    .card{
+    .card {
         width: 350px;
         height: 150px;
         display: flex;
         align-items: center;
         background-color: #fff;
-        border: 1px solid #797979;
+        border: 1px solid #dcdcdc;
         border-radius: 3px;
-        box-shadow: 3px 3px 3px rgb(46 128 187 / 20%);
     }
-    .card-img{
-        padding: .25rem;
+
+    .card:hover {
+        transition: .3s all ease-in-out;
+        transform: scale(1.05);
+    }
+    .card-img {
+        padding: 0.25rem;
         margin-right: 1rem;
-        margin-left: .5rem;
+        margin-left: 0.5rem;
         width: 130px;
         height: 120px;
     }
-    .card-img img{
+    .card-img img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
-    .card-text{
-        padding: .5rem .75rem;
+    .card-text {
+        padding: 0.5rem 0.75rem;
         width: 230px;
         border-left: 1px solid #dcdcdc;
     }
-    .consultancy-name{
+    .consultancy-name {
         font-size: 1.1rem;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
         overflow: hidden;
     }
-    .consultancy-address{
-        margin: .25rem 0 .5rem;
-        font-size: .7rem;
+    .consultancy-address {
+        margin: 0.25rem 0 0.5rem;
+        font-size: 0.7rem;
         color: #797979;
     }
-    .consultancy-address i{
-        margin-right: .25rem;
+    .consultancy-address i {
+        margin-right: 0.25rem;
     }
-    .view-more-btn{
-        padding: .5rem .7rem .5rem .75rem;
+    .view-more-btn {
+        padding: 0.5rem 0.7rem 0.5rem 0.75rem;
+        font-size: 0.75rem;
         color: #fff;
         background-color: var(--blue);
         border: none;
         border-radius: 3px;
     }
-    .view-more-btn a{
+    .view-more-btn a {
         color: #fff;
     }
-    .view-more-btn i{
-        font-size: .75rem;
+    .view-more-btn i {
+        margin-left: .5rem;
     }
 
     /* media queries */
-    @media (max-width: 425px){
-        .card{
+    @media (max-width: 425px) {
+        .card {
             width: 325px;
         }
     }
