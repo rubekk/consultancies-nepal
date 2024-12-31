@@ -1,10 +1,14 @@
 .test-container{
     margin: 2rem auto;
-    padding: 0 1rem;
+    padding: 0 1.3rem;
     width: 800px;
     border-left: 2px solid #dcdcdc;
     border-right: 2px solid #dcdcdc;
     text-align: justify;
+}
+.test-container h1{
+    font-size: 22px ;
+    font-weight: 600;
 }
 .test-container img{
     margin: 2rem 0;
@@ -12,6 +16,8 @@
 }
 .test-container h2{
     margin: 2rem 0 .5rem;
+    font-size: 20px;
+    font-weight: 600;
 }
 .test-container p{
     margin: .25rem 0;
@@ -19,7 +25,7 @@
 .bold{
     font-size: 1.1rem;
     font-style: italic;
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 /* media queries */

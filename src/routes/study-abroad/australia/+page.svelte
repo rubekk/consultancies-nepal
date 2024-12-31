@@ -56,15 +56,15 @@
     <h3>1. Academic Requirements</h3>
     <ul>
         <li>
-            <strong>Diploma Programs:</strong> Completion of high school (10+2) with
+            <span class="bold">Diploma Programs:</span> Completion of high school (10+2) with
             a good academic standing.
         </li>
         <li>
-            <strong>Undergraduate Programs:</strong> Completion of high school with
+            <span class="bold">Undergraduate Programs:</span> Completion of high school with
             a high GPA and standardized test scores (if required by the institution).
         </li>
         <li>
-            <strong>Graduate Programs:</strong> A bachelor's degree from a recognized
+            <span class="bold">Graduate Programs:</span> A bachelor's degree from a recognized
             university with a good GPA and relevant standardized test scores (such
             as GMAT or GRE).
         </li>
@@ -217,19 +217,19 @@
     <h3>Popular Fields of Study</h3>
     <ul>
         <li>
-            <strong>Business and Management:</strong> MBA programs are highly sought
+            <span class="bold">Business and Management:</span> MBA programs are highly sought
             after due to their comprehensive curriculum and networking opportunities.
         </li>
         <li>
-            <strong>Engineering and Technology:</strong> Australia is a leader in
+            <span class="bold">Engineering and Technology:</span> Australia is a leader in
             innovation, making it an ideal destination for engineering and tech students.
         </li>
         <li>
-            <strong>Health and Medicine:</strong> Renowned medical schools and research
+            <span class="bold">Health and Medicine:</span> Renowned medical schools and research
             facilities provide excellent education and career prospects.
         </li>
         <li>
-            <strong>Arts and Humanities:</strong> Offers a diverse range of programs,
+            <span class="bold">Arts and Humanities:</span> Offers a diverse range of programs,
             from literature to performing arts, supported by a vibrant cultural scene.
         </li>
     </ul>
@@ -243,12 +243,12 @@
     </p>
     <ul>
         <li>
-            <strong>Temporary Graduate Visa (subclass 485):</strong> Allows students
+            <span class="bold">Temporary Graduate Visa (subclass 485):</span> Allows students
             to stay in Australia and work for up to 18 months to 4 years, depending
             on their qualifications.
         </li>
         <li>
-            <strong>Skilled Migration Visas:</strong> Graduates can apply for permanent
+            <span class="bold">Skilled Migration Visas:</span> Graduates can apply for permanent
             residency through the General Skilled Migration (GSM) program.
         </li>
     </ul>
@@ -256,21 +256,21 @@
     <h3>2. Employment Sectors</h3>
     <ul>
         <li>
-            <strong>Technology:</strong> Companies like Atlassian, Canva, and Telstra
+            <span class="bold">Technology:</span> Companies like Atlassian, Canva, and Telstra
             actively recruit graduates for various roles in software development,
             data analysis, and more.
         </li>
         <li>
-            <strong>Healthcare:</strong> Graduates in medicine, nursing, and public
+            <span class="bold">Healthcare:</span> Graduates in medicine, nursing, and public
             health find opportunities in hospitals, research institutions, and healthcare
             organizations.
         </li>
         <li>
-            <strong>Finance:</strong> Investment banks, consulting firms, and multinational
+            <span class="bold">Finance:</span> Investment banks, consulting firms, and multinational
             corporations seek graduates for roles in finance, accounting, and management.
         </li>
         <li>
-            <strong>Education and Research:</strong> Universities and research institutions
+            <span class="bold">Education and Research:</span> Universities and research institutions
             offer positions in teaching and research across diverse disciplines.
         </li>
     </ul>
@@ -307,19 +307,19 @@
         </tbody>
     </table>
 
-    <h3>Tips for Job Hunting in Australia</h3>
+    <h3>*Tips for Job Hunting in Australia</h3>
     <ul>
         <li>
-            <strong>Build a Strong Network:</strong> Networking through university
+            <span class="bold">Build a Strong Network:</span> Networking through university
             events, internships, and professional associations can significantly
             enhance job prospects.
         </li>
         <li>
-            <strong>Tailor Your Resume:</strong> Customize your resume and cover
+            <span class="bold">Tailor Your Resume:</span> Customize your resume and cover
             letter for each job application to highlight relevant skills and experiences.
         </li>
         <li>
-            <strong>Use Career Services:</strong> Most universities offer career
+            <span class="bold">Use Career Services:</span> Most universities offer career
             services to help with job placements, including resume reviews, interview
             preparation, and job fairs.
         </li>
