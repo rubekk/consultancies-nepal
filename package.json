@@ -10,7 +10,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
-		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0-next.6",
 		"autoprefixer": "^10.4.20",
 		"flowbite": "^2.5.2",
 		"flowbite-svelte": "^0.47.4",
@@ -22,5 +22,6 @@
 	"dependencies": {
 		"firebase": "^10.12.2",
 		"flowbite-svelte-icons": "^2.0.2"
-	}
+	},
+	"overrides": {"@sveltejs/vite-plugin-svelte": "^4.0.0-next.6"}
 }
