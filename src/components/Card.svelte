@@ -1,27 +1,34 @@
 <script>
+    import { Button } from "flowbite-svelte";
+    import { ArrowRightOutline } from "flowbite-svelte-icons";
+
     export let imgSrc =
             "https://www.kiec.edu.np/wp-content/uploads/2020/08/KIEC-Sym-Logo.png",
         name = "Good Consultancy",
         address = "Kathmandu";
-
-    import { Button } from 'flowbite-svelte';
-    import { ArrowRightOutline, CartSolid } from 'flowbite-svelte-icons';
 
     let link = "./consultancy/" + name.toLowerCase().replaceAll(" ", "-");
 </script>
 
 <div class="card">
     <div class="card-img">
-        <img src={imgSrc} alt="">
+        <img src={imgSrc} alt="" />
     </div>
     <div class="card-text">
         <div class="consultancy-name" title={name}>{name}</div>
-        <div class="consultancy-address"><i class="fa-solid fa-location-dot"></i> {address}</div>
-        <button class="view-more-btn">
-            <a href={link}>View more <i class="fa-solid fa-arrow-right"></i></a>
-        </button>
+        <div class="consultancy-address">
+            <i class="fa-solid fa-location-dot"></i>
+            {address}
+        </div>
+        <Button class="bg-[#2a73f4]" size="xs">
+            <a class="text-white flex items-center" href={link}>
+                View more
+                <ArrowRightOutline class="w-5 h-5 ms-2" />
+            </a>
+        </Button>
     </div>
 </div>
+
 <style>
     .card {
         width: 350px;
@@ -34,7 +41,7 @@
     }
 
     .card:hover {
-        transition: .3s all ease-in-out;
+        transition: 0.3s all ease-in-out;
         transform: scale(1.05);
     }
     .card-img {
@@ -81,7 +88,7 @@
         color: #fff;
     }
     .view-more-btn i {
-        margin-left: .5rem;
+        margin-left: 0.5rem;
     }
 
     /* media queries */
