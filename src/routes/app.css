@@ -67,6 +67,7 @@ li{
     border-bottom: 2px solid var(--blue);
 }
 .top-consultancies-inner{
+    padding: 1rem .5rem;
     display: flex;
     gap: 15px;
     border-radius: 3px;
@@ -99,48 +100,6 @@ li{
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
-}
-
-/* test-guides */
-
-/* upcoming classes */
-
-/* faqs */
-.faqs-inner{
-    margin: auto;
-    width: 1150px;
-    display: flex;
-}
-.questions{
-    width: 50%;
-    padding-right: 1rem;
-}
-.question{
-    padding: .5rem 1rem;
-    border: 2px solid #797979;
-    border-radius: 3px;
-    transition: .3s;
-    cursor: pointer;
-}
-.question:hover, .aq{
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
-}
-.faqs i{
-    margin-right: .5rem;
-    color: var(--blue);
-}
-.question:nth-of-type(2), .question:nth-of-type(3){
-    margin: .75rem 0;
-}
-.answer{
-    width: 50%;
-    padding: 1rem;
-    text-align: justify;
-    background-color: #dcdcdc;
-    border: 2px solid var(--blue);
-    border-radius: 3px;
 }
 
 /* class image modal */

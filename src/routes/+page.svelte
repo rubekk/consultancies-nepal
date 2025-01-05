@@ -1,28 +1,17 @@
 <script>
     import "./app.css";
-    import {
-        data,
-        faqData,
-        countryData,
-        testData
-    } from "$lib/index.js";
+    import { data, faqData, countryData, testData } from "$lib/index.js";
     import Card from "../components/Card.svelte";
     import CountryCard from "../components/CountryCard.svelte";
     import TestCard from "../components/TestCard.svelte";
+    import { AccordionItem, Accordion, Badge, Button } from "flowbite-svelte";
+    import { ArrowRightOutline } from 'flowbite-svelte-icons';
 
-    let activeQuestion = 0,
-        faqAnswer = faqData[activeQuestion].answer,
-        openClassImgModal = false,
+    let openClassImgModal = false,
         classImgModalSrc = "";
 
     const closeModal = (e) => {
         if (e.target.tagName !== "IMG") openClassImgModal = false;
-    };
-
-    const handleFaq = (i) => {
-        if (i == activeQuestion) return;
-        activeQuestion = i;
-        faqAnswer = faqData[activeQuestion].answer;
     };
 </script>
 
@@ -33,13 +22,14 @@
 <div class="landing-img">
     <div class="landing-tagline">
         <div class="tagline-txt">
-            Explore the best <span>Consultancy</span><br>for abroad study!
+            Explore the best <span>Consultancy</span><br />for abroad study!
         </div>
     </div>
 </div>
 
 <div class="top-consultancies">
-    <div class="sub-title">Top Consultancies</div>
+    <!-- <div class="sub-title">Top Consultancies</div> -->
+     <Badge>Top Consultancies</Badge>
     <div class="top-consultancies-inner">
         {#each data as indData, i}
             {#if i <= 5}
@@ -56,9 +46,12 @@
         {/each}
     </div>
     <div class="btn-div">
-        <button class="view-consultancies-btn">
-            <a href="./consultancy">View all Consultancies</a>
-        </button>
+        <Button color="alternative">
+            <a class="text-lg flex items-center" href="./consultancies">
+                View all Consultancies
+                <ArrowRightOutline class="w-5 h-5 ms-2" />
+            </a>
+        </Button>
     </div>
 </div>
 
@@ -72,9 +65,12 @@
         {/each}
     </div>
     <div class="btn-div">
-        <button class="view-countries-btn">
-            <a href="./study-abroad">View all Countries</a>
-        </button>
+        <Button color="alternative">
+            <a class="text-lg flex items-center" href="./study-abroad">
+                View all Destinations
+                <ArrowRightOutline class="w-5 h-5 ms-2" />
+            </a>
+        </Button>
     </div>
 </div>
 
@@ -88,31 +84,27 @@
         {/each}
     </div>
     <div class="btn-div">
-        <button class="view-tests-btn">
-            <a href="./test-guides">View all Tests</a>
-        </button>
+        <Button color="alternative">
+            <a class="text-lg flex items-center" href="./test-guides">
+                View all Guides
+                <ArrowRightOutline class="w-5 h-5 ms-2" />
+            </a>
+        </Button>
     </div>
 </div>
 
 <div class="faqs">
     <div class="sub-title">FAQ</div>
-    <div class="faqs-inner">
-        <div class="questions">
-            {#each faqData as item, i}
-                <div
-                    on:click={() => handleFaq(i)}
-                    class={i == activeQuestion ? "aq question" : "question"}
-                >
-                    <i class="fa-solid fa-chevron-right"></i>
-                    {item.question}
-                </div>
-            {/each}
-        </div>
-        <div class="answer">
-            <i class="fa-solid fa-chevron-right"></i>
-            {faqAnswer}
-        </div>
-    </div>
+    <Accordion inactiveClass="text-gray-500 dark:text-gray-400 bg-white dark:hover:bg-gray-800">
+        {#each faqData as item, i}
+            <AccordionItem >
+                <span slot="header">{item.question}</span>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                    {item.answer}
+                </p>
+            </AccordionItem>
+        {/each}
+    </Accordion>
 </div>
 
 {#if openClassImgModal}
