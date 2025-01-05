@@ -28,7 +28,8 @@
 </div>
 
 <div class="top-consultancies">
-    <div class="sub-title">Top Consultancies</div>
+    <!-- <div class="sub-title">Top Consultancies</div> -->
+     <Badge>Top Consultancies</Badge>
     <div class="top-consultancies-inner">
         {#each data as indData, i}
             {#if i <= 5}
@@ -46,7 +47,7 @@
     </div>
     <div class="btn-div">
         <Button color="alternative">
-            <a class="text-lg flex items-center" href="./consultancy">
+            <a class="text-lg flex items-center" href="./consultancies">
                 View all Consultancies
                 <ArrowRightOutline class="w-5 h-5 ms-2" />
             </a>
@@ -64,9 +65,12 @@
         {/each}
     </div>
     <div class="btn-div">
-        <button class="view-countries-btn">
-            <a href="./study-abroad">View all Countries</a>
-        </button>
+        <Button color="alternative">
+            <a class="text-lg flex items-center" href="./study-abroad">
+                View all Destinations
+                <ArrowRightOutline class="w-5 h-5 ms-2" />
+            </a>
+        </Button>
     </div>
 </div>
 
@@ -80,9 +84,12 @@
         {/each}
     </div>
     <div class="btn-div">
-        <button class="view-tests-btn">
-            <a href="./test-guides">View all Tests</a>
-        </button>
+        <Button color="alternative">
+            <a class="text-lg flex items-center" href="./test-guides">
+                View all Guides
+                <ArrowRightOutline class="w-5 h-5 ms-2" />
+            </a>
+        </Button>
     </div>
 </div>
 

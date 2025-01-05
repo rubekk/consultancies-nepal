@@ -67,6 +67,7 @@ li{
     border-bottom: 2px solid var(--blue);
 }
 .top-consultancies-inner{
+    padding: 1rem .5rem;
     display: flex;
     gap: 15px;
     border-radius: 3px;
@@ -100,8 +101,6 @@ li{
     flex-wrap: wrap;
     gap: 15px;
 }
-
-/* test-guides */
 
 /* class image modal */
 .class-img-modal{

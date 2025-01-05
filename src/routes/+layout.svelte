@@ -5,5 +5,5 @@
 </script>
 
 <Header />
-<slot></slot>n
+<slot></slot>
  <Footer />

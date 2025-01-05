@@ -76,20 +76,6 @@
     .consultancy-address i {
         margin-right: 0.25rem;
     }
-    .view-more-btn {
-        padding: 0.5rem 0.7rem 0.5rem 0.75rem;
-        font-size: 0.75rem;
-        color: #fff;
-        background-color: var(--blue);
-        border: none;
-        border-radius: 3px;
-    }
-    .view-more-btn a {
-        color: #fff;
-    }
-    .view-more-btn i {
-        margin-left: 0.5rem;
-    }
 
     /* media queries */
     @media (max-width: 425px) {
