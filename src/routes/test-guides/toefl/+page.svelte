@@ -1,7 +1,3 @@
-<script>
-    import "./../style.css";
-</script>
-
 <svelte:head>
   <title>StudyAbroadNP - Everything You Need to Know About TOEFL</title>
 </svelte:head>

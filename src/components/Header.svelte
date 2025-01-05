@@ -11,7 +11,7 @@
     import { ChevronDownOutline } from "flowbite-svelte-icons";
 </script>
 
-<Navbar>
+<Navbar class="border-b border-solid border-gray">
     <NavBrand href="/">
         <img
             src="/favicon.png"
@@ -32,7 +32,7 @@
             />
         </NavLi>
         <Dropdown class="w-44 z-20">
-            <DropdownItem href="/study-abroad/australia">Study in Australis</DropdownItem>
+            <DropdownItem href="/study-abroad/australia">Study in Australia</DropdownItem>
             <DropdownItem href="/study-abroad/usa">Study in USA</DropdownItem>
             <DropdownItem href="/study-abroad/canada">Study in Canada</DropdownItem>
             <DropdownItem href="/study-abroad/united-kingdom">Study in UK</DropdownItem>
