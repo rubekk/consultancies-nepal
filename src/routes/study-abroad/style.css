@@ -1,9 +1,25 @@
+.countries-breadcrumb{
+    margin: 1rem 0 ;
+    position: sticky; 
+}
+.country-row{
+    margin: 0 2rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.country-left{
+    width: 70%;
+}
+
+.country-right{
+    width:20%;
+    align-self: flex-start;
+    position: sticky;
+    top: 1rem;
+}
 .study-abroad-blog-container{
-    margin: 2rem auto;
     padding: 0 1.3rem;
-    width: 800px;
-    border-left: 2px solid #dcdcdc;
-    border-right: 2px solid #dcdcdc;
     text-align: justify;
 }
 .study-abroad-blog-container img{
