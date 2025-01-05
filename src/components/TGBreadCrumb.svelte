@@ -1,5 +1,10 @@
 <script>
+    import { page } from "$app/stores";
     import { Breadcrumb, BreadcrumbItem } from "flowbite-svelte";
+
+    let filteredUrl = $page?.url?.pathname?.replace("/test-guides/", "") || "";
+
+    $: filteredUrl = $page?.url?.pathname?.replace("/test-guides/", "").toUpperCase() || "";
 </script>
 
 <Breadcrumb
@@ -8,5 +13,5 @@
 >
     <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
     <BreadcrumbItem href="/test-guides">Test Guides</BreadcrumbItem>
-    <BreadcrumbItem>IELTS</BreadcrumbItem>
+    <BreadcrumbItem>{filteredUrl}</BreadcrumbItem>
 </Breadcrumb>

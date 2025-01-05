@@ -7,7 +7,7 @@
         name = "Good Consultancy",
         address = "Kathmandu";
 
-    let link = "./consultancy/" + name.toLowerCase().replaceAll(" ", "-");
+    let link = "./consultancies/" + name.toLowerCase().replaceAll(" ", "-");
 </script>
 
 <div class="card">

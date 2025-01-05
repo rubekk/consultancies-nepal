@@ -1,6 +1,7 @@
 /* layout style */
 .test-guides-breadcrumb {
     margin: 1rem 0;
+    position: sticky;
 }
 .test-guides-row {
     margin: 0 2rem 2rem;
@@ -12,6 +13,9 @@
 }
 .test-guides-right {
     width: 20%;
+    align-self: flex-start; 
+    position: sticky; 
+    top: 1rem;
 }
 
 .test-container{
