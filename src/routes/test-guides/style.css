@@ -1,12 +1,22 @@
-.test-container{
-    margin: 2rem 0;
-    padding: 0 1.3rem;
-    /* width: 1300px; */
+/* layout style */
+.test-guides-breadcrumb {
+    margin: 1rem 0;
+}
+.test-guides-row {
+    margin: 0 2rem 2rem;
     display: flex;
-    text-align: justify;
-    justify-content: space-around;
-    gap: 5rem;
+    gap: 1rem;
+}
+.test-guides-left {
+    width: 70%;
+}
+.test-guides-right {
+    width: 20%;
+}
 
+.test-container{
+    padding: 0 1.3rem;
+    text-align: justify;
 }
 .test-container h1{
     font-size: 22px ;
@@ -28,19 +38,6 @@
     font-size: 1.1rem;
     font-style: italic;
     font-weight: 600;
-}
-
-/* new style */
-
-
-
-.left-container{
-    /* padding-left: 2rem; */
-    width: 60%;
-}
-
-.right-container{
-    width: 25%;
 }
 
 /* media queries */
