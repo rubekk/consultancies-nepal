@@ -2,7 +2,7 @@
   import { page } from "$app/stores";
   import { Listgroup } from "flowbite-svelte";
 
-  let testGuides = [
+  let topConsult = [
     { name: "AECC Global", href: "/consultancies/aecc-global" },
     {
       name: "Education Tree Global",
@@ -10,14 +10,12 @@
     },
   ];
 
-  $: filteredUrl =
-    $page?.url?.pathname?.replace("/test-guides/", "").toUpperCase() || "";
-  $: filteredGuides = testGuides.filter((guide) => {
-    return guide.name !== filteredUrl;
+  $: filteredConsult = topConsult.filter((consult) => {
+    return !$page?.url?.pathname?.includes(consult.href);
   });
 </script>
 
 <h2 class="ml-2 mb-2">Top Consultancy</h2>
-<Listgroup active items={filteredGuides} let:item class="w-50 text-xl">
+<Listgroup active items={filteredConsult} let:item class="w-50 text-xl">
   {item.name}
 </Listgroup>
