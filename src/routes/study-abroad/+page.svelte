@@ -8,7 +8,6 @@
 </svelte:head>
 
 <div class="countries">
-    <div class="page-title">List of Countries</div>
     <div class="countries-inner">
         {#each countryData as cData}
         <CountryCard countryData= {cData} />
