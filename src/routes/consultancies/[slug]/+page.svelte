@@ -1,8 +1,10 @@
 <script>
-	import {countriesList, testList } from "$lib/index.js";
+	import { countriesList, testList } from "$lib/index.js";
 	import { initializeApp } from "firebase/app";
     import { getFirestore, collection, addDoc } from "firebase/firestore";
-    import {firebaseConfig } from "$lib/firebaseConfig.js";
+    import { firebaseConfig } from "$lib/firebaseConfig.js";
+	import { Card, Button } from "flowbite-svelte";
+	import { ArrowRightOutline } from "flowbite-svelte-icons";
 
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app); 
@@ -91,7 +93,7 @@
 
 {#if data.address && data.phone}
 <div class="consultancy-container">
-	<div class="consultancy-landing">
+	<!-- <div class="consultancy-landing">
 		<div class="landing-background">
 			<div class="landing-txts">
 				<h1>{data.name}</h1>
@@ -113,10 +115,21 @@
 						<i class="fa-brands fa-linkedin"></i>
 					</a>
 				</div>
-				<button class="enquire" on:click={()=> openEnquiry= true}>Enquire <i class="fa-solid fa-chevron-right"></i></button>
+				<Button outline class="mt-4 text-white border-[var(--blue)]" on:click={()=> openEnquiry= true}>
+					Enquire 
+					<ArrowRightOutline class="w-5 h-5 ms-2" />
+				</Button>
 			</div>
 		</div>
-	</div>
+	</div> -->
+	  
+	<Card>
+		<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{data.name}</h5>
+		<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+		<Button class="w-fit">
+			Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+		</Button>
+	</Card>
 	<div class="consultancy-data">
 		<div class="data-nav">
 			<ul>

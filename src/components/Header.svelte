@@ -19,7 +19,7 @@
             alt="StudyAbroadNp Logo"
         />
         <span
-            class="self-center whitespace-nowrap text-xl font-semibold text-black dark:text-white"
+            class="self-center whitespace-nowrap text-xl font-semibold text-black"
             >Study<span class="text-[#2a73f4]"> Abroad</span>Np</span
         >
     </NavBrand>
@@ -28,7 +28,7 @@
         <NavLi class="cursor-pointer">
             Study Destinations
             <ChevronDownOutline
-                class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline"
+                class="w-6 h-6 ms-2 !text-[#374151] text-primary-800 inline"
             />
         </NavLi>
         <Dropdown class="w-44 z-20">
@@ -47,7 +47,7 @@
         <NavLi class="cursor-pointer">
             Test Guides
             <ChevronDownOutline
-                class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline"
+                class="w-6 h-6 ms-2 !text-[#374151] text-primary-800 inline"
             />
         </NavLi>
         <Dropdown class="w-44 z-20">
