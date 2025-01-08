@@ -13,5 +13,7 @@
 >
     <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
     <BreadcrumbItem href="/test-guides">Test Guides</BreadcrumbItem>
-    <BreadcrumbItem>{filteredUrl}</BreadcrumbItem>
+    {#if filteredUrl !=="/TEST-GUIDES"}
+        <BreadcrumbItem>{filteredUrl}</BreadcrumbItem>
+    {/if}
 </Breadcrumb>
