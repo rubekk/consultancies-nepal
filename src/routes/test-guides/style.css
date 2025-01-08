@@ -8,6 +8,9 @@
     display: flex;
     gap: 1rem;
 }
+.test-guides-row-single {
+    width: 100%;
+}
 .test-guides-left {
     width: 70%;
 }
