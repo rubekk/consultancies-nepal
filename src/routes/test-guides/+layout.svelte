@@ -1,11 +1,10 @@
 <script>
   import "./style.css";
+  import { page } from "$app/stores";
   import TGBreadcrumb from "../../components/TGBreadCrumb.svelte";
   import TGRight from "../../components/TGRight.svelte";
 
-  import { page } from "$app/stores";
-  // Destructure pathname from $page.url
-  let { pathname } = $page.url;
+  $: pathname = $page.url.pathname;
 </script>
 
 <div class="test-guides-layout">
@@ -13,11 +12,17 @@
     <TGBreadcrumb />
   </div>
   <div class="test-guides-row">
-    <div class="test-guides-left">
+    <div
+      class={pathname === "/test-guides"
+        ? "test-guides-row-single"
+        : "test-guides-left"}
+    >
       <slot></slot>
     </div>
-    <div class="test-guides-right">
-      <TGRight />
-    </div>
+    {#if pathname !== "/test-guides"}
+      <div class="test-guides-right">
+        <TGRight />
+      </div>
+    {/if}
   </div>
 </div>
