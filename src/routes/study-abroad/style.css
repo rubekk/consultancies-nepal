@@ -1,4 +1,4 @@
-.countries-breadcrumb{
+.country-breadcrumb{
     margin: 1rem 0 ;
     position: sticky; 
 }
@@ -6,6 +6,10 @@
     margin: 0 2rem 2rem;
     display: flex;
     gap: 1rem;
+}
+
+.country-row-single {
+    width: 100%;
 }
 
 .country-left{
