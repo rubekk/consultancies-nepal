@@ -15,10 +15,10 @@
 
   <h3>1. High-Quality Education</h3>
   <p>
-    Australia is known for its world-class education system and top-ranking
-    universities, such as the University of Melbourne, Australian National
-    University, and the University of Sydney. These institutions are renowned
-    for their excellent teaching, research facilities, and academic resources.
+    Australia is known for its world-class education system with top-ranking
+    universities like the University of Melbourne, Australian National
+    University, and the University of Sydney, renowned for their exceptional
+    teaching, research facilities, and academic resources.
   </p>
 
   <h3>2. Wide Range of Programs</h3>
