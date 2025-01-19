@@ -16,9 +16,6 @@
 </div>
 
 <style>
-    .countries{
-        padding: 3rem 2rem 4rem;
-    }
     .countries-inner{
         display: flex;
         justify-content: center;
