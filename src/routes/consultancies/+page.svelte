@@ -14,16 +14,3 @@
         {/each}
     </div>
 </div>
-
-<style>
-    .consultancies{
-        padding: 3rem 2rem 4rem;
-    }
-    .consultancies-inner{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-</style>
