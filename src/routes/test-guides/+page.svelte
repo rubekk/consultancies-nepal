@@ -7,10 +7,19 @@
   <title>StudyAbroadNP - Language Test Guides</title>
 </svelte:head>
 
+<<<<<<< HEAD
 <div class="test-guides">
   <div class="test-guides-inner">
     {#each testData as tData}
       <TestCard testData={tData} />
     {/each}
   </div>
+=======
+<div class="test-guides-pg">
+    <div class="test-guides-inner">
+        {#each testData as tData}
+            <TestCard testData={tData} />
+        {/each}
+    </div>
+>>>>>>> origin/master
 </div>
