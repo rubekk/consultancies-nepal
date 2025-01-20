@@ -12,13 +12,17 @@
     <TGBreadcrumb />
   </div>
   <div class="test-guides-row">
-    <div class={pathname === "/test-guides" ? "test-guides-row-single" : "test-guides-left"}>
+    <div
+      class={pathname === "/test-guides"
+        ? "test-guides-row-single"
+        : "test-guides-left"}
+    >
       <slot></slot>
     </div>
     {#if pathname !== "/test-guides"}
-    <div class="test-guides-right">
-      <TGRight />
-    </div>
+      <div class="test-guides-right">
+        <TGRight />
+      </div>
     {/if}
   </div>
 </div>

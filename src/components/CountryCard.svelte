@@ -1,39 +1,45 @@
 <script>
-    export let countryData;
+  export let countryData;
 
-    let formattedCountry= countryData.countryName.toLowerCase().replaceAll(" ","-");
+  let formattedCountry = countryData.countryName
+    .toLowerCase()
+    .replaceAll(" ", "-");
 </script>
 
 <div class="country-card">
-    <a href={`/study-abroad/${formattedCountry}`}>
-        <img class="country-card-img" src={countryData.imgSrc} alt={`Study in ${countryData.countryName}`}>
-        <p class="country-card-txt">{`Study in ${countryData.countryName}`}</p>
-    </a>
+  <a href={`/study-abroad/${formattedCountry}`}>
+    <img
+      class="country-card-img"
+      src={countryData.imgSrc}
+      alt={`${countryData.countryName}`}
+    />
+    <p class="country-card-txt">{`${countryData.countryName}`}</p>
+  </a>
 </div>
 
-<style> 
-    .country-card{
-        width: 300px;
-        height: 225px;
-        position: relative;
-        cursor: pointer;
-        box-shadow: 3px 3px 3px rgb(46 128 187 / 20%);
-    }
-    .country-card-img{
-        width: 100%;
-        height: 100%;
-        border-radius: 5px;
-    }
-    .country-card-txt{
-        padding: .25rem .5rem;
-        width: max-content;
-        color: #fff;
-        background-color: rgba(0,0,0,.5);
-        border-radius: 3px;
-        position: absolute;
-        left: 50%;
-        right: 50%;
-        bottom: 1rem;
-        transform: translateX(-50%);
-    }
+<style>
+  .country-card {
+    width: 300px;
+    height: 225px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(46 128 187 / 20%);
+  }
+  .country-card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  .country-card-txt {
+    padding: 0.25rem 0.5rem;
+    width: max-content;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);
+  }
 </style>
