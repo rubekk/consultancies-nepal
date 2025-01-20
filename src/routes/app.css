@@ -22,9 +22,6 @@ a{
 li{
     list-style: none;
 }
-.slot-container {
-    padding: 0 2.5rem !important;
-}
 
 /* landing image */
 .landing-img{

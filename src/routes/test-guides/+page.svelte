@@ -7,7 +7,7 @@
   <title>StudyAbroadNP - Language Test Guides</title>
 </svelte:head>
 
-<div class="test-guides">
+<div class="test-guides-page">
   <div class="test-guides-inner">
     {#each testData as tData}
       <TestCard testData={tData} />
