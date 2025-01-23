@@ -47,9 +47,9 @@
     <Li>CV/Resume</Li>
     <Li>Overseas Student Health Cover(OSHC)</Li>
     <Li>NO Objection Certificate</Li>
-  </List>
+  </List> <br />
 
-  <h2>Cost to Study in Australia (in NPR)</h2>
+  <Heading tag="h5">Cost to Study in Australia(in NPR)</Heading>
   <Table>
     <TableHead>
       <TableHeadCell>Program</TableHeadCell>
@@ -71,7 +71,7 @@
     </TableBody>
   </Table>
 
-  <h2>Language Score Requirements</h2>
+  <Heading tag="h5">Language Score Requirements</Heading>
   <Table>
     <TableHead>
       <TableHeadCell>Test</TableHeadCell>
@@ -101,7 +101,7 @@
     </TableBody>
   </Table>
 
-  <h2>Top Courses and Their Costs</h2>
+  <Heading tag="h5">Top Courses and Their Costs</Heading>
   <Table>
     <TableHead>
       <TableHeadCell>Course</TableHeadCell>
@@ -142,7 +142,7 @@
         >
       </TableBodyRow>
       <TableBodyRow>
-        <TableBodyCell>Arts and Humanitie</TableBodyCell>
+        <TableBodyCell>Arts and Humanities</TableBodyCell>
         <TableBodyCell>NPR 2,800,000 - NPR 4,000,000</TableBodyCell>
         <TableBodyCell
           >University of Melbourne,<br /> University of Sydney, <br /> Australian
@@ -152,7 +152,7 @@
     </TableBody>
   </Table>
 
-  <h2>Conclusion</h2>
+  <Heading tag="h5">Conclusion</Heading>
   <p>
     Australia is more than just a destination for higher education; it is a
     gateway to global opportunities and personal growth. With its excellent
