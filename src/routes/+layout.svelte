@@ -8,4 +8,4 @@
 <div class="slot-container">
     <slot></slot>
 </div>
- <Footer />
+<Footer />
