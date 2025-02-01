@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Study in Australia for Nepali Students: Programs, Fees, and Requirements.",
+  "description": "Discover everything Nepali students need to know about studying in Australia, including popular programs, tuition fees, language requirements, and visa details.",
+  "author": {
+    "@type": "Person",
+    "name": "Your Name or Organization"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Your Blog or Website Name",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.yourwebsite.com/logo.png"
+    }
+  },
+  "datePublished": "2025-02-01", 
+  "image": {
+    "@type": "ImageObject",
+    "url": "/imgs/australia.jpeg",
+    "alt": "Australia study destination with beautiful landscapes and renowned universities"
+  },
+  "mainEntityOfPage": "https://www.yourwebsite.com/study-in-australia-nepali-students",
+  "articleBody": [
+    {
+      "@type": "WebPageElement",
+      "name": "Introduction",
+      "text": "Australia is a top choice for international students, offering world-class education, diverse programs, and renowned universities like the University of Melbourne and Australian National University. With options in business, engineering, healthcare, and more, students can align their studies with career goals. The country's supportive visa policies, including post-study work options, and its multicultural, welcoming environment make it ideal for global learners."
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Required Documents for Studying in Australia",
+      "text": "Academic Documents, Financial Documents, Test Score, Statement of Purpose, Student Visa for Australia, Letter of Recommendation, Overseas Student Health Cover(OSHC), NO Objection Certificate."
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Tuition Fees",
+      "text": "Tuition Fees for Studying in Australia by Program: Diploma (NPR 1,200,000 - NPR 2,500,000), Undergraduate (NPR 2,500,000 - NPR 4,500,000), Graduate (NPR 3,000,000 - NPR 6,000,000)"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Language Score Requirements",
+      "text": "IELTS, TOEFL, PTE scores required for studying in Australia across diploma, undergraduate, and graduate programs."
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Popular Courses, Tuition Fees, and Universities in Australia",
+      "text": "Business and Management, Engineering and Tech, Information Technology, Health and Medicine, Arts and Humanities. Tuition Fees and Popular Universities listed."
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Conclusion",
+      "text": "Australia is more than just a destination for higher education; it is a gateway to global opportunities and personal growth. Whether you're pursuing a degree in a prestigious institution or exploring pathways to permanent residency, Australia offers the resources and support to help you succeed."
+    }
+  ],
+  "educationalOccupationalCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Diploma, Undergraduate, Graduate"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.yourwebsite.com/study-in-australia-nepali-students",
+    "priceCurrency": "NPR",
+    "price": "Varies by program",
+    "eligibleRegion": {
+      "@type": "Place",
+      "name": "Nepal"
+    }
+  }
+}

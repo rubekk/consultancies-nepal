@@ -1,0 +1,200 @@
+[
+    {
+        "country": "IELTS",
+        "data": {
+            "slug": "complete-ielts-test-guide",
+            "title": "Complete IELTS Test Guide: Preparation, Pattern, Cost, and Top Consultancies",
+            "meta_description": "Learn everything you need to know about the IELTS test, including test patterns, costs, preparation tips, and the best consultancies to help you succeed in your exam.",
+            "introduction": [
+                "The IELTS (International English Language Testing System) is a globally recognized English proficiency test essential for those aiming to study abroad, work, or migrate to English-speaking countries. The IELTS Academic test is typically required for higher education, while the IELTS General Training is more suited for work visas or migration."
+            ],
+            "featured_image": {
+                "url": "/imgs/ielts.jpeg",
+                "alt": "IELTS test preparation guide with study materials and test details"
+            },
+            "conclusion": "Achieving a high score on the IELTS opens doors to global opportunities in education, employment, and immigration. Whether you're aiming for university admission, a professional career, or settling abroad, IELTS provides an accurate assessment of your English proficiency. With its recognized format and widespread acceptance, preparing for and succeeding in the IELTS exam is a crucial step toward achieving your international goals. Start preparing today to unlock your future with IELTS.",
+            "test_pattern_table": {
+                "title": "IELTS Test Pattern: Listening, Reading, Writing & Speaking Breakdown",
+                "headings": [
+                    "Test Section",
+                    "Description of the Section"
+                ],
+                "description": "The IELTS test evaluates your English skills in four key areas: Listening, Reading, Writing, and Speaking. Here's a breakdown of what each section entails:",
+                "table_data": [
+                    {
+                        "test_section": "Listening (30 minutes)",
+                        "description": "Answer 40 questions based on four recordings with varied accents and contexts."
+                    },
+                    {
+                        "test_section": "Reading (60 minutes)",
+                        "description": "Complete 40 questions across three texts from books or magazines, testing different reading skills."
+                    },
+                    {
+                        "test_section": "Writing (60 minutes)",
+                        "description": "Divided into two tasks: Task 1 - Describe visual data (graphs/charts). Task 2 - Write an essay on a given topic."
+                    },
+                    {
+                        "test_section": "Speaking (11-14 minutes)",
+                        "description": "A face-to-face interview with three parts: introduction, topic discussion, and two-way dialogue."
+                    }
+                ]
+            },
+            "cost_of_test_table": {
+                "title": "IELTS Test Cost Breakdown: Fees, Additional Costs, and Preparation Expenses",
+                "headings": [
+                    "Cost Category",
+                    "Cost explanation"
+                ],
+                "description": "The cost of the IELTS exam varies by country and test center, typically ranging from $215 to $240. Here's a more detailed breakdown:",
+                "table_data": [
+                    {
+                        "cost_category": "Standard Test Fee",
+                        "explanation": "Covers the test and result issuance"
+                    },
+                    {
+                        "cost_category": "Additional Costs",
+                        "explanation": "Additional copies of results may cost around $20 each."
+                    },
+                    {
+                        "cost_category": "Cancellation and Rescheduling",
+                        "explanation": "Partial refunds may be available for cancellations over five weeks before the test, rescheduling fees also apply."
+                    },
+                    {
+                        "cost_category": "Preparation Costs",
+                        "explanation": "Budget for preparation materials or courses to boost your score."
+                    }
+                ]
+            },
+            "relevance_of_test": {
+                "title": "Relevance of IELTS for Further Studies",
+                "points": [
+                    {
+                        "heading": "University Admission",
+                        "description": "IELTS scores are required by many universities to evaluate English proficiency for academic success."
+                    },
+                    {
+                        "heading": "Visa Requirements",
+                        "description": "IELTS is often needed for student visa applications to demonstrate language proficiency."
+                    },
+                    {
+                        "heading": "Scholarships",
+                        "description": "High IELTS scores can improve eligibility for scholarships and financial aid opportunities."
+                    },
+                    {
+                        "heading": "Course Placement",
+                        "description": "IELTS scores help determine appropriate academic levels, potentially bypassing language courses."
+                    }
+                ]
+            },
+            "top_consultancies_for_test": {
+                "title": "Top IELTS Consultancies for Test Preparation",
+                "top_consultancies": [
+                    "Kangaroo Education Foundation",
+                    "Education Planet",
+                    "Global Reach Nepal",
+                    "Abroad Study Center",
+                    "AECC Global"
+                ]
+            }
+        }
+    },
+    {
+        "country": "TOEFL",
+        "data": {
+            "slug": "complete-toefl-test-guide",
+            "title": "Complete TOEFL Test Guide: Preparation, Pattern, Cost, and Top Consultancies",
+            "meta_description": "Learn everything you need to know about the TOEFL test, including test patterns, costs, preparation tips, and the best consultancies to help you succeed in your exam.",
+            "introduction": [
+                "The TOEFL (Test of English as a Foreign Language) is a widely recognized English proficiency test used for academic purposes. It is primarily taken by individuals who wish to study in English-speaking countries. TOEFL is accepted by over 11,000 universities and institutions in more than 150 countries."
+            ],
+            "featured_image": {
+                "url": "/imgs/toefl.jpeg",
+                "alt": "TOEFL test preparation guide with study materials and test details"
+            },
+            "conclusion": "Achieving a high score on the TOEFL opens doors to opportunities in higher education globally. Whether you're aiming for university admission or pursuing a professional career, TOEFL helps universities assess your ability to succeed in an English-speaking academic environment. With its worldwide recognition, preparing for and excelling in the TOEFL exam is a significant step toward realizing your educational goals. Start preparing today to unlock your future with TOEFL.",
+            "test_pattern_table": {
+                "title": "TOEFL Test Pattern: Listening, Reading, Writing & Speaking Breakdown",
+                "headings": [
+                    "Test Section",
+                    "Description of the Section"
+                ],
+                "description": "The TOEFL test evaluates your English skills in four key areas: Listening, Reading, Writing, and Speaking. Here's a breakdown of what each section entails:",
+                "table_data": [
+                    {
+                        "test_section": "Listening (60-90 minutes)",
+                        "description": "Answer 34-51 questions based on lectures, conversations, and discussions in academic settings."
+                    },
+                    {
+                        "test_section": "Reading (60-80 minutes)",
+                        "description": "Answer 36-56 questions based on 3-4 academic reading passages, testing comprehension and critical thinking skills."
+                    },
+                    {
+                        "test_section": "Writing (50 minutes)",
+                        "description": "Two tasks: Task 1 - Write an essay based on a reading and listening passage. Task 2 - Write an independent essay expressing your opinion on a topic."
+                    },
+                    {
+                        "test_section": "Speaking (20 minutes)",
+                        "description": "Four tasks that include responding to questions based on personal experience and speaking about a reading and listening passage."
+                    }
+                ]
+            },
+            "cost_of_test_table": {
+                "title": "TOEFL Test Cost Breakdown: Fees, Additional Costs, and Preparation Expenses",
+                "headings": [
+                    "Cost Category",
+                    "Cost Explanation"
+                ],
+                "description": "The cost of the TOEFL exam varies depending on the test center and country, generally ranging from $180 to $300. Here's a detailed breakdown:",
+                "table_data": [
+                    {
+                        "cost_category": "Standard Test Fee",
+                        "explanation": "Covers the test and result issuance."
+                    },
+                    {
+                        "cost_category": "Additional Costs",
+                        "explanation": "Each additional score report sent to institutions costs around $20."
+                    },
+                    {
+                        "cost_category": "Rescheduling or Cancellation",
+                        "explanation": "There are fees for rescheduling and cancellation, with varying refund policies depending on the timing."
+                    },
+                    {
+                        "cost_category": "Preparation Costs",
+                        "explanation": "Budget for preparation materials or courses to help you improve your score."
+                    }
+                ]
+            },
+            "relevance_of_test": {
+                "title": "Relevance of TOEFL for Further Studies",
+                "points": [
+                    {
+                        "heading": "University Admission",
+                        "description": "TOEFL scores are required by many universities to assess English proficiency for academic success."
+                    },
+                    {
+                        "heading": "Visa Requirements",
+                        "description": "TOEFL is often necessary for student visa applications to prove language proficiency."
+                    },
+                    {
+                        "heading": "Scholarships",
+                        "description": "High TOEFL scores increase eligibility for scholarships and financial aid opportunities."
+                    },
+                    {
+                        "heading": "Course Placement",
+                        "description": "TOEFL scores help determine appropriate course levels, potentially skipping language classes."
+                    }
+                ]
+            },
+            "top_consultancies_for_test": {
+                "title": "Top TOEFL Consultancies for Test Preparation",
+                "top_consultancies": [
+                    "Kangaroo Education Foundation",
+                    "Education Planet",
+                    "Global Reach Nepal",
+                    "Abroad Study Center",
+                    "AECC Global"
+                ]
+            }
+        }
+    }
+]

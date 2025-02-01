@@ -1,0 +1,48 @@
+[
+    {
+        "title": "AECC Global Consultancy,  Nepal | IELTS, TOEFL, PTE, GRE, GMAT Test Preparation",
+        "meta-description": "AECC Global in Kamal Pokhari, Kathmandu, offers expert guidance in IELTS, TOEFL, PTE, GRE, and GMAT preparation. Start your study abroad journey with one of Nepal's top education consultancies.",
+        "slug": "/aecc-global-consultancy-nepal",
+        "name": "AECC Global",
+        "address": "Kamal Pokhari, Kathmandu, Nepal",
+        "phone": "01-5970315",
+        "email": "info@aeccglobal.com",
+        "working_hours": "9 AM - 6 PM (Monday to Friday)",
+        "about": [
+            "AECC Global is a leading global international education consultancy, headquartered in Melbourne, Australia. We have supported the study abroad dreams of 50K+ international students, connecting them to the right study opportunities through over 750+ top educational institutions. AECC Global's EdTEch is a unified digital ecosystem that makes international education research and application a seamless self-guided process and is supported by our expert education guidance counsellors. AECC Global's strength lies in its 450+ highly committed employees across 42 branches in 15 countries and growing. Almost all our Education Counsellors have been international students at some point in their lives, so we really understand what it's like to be considering international study."
+        ],
+        "socials": {
+            "facebook": "https://www.facebook.com/AECCNepal/",
+            "instagram": "https://www.instagram.com/aecc.nepal/",
+            "youtube": "https://www.youtube.com/channel/UCCtwo7tqTfkr__pio4WQCkg",
+            "linkedin": "https://www.linkedin.com/company/aecc-global-nepal/"
+        },
+        "images": [
+            {
+                "alt": "AECC Global",
+                "src": "/imgs/aecc-global-1.jpeg"
+            }
+        ],
+        "thumbnailImage": "/imgs/aecc-global-logo.jpeg",
+        "testPreparations": [
+            "IELTS",
+            "TOEFL",
+            "PTE",
+            "GRE",
+            "GMAT"
+        ],
+        "countriesFocused": [
+            "Australia",
+            "Canada",
+            "UK",
+            "USA",
+            "New Zealand",
+            "France",
+            "Cyprus",
+            "Germany",
+            "Switzerland",
+            "UAE"
+        ],
+        "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2924028197476!2d85.32511167494923!3d27.708256825452246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1909b99b93a9%3A0x8d5a9aa79e4a45f0!2sAECC%20Global!5e0!3m2!1sen!2snp!4v1708522830177!5m2!1sen!2snp"
+    }
+]

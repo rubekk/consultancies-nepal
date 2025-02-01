@@ -20,14 +20,17 @@
 <div class="study-abroad-blog-container">
   <h1>Study in Australia: A Comprehensive Guide for Nepali Students</h1>
 
-  <img src="/imgs/australia.jpeg" alt="Australia Image" /><br />
+  <img src="/imgs/australia.jpeg" alt="Australia" />
+  <br />
   <p class="text-base mt-2">
     Australia is a top choice for international students, offering world-class
     education, diverse programs, and renowned universities like the University
     of Melbourne and Australian National University. With options in business,
     engineering, healthcare, and more, students can align their studies with
-    career goals. <br />
-    <br />The country’s supportive visa policies, including post-study work
+    career goals. 
+    <br />
+    <br />
+    The country's supportive visa policies, including post-study work
     options, and its multicultural, welcoming environment make it ideal for
     global learners. Beyond academics, Australia combines vibrant city life with
     stunning natural beauty, providing an exceptional and inclusive study
@@ -36,7 +39,7 @@
   <br />
 
   <Heading tag="h5">Required Documents</Heading>
-  <List position="inside">
+  <List list="disc" position="inside">
     <Li>Academic Documents</Li>
     <Li>Financial Documents</Li>
     <Li>Test Score</Li>
@@ -47,7 +50,8 @@
     <Li>CV/Resume</Li>
     <Li>Overseas Student Health Cover(OSHC)</Li>
     <Li>NO Objection Certificate</Li>
-  </List> <br />
+  </List> 
+  <br />
 
   <Heading tag="h5">Cost to Study in Australia(in NPR)</Heading>
   <Table>
@@ -129,10 +133,12 @@
         <TableBodyCell>Information Technology</TableBodyCell>
         <TableBodyCell>NPR 3,200,000 - NPR 4,800,000</TableBodyCell>
         <TableBodyCell
-          >Australian National University, <br /> University of Technology
-          Sydney,
-          <br />University of Melbourne</TableBodyCell
-        >
+          >Australian National University, 
+          <br /> 
+          University of Technology Sydney,
+          <br />
+          University of Melbourne
+        </TableBodyCell>
       </TableBodyRow>
       <TableBodyRow>
         <TableBodyCell>Health and Medicine</TableBodyCell>
