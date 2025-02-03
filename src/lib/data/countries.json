@@ -133,5 +133,130 @@
                 ]
             }
         }
+    },
+    {
+        "country": "Canada",
+        "data": {
+            "slug": "study-in-canada-nepali-students",
+            "title": "Study in Canada for Nepali Students: Programs, Fees, and Requirements",
+            "meta_description": "Complete guide for Nepali students planning to study in Canada: Explore top universities, tuition fees, visa requirements, language scores, and scholarship opportunities.",
+            "introduction": [
+                "Canada ranks among the world's top education destinations with globally recognized institutions like the University of Toronto and McGill University. Offering diverse programs in engineering, healthcare, business, and technology, it combines academic excellence with affordable tuition fees and post-study work opportunities.",
+                "Nepali students benefit from Canada's multicultural environment, high quality of life, and pathways to permanent residency. From vibrant cities like Toronto to breathtaking natural landscapes, Canada provides an ideal setting for academic success and personal growth."
+            ],
+            "required_documents": {
+                "title": "Required Documents for Studying in Canada",
+                "documents": [
+                    "Academic Documents",
+                    "Financial Documents",
+                    "Test Score (GRE/GMAT if applicable)",
+                    "English Language Proficiency Proof",
+                    "Statement of Purpose",
+                    "Student Visa for Canada",
+                    "Letter of Recommendation",
+                    "CV/Resume",
+                    "Overseas Student Health Cover(OSHC)",
+                    "NO Objection Certificate"
+                ]
+            },
+            "featured_image": {
+                "url": "/imgs/canada.jpeg",
+                "alt": "Canada study destination with iconic landscapes and top universities like University of Toronto and McGill"
+            },
+            "conclusion": "Studying in Canada offers Nepali students world-class education, extensive research opportunities, and a gateway to global careers. With flexible post-graduation work permits and a welcoming immigration policy, Canada ensures both academic excellence and long-term professional success. Start your journey today to join 642,000+ international students thriving in Canadian institutions.",
+            "cost_to_study_table": {
+                "title": "Tuition Fees for Studying in Canada by Program",
+                "headings": ["Programs", "Tution Fees (Per Year)"],
+                "table_data": [
+                    {
+                        "programs": "Diploma",
+                        "tution_fees": "NPR 1,000,000 - NPR 2,000,000"
+                    },
+                    {
+                        "programs": "Undergraduate",
+                        "tution_fees": "NPR 1,500,000 - NPR 3,500,000"
+                    },
+                    {
+                        "programs": "Graduate",
+                        "tution_fees": "NPR 2,000,000 - NPR 4,500,000"
+                    }
+                ]
+            },
+            "language_score_requirements_table": {
+                "title": "English Language Score Requirements for Studying in Canada",
+                "headings": ["Test", "Diploma", "Undergraduate", "Graduate"],
+                "table_data": [
+                    {
+                        "test": "IELTS",
+                        "diploma": "Overall 5.5, no band < 5.0",
+                        "undergraduate": "Overall 6.0, no band < 5.5",
+                        "graduate": "Overall 6.5, no band < 6.0"
+                    },
+                    {
+                        "test": "TOEFL",
+                        "diploma": "60-78",
+                        "undergraduate": "79-93",
+                        "graduate": "94-101"
+                    },
+                    {
+                        "test": "PTE",
+                        "diploma": "42-94",
+                        "undergraduate": "50-57",
+                        "graduate": "58-64"
+                    }
+                ]
+            },
+            "courses_and_cost_table": {
+                "title": "Popular Courses, Tuition Fees, and Universities in Canada",
+                "headings": ["Course", "Tution Fees (Per Year)", "Popular Universities"],
+                "table_data": [
+                    {
+                        "course": "Business and Management",
+                        "tution_fees": "NPR 2,000,000 - NPR 4,500,000",
+                        "popular_universities": [
+                            "McGill University",
+                            "University of Toronto",
+                            "University of British Columbia"
+                        ]
+                    },
+                    {
+                        "course": "Engineering and Tech",
+                        "tution_fees": "NPR 2,500,000 - NPR 5,000,000",
+                        "popular_universities": [
+                            "University of Waterloo",
+                            "University of Toronto",
+                            "University of British Columbia"
+                        ]
+                    },
+                    {
+                        "course": "Information Technology",
+                        "tution_fees": "NPR 2,200,000 - NPR 4,000,000",
+                        "popular_universities": [
+                            "University of Toronto",
+                            "University of British Columbia",
+                            "University of Waterloo"
+                        ]
+                    },
+                    {
+                        "course": "Health and Medicine",
+                        "tution_fees": "NPR 3,000,000 - NPR 6,000,000",
+                        "popular_universities": [
+                            "University of Toronto",
+                            "University of British Columbia",
+                            "McMaster University"
+                        ]
+                    },
+                    {
+                        "course": "Arts and Humanities",
+                        "tution_fees": "NPR 1,800,000 - NPR 3,500,000",
+                        "popular_universities": [
+                            "McGill University",
+                            "University of Toronto",
+                            "University of British Columbia"
+                        ]
+                    }
+                ]
+            }
+        }
     }
 ]

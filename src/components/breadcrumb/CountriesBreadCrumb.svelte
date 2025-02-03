@@ -5,7 +5,7 @@
   $: lastPathSegment =
     $page?.url?.pathname?.split("/").filter(Boolean).pop().toUpperCase().replaceAll("-", " ") || "";
 
-  $: showLastBreadcrumb = $page?.url?.pathname !== "/study-abroad";
+  $: showLastBreadcrumb = $page?.url?.pathname !== "/countries";
 </script>
 
 <Breadcrumb
@@ -13,7 +13,7 @@
   class="py-3 px-5 dark:bg-gray-900 w-100 mx-10 text-black-500"
 >
   <BreadcrumbItem href="/" home>HOME</BreadcrumbItem>
-  <BreadcrumbItem href="/study-abroad">DESTINATIONS</BreadcrumbItem>
+  <BreadcrumbItem href="/study-abroad">COUNTRIES</BreadcrumbItem>
   {#if showLastBreadcrumb}
     <BreadcrumbItem>
       { lastPathSegment }

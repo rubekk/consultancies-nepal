@@ -4,17 +4,17 @@
 	import { Badge, Carousel } from "flowbite-svelte";
 
 	const images = [
-    {
-      alt: 'Cosmic timetraveler',
-      src: '/images/carousel/cosmic-timetraveler-pYyOZ8q7AII-unsplash.webp',
-      title: 'cosmic-timetraveler-pYyOZ8q7AII-unsplash.com'
-    },
-    {
-      alt: 'Cristina Gottardi',
-      src: '/images/carousel/cristina-gottardi-CSpjU6hYo_0-unsplash.webp',
-      title: 'cristina-gottardi-CSpjU6hYo_0-unsplash.com'
-    }
-  ];
+		{
+			alt: "Cosmic timetraveler",
+			src: "/images/carousel/cosmic-timetraveler-pYyOZ8q7AII-unsplash.webp",
+			title: "cosmic-timetraveler-pYyOZ8q7AII-unsplash.com",
+		},
+		{
+			alt: "Cristina Gottardi",
+			src: "/images/carousel/cristina-gottardi-CSpjU6hYo_0-unsplash.webp",
+			title: "cristina-gottardi-CSpjU6hYo_0-unsplash.com",
+		},
+	];
 
 	export let data = {
 		name: "",
@@ -117,11 +117,11 @@
 				</a>
 			</div>
 			{#if data.images}
-			<div class="max-w-4xl">
-				<Carousel {images} let:Controls>
-				  <Controls />
-				</Carousel>
-			  </div>
+				<div class="max-w-4xl">
+					<Carousel {images} let:Controls>
+						<Controls />
+					</Carousel>
+				</div>
 			{/if}
 			<Badge class="mt-8 mb-4 text-[1.2rem]" color="indigo">About</Badge>
 			<p>

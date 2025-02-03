@@ -1,15 +1,15 @@
 <script>
   import "./style.css";
   import { page } from "$app/stores";
-  import CountryBCrumb from "../../components/CountryBCrumb.svelte";
-  import CountryRight from "../../components/CountryRight.svelte";
+  import CountriesBreadCrumb from "../../components/CountryBreadCrumb.svelte";
+  import CountriesRight from "../../components/right/CountriesRight.svelte";
 
   $: pathname = $page.url.pathname;
 </script>
 
 <div class="country-layout">
   <div class="country-breadcrumb">
-    <CountryBCrumb />
+    <CountriesBreadCrumb />
   </div>
   <div class="country-row">
     <div class={pathname === "/study-abroad" ? "country-row-single" : "country-left"}>
@@ -17,7 +17,7 @@
     </div>
     {#if pathname !== "/study-abroad"}
     <div class="country-right">
-      <CountryRight />
+      <CountriesRight />
     </div>
     {/if}
   </div>

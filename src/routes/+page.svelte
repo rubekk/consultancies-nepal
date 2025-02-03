@@ -1,18 +1,11 @@
 <script>
     import "./app.css";
     import { data, faqData, countryData, testData } from "$lib/index.js";
-    import Card from "../components/Card.svelte";
-    import CountryCard from "../components/CountryCard.svelte";
-    import TestCard from "../components/TestCard.svelte";
+    import ConsultancyCard from "../components/card/ConsultancyCard.svelte";
+    import CountryCard from "../components/card/CountryCard.svelte";
+    import TestCard from "../components/card/TestCard.svelte";
     import { AccordionItem, Accordion, Badge, Button } from "flowbite-svelte";
-    import { ArrowRightOutline } from 'flowbite-svelte-icons';
-
-    let openClassImgModal = false,
-        classImgModalSrc = "";
-
-    const closeModal = (e) => {
-        if (e.target.tagName !== "IMG") openClassImgModal = false;
-    };
+    import { ArrowRightOutline } from "flowbite-svelte-icons";
 </script>
 
 <svelte:head>
@@ -22,7 +15,7 @@
 <div class="landing-img">
     <div class="landing-tagline">
         <div class="tagline-txt">
-            Explore the best <span>Consultancy</span><br />for abroad study!
+            Explore the best <span>Consultancies</span><br />for abroad study!
         </div>
     </div>
 </div>
@@ -34,7 +27,7 @@
     <div class="top-consultancies-inner">
         {#each data as indData, i}
             {#if i <= 5}
-                <Card
+                <ConsultancyCard
                     name={indData.name}
                     address={indData.address
                         ? indData.address
@@ -102,9 +95,11 @@
     <div class="sub-title">
         <Badge class="mx-auto text-[1.5rem]">FAQs</Badge>
     </div>
-    <Accordion inactiveClass="text-gray-500 dark:text-gray-400 bg-white dark:hover:bg-gray-800">
+    <Accordion
+        inactiveClass="text-gray-500 dark:text-gray-400 bg-white dark:hover:bg-gray-800"
+    >
         {#each faqData as item, i}
-            <AccordionItem >
+            <AccordionItem>
                 <span slot="header">{item.question}</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     {item.answer}
@@ -113,10 +108,3 @@
         {/each}
     </Accordion>
 </div>
-
-{#if openClassImgModal}
-    <div on:click={(e) => closeModal(e)} class="class-img-modal">
-        <i class="fa-solid fa-times"></i>
-        <img src={classImgModalSrc} alt="Class Image" />
-    </div>
-{/if}

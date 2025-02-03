@@ -1,15 +1,15 @@
 <script>
   import "./style.css";
   import { page } from "$app/stores";
-  import TGBreadcrumb from "../../components/TestGuidesBCrumb.svelte";
-  import TGRight from "../../components/TestGuidesRight.svelte";
+  import TestGuidesBreadcrumb from "../../components/breadcrumb/TestGuidesBreadCrumb.svelte";
+  import TestGuidesRight from "../../components/right/TestGuidesRight.svelte";
 
   $: pathname = $page.url.pathname;
 </script>
 
 <div class="test-guides-layout">
   <div class="test-guides-breadcrumb">
-    <TGBreadcrumb />
+    <TestGuidesBreadcrumb />
   </div>
   <div class="test-guides-row">
     <div
@@ -21,7 +21,7 @@
     </div>
     {#if pathname !== "/test-guides"}
       <div class="test-guides-right">
-        <TGRight />
+        <TestGuidesRight />
       </div>
     {/if}
   </div>

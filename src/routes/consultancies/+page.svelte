@@ -1,5 +1,5 @@
 <script>
-  import Card from "../../components/Card.svelte";
+  import ConsultancyCard from "../../components/card/ConsultancyCard.svelte";
   import { data } from "$lib/index.js";
 
   let sortedData = data.slice().sort((a, b) => {
@@ -17,7 +17,7 @@
 <div class="consultancies">
   <div class="consultancies-inner">
     {#each sortedData as indData}
-      <Card
+      <ConsultancyCard
         name={indData.name}
         address={indData.address ? indData.address : "Putalisadak, Kathmandu"}
         imgSrc={indData.thumbnailImage ? indData.thumbnailImage : ""}
