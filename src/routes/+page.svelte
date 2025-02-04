@@ -6,6 +6,12 @@
     import TestCard from "../components/card/TestCard.svelte";
     import { AccordionItem, Accordion, Badge, Button } from "flowbite-svelte";
     import { ArrowRightOutline } from "flowbite-svelte-icons";
+
+    // let cOrU = "Consultancies"
+
+    // setInverval(() => {
+    //     cOrU = cOrU === "Consultancies" ? "Univesities" : "Consultancies"
+    // }, 5000)
 </script>
 
 <svelte:head>

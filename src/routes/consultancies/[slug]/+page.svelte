@@ -6,12 +6,14 @@
 	const images = [
 		{
 			alt: "Cosmic timetraveler",
-			src: "/images/carousel/cosmic-timetraveler-pYyOZ8q7AII-unsplash.webp",
+			// src: "/images/carousel/cosmic-timetraveler-pYyOZ8q7AII-unsplash.webp",
+			src: "/imgs/abroad-study-1.jpeg",
 			title: "cosmic-timetraveler-pYyOZ8q7AII-unsplash.com",
 		},
 		{
 			alt: "Cristina Gottardi",
-			src: "/images/carousel/cristina-gottardi-CSpjU6hYo_0-unsplash.webp",
+			// src: "/images/carousel/cristina-gottardi-CSpjU6hYo_0-unsplash.webp",
+			src: "/imgs/aecc-global-1.jpeg",
 			title: "cristina-gottardi-CSpjU6hYo_0-unsplash.com",
 		},
 	];

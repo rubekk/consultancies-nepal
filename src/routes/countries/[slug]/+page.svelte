@@ -1,8 +1,8 @@
 <script>
     import {
-        List,
-        Li,
         Heading,
+        Li,
+        List,
         Table,
         TableBody,
         TableBodyCell,
@@ -23,29 +23,29 @@
 
 <div class="study-abroad-blog-container">
     <Heading tag="h1">{countryData.title}</Heading>
-
     <img
         src={countryData.featured_image.url}
         alt={countryData.featured_image.alt}
     />
-    <br />
-    <p class="text-base mt-2">
-        {#each countryData.introduction as introduction, index}
-            {#if index > 0}
-                <br /><br />
-            {/if}
+    {#each countryData.introduction as introduction}
+        <p>
             {introduction}
-        {/each}
-    </p>
+        </p>
+    {/each}
 
     <Heading tag="h2">{countryData.required_documents.title}</Heading>
-    <List list="disc" position="inside">
+    <p>{countryData.required_documents.starting_description}</p>
+    <List list="decimal" position="inside">
         {#each countryData.required_documents.documents as document}
-            <Li>{document}</Li>
+            <Li
+                ><strong>{document.document_title}</strong> - {document.document_info}</Li
+            >
         {/each}
     </List>
+    <p>{countryData.required_documents.ending_description}</p>
 
     <Heading tag="h2">{countryData.cost_to_study_table.title}</Heading>
+    <p>{countryData.cost_to_study_table.starting_description}</p>
     <Table>
         <TableHead>
             {#each countryData.cost_to_study_table.headings as heading}
@@ -61,10 +61,12 @@
             {/each}
         </TableBody>
     </Table>
+    <p>{countryData.cost_to_study_table.ending_description}</p>
 
     <Heading tag="h2"
         >{countryData.language_score_requirements_table.title}</Heading
     >
+    <p>{countryData.language_score_requirements_table.starting_description}</p>
     <Table>
         <TableHead>
             {#each countryData.language_score_requirements_table.headings as heading}
@@ -82,8 +84,10 @@
             {/each}
         </TableBody>
     </Table>
+    <p>{countryData.language_score_requirements_table.ending_description}</p>
 
     <Heading tag="h2">{countryData.courses_and_cost_table.title}</Heading>
+    <p>{countryData.courses_and_cost_table.starting_description}</p>
     <Table>
         <TableHead>
             {#each countryData.courses_and_cost_table.headings as heading}
@@ -104,9 +108,12 @@
             {/each}
         </TableBody>
     </Table>
+    <p>{countryData.courses_and_cost_table.ending_description}</p>
 
     <Heading tag="h2">Conclusion</Heading>
-    <p>
-        {countryData.conclusion}
-    </p>
+    {#each countryData.conclusion as conclusion}
+        <p>
+            {conclusion}
+        </p>
+    {/each}
 </div>
