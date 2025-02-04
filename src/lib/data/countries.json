@@ -1,0 +1,660 @@
+[
+    {
+        "country": "Australia",
+        "data": {
+            "slug": "study-in-australia-nepali-students",
+            "title": "Study in Australia for Nepali Students: Programs, Fees, and Requirements.",
+            "meta_description": "Discover everything Nepali students need to know about studying in Australia, including popular programs, tuition fees, language requirements, and visa details.",
+            "introduction": [
+                "Australia is one of the most sought-after study destinations for Nepali students, offering high-quality education, globally recognized universities, and excellent career prospects. With a wide range of academic programs, from business and engineering to IT and healthcare, students can choose courses that align with their professional aspirations. The country's strong economy, multicultural society, and post-study work opportunities make it an attractive choice for higher education.",
+                "Moreover, Australia's student-friendly policies, including work permits during and after study, affordable tuition fees compared to other top destinations, and scholarship opportunities, further enhance its appeal. Whether you are looking for undergraduate, graduate, or diploma programs, studying in Australia can be a transformative experience that opens doors to global opportunities."
+            ],
+            "required_documents": {
+                "title": "Essential Documents for Nepali Students to Study in Australia",
+                "starting_description": "When applying for a student visa or university admission in Australia, you need to prepare and submit specific documents. These documents verify your eligibility, financial stability, and academic background. Below is a list of required documents:",
+                "ending_description": "Ensuring that all these documents are correctly prepared increases your chances of securing admission and obtaining a student visa successfully.",
+                "documents": [
+                    {
+                        "document_title": "Academic Documents",
+                        "document_info": "Include transcripts, certificates, and mark sheets from your previous education."
+                    },
+                    {
+                        "document_title": "Financial Documents",
+                        "document_info": "Proof of sufficient funds to cover tuition fees and living expenses in Australia."
+                    },
+                    {
+                        "document_title": "Test Score",
+                        "document_info": "IELTS, TOEFL, or PTE scores, as required by universities."
+                    },
+                    {
+                        "document_title": "Statement of Purpose (SOP)",
+                        "document_info": "A well-written SOP explaining your study goals and reasons for choosing Australia."
+                    },
+                    {
+                        "document_title": "Student Visa for Australia",
+                        "document_info": "Required for international students to legally study in Australia."
+                    },
+                    {
+                        "document_title": "Letter of Recommendation (LOR)",
+                        "document_info": "At least two letters from academic or professional references."
+                    },
+                    {
+                        "document_title": "Overseas Student Health Cover (OSHC)",
+                        "document_info": "A mandatory health insurance policy for international students."
+                    },
+                    {
+                        "document_title": "No Objection Certificate (NOC)",
+                        "document_info": "Issued by the Ministry of Education in Nepal."
+                    }
+                ]
+            },
+            "featured_image": {
+                "url": "/imgs/australia.jpeg",
+                "alt": "Australia study destination with beautiful landscapes and renowned universities"
+            },
+            "conclusion": [
+                "Australia is not just a study destination—it is a place that fosters personal growth, career advancement, and global networking opportunities. With its high-quality education system, multicultural environment, and post-study work options, Australia remains a top choice for Nepali students. From world-class universities to scholarship opportunities and affordable living conditions, studying in Australia is an investment in a bright future.",
+                "Whether you're looking to study business, engineering, IT, healthcare, or the arts, Australian institutions offer globally recognized programs that cater to every student's aspirations. By meeting the language requirements, preparing the necessary documents, and choosing the right course, Nepali students can embark on a life-changing academic journey in Australia."
+            ],
+            "cost_to_study_table": {
+                "title": "Tuition Fees for Studying in Australia by Program",
+                "starting_description": "Understanding the tuition fees is crucial for financial planning when studying in Australia. The cost varies depending on the university, course, and level of study. Below is an estimated cost breakdown for different programs in Australia:",
+                "ending_description": "Apart from tuition fees, students must also consider additional costs such as accommodation, transportation, food, and study materials. However, various scholarships and financial aid opportunities are available to help reduce the overall expenses.",
+                "headings": [
+                    "Programs",
+                    "Tution Fees (Per Year)"
+                ],
+                "table_data": [
+                    {
+                        "programs": "Diploma",
+                        "tution_fees": "NPR 1,200,000 - NPR 2,500,000"
+                    },
+                    {
+                        "programs": "Undergraduate",
+                        "tution_fees": "NPR 2,500,000 - NPR 4,500,000"
+                    },
+                    {
+                        "programs": "Graduate",
+                        "tution_fees": "NPR 3,000,000 - NPR 6,000,000"
+                    }
+                ]
+            },
+            "language_score_requirements_table": {
+                "title": "English Language Score Requirements for Studying in Australia",
+                "starting_description": "To study in Australia, international students, including those from Nepal, must meet specific English proficiency requirements. Universities accept standardized tests like IELTS, TOEFL, and PTE. Below are the minimum score requirements:",
+                "ending_description": "Meeting these language requirements is essential for university admission and visa approval. Students struggling with English proficiency can take preparatory courses before applying.",
+                "headings": [
+                    "Test",
+                    "Diploma",
+                    "Undergraduate",
+                    "Graduate"
+                ],
+                "table_data": [
+                    {
+                        "test": "IELTS",
+                        "diploma": "Overall 5.5, no band < 5.0",
+                        "undergraduate": "Overall 6.0, no band < 5.5",
+                        "graduate": "Overall 6.5, no band < 6.0"
+                    },
+                    {
+                        "test": "TOEFL",
+                        "diploma": "60-78",
+                        "undergraduate": "79-93",
+                        "graduate": "94-101"
+                    },
+                    {
+                        "test": "PTE",
+                        "diploma": "42-94",
+                        "undergraduate": "50-57",
+                        "graduate": "58-64"
+                    }
+                ]
+            },
+            "courses_and_cost_table": {
+                "title": "Popular Courses, Tuition Fees, and Universities in Australia",
+                "starting_description": "Australia offers a variety of academic programs in top-ranked universities. Some of the most popular fields of study among Nepali students include business, engineering, IT, healthcare, and arts. Below is a detailed table outlining course options, estimated tuition fees, and the best universities for each program:",
+                "ending_description": "Choosing the right course is essential for a successful career. Australia’s top universities provide internationally recognized degrees that enhance employment prospects worldwide.",
+                "headings": [
+                    "Course",
+                    "Tution Fees (Per Year)",
+                    "Popular Universities"
+                ],
+                "table_data": [
+                    {
+                        "course": "Business and Management",
+                        "tution_fees": "NPR 3,000,000 - NPR 4,500,000",
+                        "popular_universities": [
+                            "University of Melbourne",
+                            "University of Sydney",
+                            "University of Queensland"
+                        ]
+                    },
+                    {
+                        "course": "Engineering and Tech",
+                        "tution_fees": "NPR 3,500,000 - NPR 5,500,000",
+                        "popular_universities": [
+                            "University of New South Wales",
+                            "University of Melbourne",
+                            "Monash University"
+                        ]
+                    },
+                    {
+                        "course": "Information Technology",
+                        "tution_fees": "NPR 3,200,000 - NPR 4,800,000",
+                        "popular_universities": [
+                            "Australian National University",
+                            "University of Technology Sydney",
+                            "University of Melbourne"
+                        ]
+                    },
+                    {
+                        "course": "Health and Medicine",
+                        "tution_fees": "NPR 4,500,000 - NPR 6,500,000",
+                        "popular_universities": [
+                            "University of Sydney",
+                            "University of Melbourne",
+                            "Monash University"
+                        ]
+                    },
+                    {
+                        "course": "Arts and Humanities",
+                        "tution_fees": "NPR 2,800,000 - NPR 4,000,000",
+                        "popular_universities": [
+                            "University of Melbourne",
+                            "University of Sydney",
+                            "Australian National University"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "country": "Canada",
+        "data": {
+            "slug": "study-in-canada-nepali-students",
+            "title": "Study in Canada for Nepali Students: Programs, Fees, and Requirements.",
+            "meta_description": "Complete guide for Nepali students planning to study in Canada: Explore top universities, tuition fees, visa requirements, language scores, and scholarship opportunities.",
+            "introduction": [
+                "Canada ranks among the world's top education destinations with globally recognized institutions like the University of Toronto and McGill University. Offering diverse programs in engineering, healthcare, business, and technology, it combines academic excellence with affordable tuition fees and post-study work opportunities.",
+                "Nepali students benefit from Canada's multicultural environment, high quality of life, and pathways to permanent residency. From vibrant cities like Toronto to breathtaking natural landscapes, Canada provides an ideal setting for academic success and personal growth."
+            ],
+            "required_documents": {
+                "title": "Essential Documents for Nepali Students to Study in Canada",
+                "starting_description": "When applying for a student visa or university admission in Canada, you need to prepare and submit specific documents. These documents verify your eligibility, financial stability, and academic background. Below is a list of required documents:",
+                "ending_description": "Ensuring that all these documents are correctly prepared increases your chances of securing admission and obtaining a student visa successfully.",
+                "documents": [
+                    {
+                        "document_title": "Academic Documents",
+                        "document_info": "Include transcripts, certificates, and mark sheets from your previous education."
+                    },
+                    {
+                        "document_title": "Financial Documents",
+                        "document_info": "Proof of sufficient funds to cover tuition fees and living expenses in Canada."
+                    },
+                    {
+                        "document_title": "Test Score",
+                        "document_info": "GRE/GMAT if applicable, along with IELTS, TOEFL, or PTE scores as required by universities."
+                    },
+                    {
+                        "document_title": "Statement of Purpose (SOP)",
+                        "document_info": "A well-written SOP explaining your study goals and reasons for choosing Canada."
+                    },
+                    {
+                        "document_title": "Student Visa for Canada",
+                        "document_info": "Required for international students to legally study in Canada."
+                    },
+                    {
+                        "document_title": "Letter of Recommendation (LOR)",
+                        "document_info": "At least two letters from academic or professional references."
+                    },
+                    {
+                        "document_title": "Overseas Student Health Cover (OSHC)",
+                        "document_info": "A mandatory health insurance policy for international students."
+                    },
+                    {
+                        "document_title": "No Objection Certificate (NOC)",
+                        "document_info": "Issued by the Ministry of Education in Nepal."
+                    }
+                ]
+            },
+            "featured_image": {
+                "url": "/imgs/canada.jpeg",
+                "alt": "Canada study destination with iconic landscapes and top universities like University of Toronto and McGill"
+            },
+            "conclusion": [
+                "Studying in Canada offers Nepali students world-class education, extensive research opportunities, and a gateway to global careers. With flexible post-graduation work permits and a welcoming immigration policy, Canada ensures both academic excellence and long-term professional success.",
+                "From top universities to scholarship opportunities and affordable living conditions, Canada remains a top destination for Nepali students. By meeting the language requirements, preparing the necessary documents, and choosing the right course, students can embark on a life-changing academic journey in Canada."
+            ],
+            "cost_to_study_table": {
+                "title": "Tuition Fees for Studying in Canada by Program",
+                "starting_description": "Understanding the tuition fees is crucial for financial planning when studying in Canada. The cost varies depending on the university, course, and level of study. Below is an estimated cost breakdown for different programs in Canada:",
+                "ending_description": "Apart from tuition fees, students must also consider additional costs such as accommodation, transportation, food, and study materials. However, various scholarships and financial aid opportunities are available to help reduce the overall expenses.",
+                "headings": [
+                    "Programs",
+                    "Tution Fees (Per Year)"
+                ],
+                "table_data": [
+                    {
+                        "programs": "Diploma",
+                        "tution_fees": "NPR 1,000,000 - NPR 2,000,000"
+                    },
+                    {
+                        "programs": "Undergraduate",
+                        "tution_fees": "NPR 1,500,000 - NPR 3,500,000"
+                    },
+                    {
+                        "programs": "Graduate",
+                        "tution_fees": "NPR 2,000,000 - NPR 4,500,000"
+                    }
+                ]
+            },
+            "language_score_requirements_table": {
+                "title": "English Language Score Requirements for Studying in Canada",
+                "starting_description": "To study in Canada, international students, including those from Nepal, must meet specific English proficiency requirements. Universities accept standardized test scores as proof of language skills.",
+                "ending_description": "Meeting these language score requirements is essential for securing admission to Canadian institutions. However, some universities may offer conditional admission to students who fall slightly short of the required scores, allowing them to take additional English language courses before starting their academic program.",
+                "headings": [
+                    "Test",
+                    "Diploma",
+                    "Undergraduate",
+                    "Graduate"
+                ],
+                "table_data": [
+                    {
+                        "test": "IELTS",
+                        "diploma": "Overall 5.5, no band < 5.0",
+                        "undergraduate": "Overall 6.0, no band < 5.5",
+                        "graduate": "Overall 6.5, no band < 6.0"
+                    },
+                    {
+                        "test": "TOEFL",
+                        "diploma": "60-78",
+                        "undergraduate": "79-93",
+                        "graduate": "94-101"
+                    },
+                    {
+                        "test": "PTE",
+                        "diploma": "42-94",
+                        "undergraduate": "50-57",
+                        "graduate": "58-64"
+                    }
+                ]
+            },
+            "courses_and_cost_table": {
+                "title": "Popular Courses, Tuition Fees, and Universities in Canada",
+                "starting_description": "Canada is home to some of the world's top universities, offering a diverse range of programs for international students. From Business and Engineering to Information Technology and Health Sciences, Canadian universities provide high-quality education with globally recognized degrees. Below is a breakdown of popular courses, tuition fees, and top universities to help you plan your study abroad journey.",
+                "ending_description": "Tuition fees in Canada vary based on the course and institution, but students benefit from world-class education, research opportunities, and excellent career prospects. Scholarships and financial aid are also available to help reduce costs. Choosing the right program and university is key to a successful academic and professional future in Canada.",
+                "headings": [
+                    "Course",
+                    "Tution Fees (Per Year)",
+                    "Popular Universities"
+                ],
+                "table_data": [
+                    {
+                        "course": "Business and Management",
+                        "tution_fees": "NPR 2,000,000 - NPR 4,500,000",
+                        "popular_universities": [
+                            "McGill University",
+                            "University of Toronto",
+                            "University of British Columbia"
+                        ]
+                    },
+                    {
+                        "course": "Engineering and Tech",
+                        "tution_fees": "NPR 2,500,000 - NPR 5,000,000",
+                        "popular_universities": [
+                            "University of Waterloo",
+                            "University of Toronto",
+                            "University of British Columbia"
+                        ]
+                    },
+                    {
+                        "course": "Information Technology",
+                        "tution_fees": "NPR 2,200,000 - NPR 4,000,000",
+                        "popular_universities": [
+                            "University of Toronto",
+                            "University of British Columbia",
+                            "University of Waterloo"
+                        ]
+                    },
+                    {
+                        "course": "Health and Medicine",
+                        "tution_fees": "NPR 3,000,000 - NPR 6,000,000",
+                        "popular_universities": [
+                            "University of Toronto",
+                            "University of British Columbia",
+                            "McMaster University"
+                        ]
+                    },
+                    {
+                        "course": "Arts and Humanities",
+                        "tution_fees": "NPR 1,800,000 - NPR 3,500,000",
+                        "popular_universities": [
+                            "McGill University",
+                            "University of Toronto",
+                            "University of British Columbia"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "country": "USA",
+        "data": {
+            "slug": "study-in-usa-nepali-students",
+            "title": "Study in USA for Nepali Students: Programs, Fees, and Requirements.",
+            "meta_description": "Complete guide for Nepali students planning to study in the USA: Explore top universities, tuition fees, visa requirements, language scores, and scholarship opportunities.",
+            "introduction": [
+                "The USA is one of the most sought-after study destinations for international students, including those from Nepal. With prestigious universities like Harvard, MIT, and Stanford, the country offers top-tier education, cutting-edge research opportunities, and a diverse cultural experience.",
+                "Nepali students benefit from the USA's globally recognized degrees, extensive career prospects, and various scholarship options. With world-class faculty and state-of-the-art facilities, studying in the USA provides an excellent foundation for academic and professional success."
+            ],
+            "required_documents": {
+                "title": "Essential Documents for Nepali Students to Study in the USA",
+                "starting_description": "To apply for a student visa or admission to an American university, Nepali students need to prepare a set of crucial documents. These documents verify eligibility, academic history, and financial capacity. Below is a list of required documents:",
+                "ending_description": "Having all necessary documents in order is essential to ensure a smooth admission and visa approval process.",
+                "documents": [
+                    {
+                        "document_title": "Academic Documents",
+                        "document_info": "Official transcripts, certificates, and mark sheets from previous education."
+                    },
+                    {
+                        "document_title": "Financial Documents",
+                        "document_info": "Bank statements, sponsor letters, or affidavits proving financial capability to cover tuition and living expenses."
+                    },
+                    {
+                        "document_title": "Test Scores",
+                        "document_info": "Standardized test scores such as SAT/ACT for undergraduate studies and GRE/GMAT for graduate programs, along with English proficiency tests like TOEFL, IELTS, or Duolingo."
+                    },
+                    {
+                        "document_title": "Statement of Purpose (SOP)",
+                        "document_info": "An essay explaining your academic goals, career aspirations, and reasons for choosing the USA."
+                    },
+                    {
+                        "document_title": "Student Visa for the USA (F1 Visa)",
+                        "document_info": "Required for international students to legally study in the USA."
+                    },
+                    {
+                        "document_title": "Letter of Recommendation (LOR)",
+                        "document_info": "At least two letters from academic or professional references."
+                    },
+                    {
+                        "document_title": "Health Insurance",
+                        "document_info": "Mandatory for international students studying in the USA."
+                    },
+                    {
+                        "document_title": "SEVIS Fee Payment Receipt",
+                        "document_info": "Proof of payment for the Student and Exchange Visitor Information System (SEVIS) fee."
+                    }
+                ]
+            },
+            "featured_image": {
+                "url": "/imgs/usa.jpeg",
+                "alt": "USA study destination with top universities like Harvard, MIT, and Stanford"
+            },
+            "conclusion": [
+                "Studying in the USA opens doors to world-class education, extensive networking opportunities, and a bright career outlook. Nepali students can take advantage of the USA's advanced curriculum, research facilities, and cultural diversity to enhance their academic journey.",
+                "From scholarships to flexible work opportunities, the USA remains a top choice for higher education. With proper planning and preparation, Nepali students can fulfill their dream of studying in America and securing a successful future."
+            ],
+            "cost_to_study_table": {
+                "title": "Tuition Fees for Studying in the USA by Program",
+                "starting_description": "The cost of education in the USA varies by program and institution. Below is an estimated cost breakdown for different levels of study:",
+                "ending_description": "Besides tuition fees, students should consider additional expenses like accommodation, food, transportation, and books. Scholarships and financial aid can help ease the financial burden.",
+                "headings": [
+                    "Programs",
+                    "Tuition Fees (Per Year)"
+                ],
+                "table_data": [
+                    {
+                        "programs": "Diploma",
+                        "tuition_fees": "NPR 1,500,000 - NPR 3,000,000"
+                    },
+                    {
+                        "programs": "Undergraduate",
+                        "tuition_fees": "NPR 2,500,000 - NPR 5,500,000"
+                    },
+                    {
+                        "programs": "Graduate",
+                        "tuition_fees": "NPR 3,000,000 - NPR 6,500,000"
+                    }
+                ]
+            },
+            "language_score_requirements_table": {
+                "title": "English Language Score Requirements for Studying in the USA",
+                "starting_description": "International students, including those from Nepal, must meet specific English proficiency requirements to study in the USA. Universities accept standardized test scores as proof of language skills.",
+                "ending_description": "Some universities may offer conditional admission to students with slightly lower scores, requiring them to complete English language courses before starting their degree program.",
+                "headings": [
+                    "Test",
+                    "Diploma",
+                    "Undergraduate",
+                    "Graduate"
+                ],
+                "table_data": [
+                    {
+                        "test": "IELTS",
+                        "diploma": "Overall 5.5, no band < 5.0",
+                        "undergraduate": "Overall 6.0, no band < 5.5",
+                        "graduate": "Overall 6.5, no band < 6.0"
+                    },
+                    {
+                        "test": "TOEFL",
+                        "diploma": "60-78",
+                        "undergraduate": "79-93",
+                        "graduate": "94-101"
+                    },
+                    {
+                        "test": "Duolingo",
+                        "diploma": "85-95",
+                        "undergraduate": "100-120",
+                        "graduate": "120-130"
+                    }
+                ]
+            },
+            "courses_and_cost_table": {
+                "title": "Popular Courses, Tuition Fees, and Universities in the USA",
+                "starting_description": "The USA offers diverse academic programs across various fields. Below is a breakdown of popular courses, tuition fees, and top universities for international students:",
+                "ending_description": "With numerous scholarships and financial aid opportunities, studying in the USA remains an excellent investment for students worldwide.",
+                "headings": [
+                    "Course",
+                    "Tuition Fees (Per Year)",
+                    "Popular Universities"
+                ],
+                "table_data": [
+                    {
+                        "course": "Business and Management",
+                        "tuition_fees": "NPR 3,000,000 - NPR 6,500,000",
+                        "popular_universities": [
+                            "Harvard University",
+                            "Stanford University",
+                            "University of Pennsylvania"
+                        ]
+                    },
+                    {
+                        "course": "Engineering and Technology",
+                        "tuition_fees": "NPR 3,500,000 - NPR 7,000,000",
+                        "popular_universities": [
+                            "MIT",
+                            "Stanford University",
+                            "California Institute of Technology"
+                        ]
+                    },
+                    {
+                        "course": "Health and Medicine",
+                        "tuition_fees": "NPR 4,000,000 - NPR 8,000,000",
+                        "popular_universities": [
+                            "Johns Hopkins University",
+                            "Harvard University",
+                            "Mayo Clinic Alix School of Medicine"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "country": "United Kingdom",
+        "data": {
+          "slug": "study-in-uk-nepali-students",
+          "title": "Study in the UK for Nepali Students: Programs, Fees, and Requirements.",
+          "meta_description": "Complete guide for Nepali students planning to study in the UK: Explore top universities, tuition fees, visa requirements, language scores, and scholarship opportunities.",
+          "introduction": [
+            "The United Kingdom is home to some of the world's most prestigious universities, including the University of Oxford, the University of Cambridge, and Imperial College London. With a strong academic reputation, diverse programs, and excellent career prospects, the UK remains a top destination for Nepali students.",
+            "Nepali students benefit from the UK's globally recognized degrees, shorter course durations, and extensive post-study work opportunities. The country's multicultural environment, rich history, and vibrant cities make it an ideal place for international students to thrive."
+          ],
+          "required_documents": {
+            "title": "Essential Documents for Nepali Students to Study in the UK",
+            "starting_description": "To apply for a student visa and university admission in the UK, Nepali students must prepare essential documents. These documents confirm academic qualifications, financial ability, and language proficiency. Below is a list of the required documents:",
+            "ending_description": "Ensuring all documents are accurate and complete increases your chances of admission and successful visa approval.",
+            "documents": [
+              {
+                "document_title": "Academic Documents",
+                "document_info": "Transcripts, mark sheets, and certificates from previous education."
+              },
+              {
+                "document_title": "Financial Documents",
+                "document_info": "Bank statements or sponsor letters proving the ability to cover tuition and living expenses."
+              },
+              {
+                "document_title": "Test Score",
+                "document_info": "IELTS, TOEFL, or PTE scores as required by universities."
+              },
+              {
+                "document_title": "Statement of Purpose (SOP)",
+                "document_info": "A detailed essay explaining your study goals and reasons for choosing the UK."
+              },
+              {
+                "document_title": "UK Student Visa",
+                "document_info": "A valid student visa (Tier 4) for international students studying in the UK."
+              },
+              {
+                "document_title": "Letter of Recommendation (LOR)",
+                "document_info": "At least two recommendation letters from academic or professional referees."
+              },
+              {
+                "document_title": "Health Insurance",
+                "document_info": "International students must have health insurance for their stay in the UK."
+              }
+            ]
+          },
+          "featured_image": {
+            "url": "/imgs/uk.jpeg",
+            "alt": "UK study destination with renowned universities like Oxford and Cambridge."
+          },
+          "conclusion": [
+            "Studying in the UK provides Nepali students with a world-class education, diverse learning environments, and strong career opportunities. The country offers scholarships, post-study work options, and potential pathways to long-term residency.",
+            "By selecting the right course, meeting the entry requirements, and securing the necessary documents, Nepali students can embark on an enriching educational journey in the UK."
+          ],
+          "cost_to_study_table": {
+            "title": "Tuition Fees for Studying in the UK by Program",
+            "starting_description": "Understanding the tuition fees is crucial for financial planning. Below is an estimated cost breakdown for different programs in the UK:",
+            "ending_description": "Additional costs include accommodation, transportation, and study materials. Scholarships and financial aid options can help reduce expenses.",
+            "headings": [
+              "Programs",
+              "Tuition Fees (Per Year)"
+            ],
+            "table_data": [
+              {
+                "programs": "Diploma",
+                "tution_fees": "NPR 1,500,000 - NPR 2,500,000"
+              },
+              {
+                "programs": "Undergraduate",
+                "tution_fees": "NPR 2,500,000 - NPR 4,500,000"
+              },
+              {
+                "programs": "Graduate",
+                "tution_fees": "NPR 3,000,000 - NPR 5,500,000"
+              }
+            ]
+          },
+          "language_score_requirements_table": {
+            "title": "English Language Score Requirements for Studying in the UK",
+            "starting_description": "Nepali students must meet English proficiency requirements. Universities accept standardized test scores as proof of language skills.",
+            "ending_description": "Some universities offer conditional admission for students who slightly fall short of language requirements.",
+            "headings": [
+              "Test",
+              "Diploma",
+              "Undergraduate",
+              "Graduate"
+            ],
+            "table_data": [
+              {
+                "test": "IELTS",
+                "diploma": "Overall 5.5, no band < 5.0",
+                "undergraduate": "Overall 6.0, no band < 5.5",
+                "graduate": "Overall 6.5, no band < 6.0"
+              },
+              {
+                "test": "TOEFL",
+                "diploma": "60-78",
+                "undergraduate": "79-93",
+                "graduate": "94-101"
+              },
+              {
+                "test": "PTE",
+                "diploma": "42-94",
+                "undergraduate": "50-57",
+                "graduate": "58-64"
+              }
+            ]
+          },
+          "courses_and_cost_table": {
+            "title": "Popular Courses, Tuition Fees, and Universities in the UK",
+            "starting_description": "The UK offers a wide range of programs for international students. Below is a breakdown of popular courses, tuition fees, and top universities.",
+            "ending_description": "Choosing the right course and university is key to academic and professional success in the UK.",
+            "headings": [
+              "Course",
+              "Tuition Fees (Per Year)",
+              "Popular Universities"
+            ],
+            "table_data": [
+              {
+                "course": "Business and Management",
+                "tution_fees": "NPR 2,500,000 - NPR 5,000,000",
+                "popular_universities": [
+                  "London Business School",
+                  "University of Oxford",
+                  "University of Cambridge"
+                ]
+              },
+              {
+                "course": "Engineering and Technology",
+                "tution_fees": "NPR 3,000,000 - NPR 5,500,000",
+                "popular_universities": [
+                  "Imperial College London",
+                  "University of Oxford",
+                  "University of Manchester"
+                ]
+              },
+              {
+                "course": "Information Technology",
+                "tution_fees": "NPR 2,800,000 - NPR 5,000,000",
+                "popular_universities": [
+                  "University of Cambridge",
+                  "University of Edinburgh",
+                  "King's College London"
+                ]
+              },
+              {
+                "course": "Health and Medicine",
+                "tution_fees": "NPR 3,500,000 - NPR 6,500,000",
+                "popular_universities": [
+                  "University of Oxford",
+                  "University of Cambridge",
+                  "University of Glasgow"
+                ]
+              },
+              {
+                "course": "Arts and Humanities",
+                "tution_fees": "NPR 2,000,000 - NPR 4,000,000",
+                "popular_universities": [
+                  "University of Oxford",
+                  "University of Cambridge",
+                  "University College London"
+                ]
+              }
+            ]
+          }
+        }
+      }
+]

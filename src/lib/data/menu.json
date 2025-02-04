@@ -1,0 +1,71 @@
+{
+    "studyDestinations": [
+      {
+        "name": "Australia",
+        "slug": "study-in-australia-nepali-students"
+      },
+      {
+        "name": "USA",
+        "slug": "study-in-usa-nepali-students"
+      },
+      {
+        "name": "Canada",
+        "slug": "study-in-canada-nepali-students"
+      },
+      {
+        "name": "UK",
+        "slug": "study-in-uk-nepali-students"
+      },
+      {
+        "name": "New Zealand",
+        "slug": "study-in-new-zealand-nepali-students"
+      },
+      {
+        "name": "Japan",
+        "slug": "study-in-japan-nepali-students"
+      },
+      {
+        "name": "South Korea",
+        "slug": "study-in-south-korea-nepali-students"
+      },
+      {
+        "name": "Singapore",
+        "slug": "study-in-singapore-nepali-students"
+      },
+      {
+        "name": "Germany",
+        "slug": "study-in-germany-nepali-students"
+      },
+      {
+        "name": "Europe",
+        "slug": "study-in-europe-nepali-students"
+      }
+    ],
+    "testGuides": [
+      {
+        "name": "IELTS",
+        "slug": "ielts-test-guide-nepali-students"
+      },
+      {
+        "name": "PTE",
+        "slug": "pte-test-guide-nepali-students"
+      },
+      {
+        "name": "SAT",
+        "slug": "sat-test-guide-nepali-students"
+      },
+      {
+        "name": "TOEFL",
+        "slug": "toefl-test-guide-nepali-students"
+      },
+      {
+        "name": "GRE",
+        "slug": "gre-test-guide-nepali-students"
+      },
+      {
+        "name": "GMAT",
+        "slug": "gmat-test-guide-nepali-students"
+      }
+    ]
+  }
+  

@@ -1,6 +1,6 @@
 <script>
   import { testData } from "$lib/index.js";
-  import TestCard from "../../components/TestCard.svelte";
+  import TestCard from "../../components/card/TestCard.svelte";
 </script>
 
 <svelte:head>
