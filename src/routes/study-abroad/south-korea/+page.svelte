@@ -22,7 +22,14 @@
 
   <img src="/imgs/south-korea.jpeg" alt="South Korea Image" />
 
-  <p class="first-p">SEO</p>
+  <p class="first-p">
+    South Korea is a dynamic country known for its advanced technology, rich
+    cultural heritage, and global influence in entertainment. Home to bustling
+    cities like Seoul and Busan, the country blends modern skyscrapers with
+    historic palaces and temples. South Korea is a leader in industries such as
+    electronics, automotive, and telecommunications, with global brands like
+    Samsung, Hyundai, and LG driving its economy.
+  </p>
   <br />
 
   <Heading tag="h5">Required Documents</Heading>
@@ -134,5 +141,11 @@
   </Table>
 
   <Heading tag="h5">Conclusion</Heading>
-  <p>SEO</p>
+  <p>
+    South Korea continues to be a global powerhouse in technology, culture, and
+    economic growth. Its fusion of tradition and modernity, along with its
+    thriving industries and entertainment influence, makes it a key player on
+    the world stage. Whether for business, tourism, or cultural exploration,
+    South Korea offers limitless opportunities for innovation and discovery.
+  </p>
 </div>

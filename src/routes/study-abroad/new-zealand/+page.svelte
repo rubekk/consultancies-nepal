@@ -22,7 +22,14 @@
 
   <img src="/imgs/new-zealand.jpeg" alt="New Zealand Image" />
 
-  <p class="first-p">SEO</p>
+  <p class="first-p">
+    New Zealand is a stunning island nation known for its breathtaking
+    landscapes, rich Māori heritage, and strong economy. From the snow-capped
+    Southern Alps to the pristine beaches and lush forests, the country is a
+    paradise for nature lovers and adventure seekers. Major cities like
+    Auckland, Wellington, and Christchurch offer a blend of modern urban life
+    and cultural experiences.
+  </p>
   <br />
 
   <Heading tag="h5">Required Documents</Heading>
@@ -134,5 +141,12 @@
   </Table>
 
   <Heading tag="h5">Conclusion</Heading>
-  <p>SEO</p>
+  <p>
+    New Zealand stands out as a global leader in environmental conservation,
+    tourism, and innovation. Its unique landscapes, thriving economy, and
+    welcoming culture make it an ideal destination for travelers and
+    entrepreneurs. Whether exploring its natural wonders, engaging in trade, or
+    experiencing its rich traditions, New Zealand offers countless opportunities
+    for growth and adventure.
+  </p>
 </div>

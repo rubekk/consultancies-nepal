@@ -22,7 +22,15 @@
 
   <img src="/imgs/europe.jpeg" alt="Europe Image" />
 
-  <p class="first-p">SEO</p>
+  <p class="first-p">
+    Europe is a diverse continent known for its rich history, cultural heritage,
+    and economic influence. Home to iconic cities like Paris, London, and Rome,
+    it blends ancient landmarks with modern innovations. The European Union
+    plays a key role in global trade, while industries like tourism, technology,
+    and finance drive economic growth. With its well-connected infrastructure
+    and thriving markets, Europe remains a top destination for travelers and
+    businesses.
+  </p>
   <br />
 
   <Heading tag="h5">Required Documents</Heading>
@@ -149,5 +157,10 @@
   </Table>
 
   <Heading tag="h5">Conclusion</Heading>
-  <p>SEO</p>
+  <p>
+    Europe continues to be a global leader in culture, economy, and innovation.
+    Its mix of tradition and progress makes it a key player in international
+    trade and tourism. Whether for business, travel, or investment, Europe
+    offers endless opportunities for growth and exploration.
+  </p>
 </div>

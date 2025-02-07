@@ -22,7 +22,15 @@
 
   <img src="/imgs/germany.jpeg" alt="Germany Image" />
 
-  <p class="first-p">SEO</p>
+  <p class="first-p">
+    Germany is a powerhouse of history, culture, and economic influence in
+    Europe. Known for its rich heritage, iconic cities like Berlin, Munich, and
+    Hamburg, and stunning landscapes from the Black Forest to the Bavarian Alps,
+    Germany blends tradition with innovation. As Europe’s largest economy, it
+    leads in industries such as automotive, engineering, finance, and
+    technology. The country’s strong infrastructure, highly skilled workforce,
+    and emphasis on research and development make it a global economic leader.
+  </p>
   <br />
 
   <Heading tag="h5">Required Documents</Heading>
@@ -155,5 +163,12 @@
   </Table>
 
   <Heading tag="h5">Conclusion</Heading>
-  <p>SEO</p>
+  <p>
+    Germany remains a key player on the global stage, excelling in industry,
+    innovation, and cultural heritage. Its dynamic economy, rich history, and
+    modern advancements make it a hub for business, tourism, and education.
+    Whether exploring its vibrant cities, engaging in trade, or experiencing its
+    world-class culture, Germany continues to be a leading force in Europe and
+    beyond.
+  </p>
 </div>
