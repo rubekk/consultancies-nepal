@@ -11,6 +11,10 @@
   import { ChevronDownOutline } from "flowbite-svelte-icons"
   import { ROUTES } from "$lib/routes.js"
   import menuData from "$lib/data/menu.json"
+
+  const routeToLink = (link) => {
+    if(window !== undefined) window.location.href = ROUTES.STUDY_DESTINATIONS + "/" + link;
+  }
 </script>
 
 <Navbar class="border-b border-solid border-gray">
@@ -32,7 +36,7 @@
     </NavLi>
     <Dropdown class="w-44 z-20">
       {#each menuData.studyDestinations as destination}
-        <DropdownItem href={`${ROUTES.STUDY_DESTINATIONS}/${destination.slug}`}>{destination.name}</DropdownItem
+        <DropdownItem on:click={() => routeToLink(destination.slug)}>{destination.name}</DropdownItem
         >
       {/each}
     </Dropdown>

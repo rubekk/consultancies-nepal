@@ -1,28 +1,25 @@
 <script>
-  import "./style.css";
-  import { page } from "$app/stores";
-  import TestGuidesBreadcrumb from "../../components/breadcrumb/TestGuidesBreadCrumb.svelte";
-  import TestGuidesRight from "../../components/right/TestGuidesRight.svelte";
-
-  $: pathname = $page.url.pathname;
-</script>
-
-<div class="test-guides-layout">
-  <div class="test-guides-breadcrumb">
-    <TestGuidesBreadcrumb />
-  </div>
-  <div class="test-guides-row">
-    <div
-      class={pathname === "/test-guides"
-        ? "test-guides-row-single"
-        : "test-guides-left"}
-    >
-      <slot></slot>
+    import "./style.css";
+    import { page } from "$app/stores";
+    import TestGuidesBreadCrumb from "../../components/breadcrumb/TestGuidesBreadCrumb.svelte";
+    import TestGuidesRight from "../../components/right/TestGuidesRight.svelte";
+  
+    $: pathname = $page.url.pathname;
+  </script>
+  
+  <div class="country-layout">
+    <div class="country-breadcrumb">
+      <TestGuidesBreadCrumb />
     </div>
-    {#if pathname !== "/test-guides"}
-      <div class="test-guides-right">
+    <div class="country-row">
+      <div class={pathname === "/test-guides" ? "test-guides-row-single" : "test-guides-left"}>
+        <slot></slot>
+      </div>
+      {#if pathname !== "/country"}
+      <div class="country-right">
         <TestGuidesRight />
       </div>
-    {/if}
+      {/if}
+    </div>
   </div>
-</div>
+  

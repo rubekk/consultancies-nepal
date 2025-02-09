@@ -1,15 +1,15 @@
 <script>
     import { Button } from "flowbite-svelte";
     import { ArrowRightOutline } from "flowbite-svelte-icons";
-    export let testData;
+    export let testGuideData;
 </script>
 
 <div class="test-card">
-    <img class="test-img" src={testData.imgSrc} alt={`${testData.testName} Image`}>
+    <img class="test-img" src={testGuideData.imgSrc} alt={`${testGuideData.testName} Image`}>
     <div class="test-txt">
-        <p class="test-explain">{testData.testDetail}</p>
+        <p class="test-explain">{testGuideData.testDetail}</p>
         <Button class="bg-[#2a73f4]" size="xs">
-            <a class="text-white flex items-center" href={`/test-guides/${testData.testName.toLowerCase()}`}>
+            <a class="text-white flex items-center" href={`/test-guides/${testGuideData.testName.toLowerCase()}`}>
                 Read more
                 <ArrowRightOutline class="w-5 h-5 ms-2" />
             </a>
@@ -41,6 +41,7 @@
         width: 100%;
         font-size: .9rem;
         display: -webkit-box;
+        line-clamp: 3;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;  
         overflow: hidden;

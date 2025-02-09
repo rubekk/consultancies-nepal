@@ -196,5 +196,405 @@
                 ]
             }
         }
+    },
+    {
+        "country": "SAT",
+        "data": {
+            "slug": "complete-sat-test-guide",
+            "title": "Complete SAT Test Guide: Preparation, Pattern, Cost, and Top Consultancies",
+            "meta_description": "Discover everything about the SAT test, including exam patterns, fees, preparation strategies, and top consultancies to help you achieve your target score.",
+            "introduction": [
+                "The SAT (Scholastic Assessment Test) is a standardized exam widely used for college admissions in the United States. Designed to assess a student's readiness for higher education, the SAT is accepted by thousands of universities worldwide. The test evaluates mathematical skills, evidence-based reading, and writing abilities."
+            ],
+            "featured_image": {
+                "url": "/imgs/sat.jpeg",
+                "alt": "SAT test preparation materials with study guides and exam details"
+            },
+            "conclusion": "Scoring well on the SAT opens doors to prestigious universities and scholarship opportunities worldwide. By understanding the exam format, preparing strategically, and utilizing reliable resources, you can achieve a high SAT score and enhance your chances of admission to top institutions. Start your SAT preparation today and take the first step toward your academic aspirations.",
+            "test_pattern_table": {
+                "title": "SAT Test Pattern: Reading, Writing, and Mathematics Breakdown",
+                "headings": [
+                    "Test Section",
+                    "Description of the Section"
+                ],
+                "description": "The SAT evaluates students in three major areas: Evidence-Based Reading and Writing, Math, and an optional Essay. Here’s a breakdown of each section:",
+                "table_data": [
+                    {
+                        "test_section": "Reading (65 minutes)",
+                        "description": "Consists of 52 multiple-choice questions based on passages, testing comprehension and analytical skills."
+                    },
+                    {
+                        "test_section": "Writing and Language (35 minutes)",
+                        "description": "Includes 44 questions that assess grammar, sentence structure, and logical flow."
+                    },
+                    {
+                        "test_section": "Math (80 minutes)",
+                        "description": "Divided into two parts: a 25-minute no-calculator section and a 55-minute calculator-allowed section, covering algebra, geometry, and data analysis."
+                    },
+                    {
+                        "test_section": "Optional Essay (50 minutes)",
+                        "description": "Analyzes a given passage and evaluates a student’s ability to construct a logical argument."
+                    }
+                ]
+            },
+            "cost_of_test_table": {
+                "title": "SAT Test Cost Breakdown: Fees, Additional Costs, and Preparation Expenses",
+                "headings": [
+                    "Cost Category",
+                    "Cost Explanation"
+                ],
+                "description": "The SAT exam fees vary by region, with additional charges for extra services. Here’s a detailed breakdown:",
+                "table_data": [
+                    {
+                        "cost_category": "Standard SAT Fee",
+                        "explanation": "Costs around $60 for the test without the optional essay."
+                    },
+                    {
+                        "cost_category": "SAT with Essay",
+                        "explanation": "The optional essay section increases the cost to around $85."
+                    },
+                    {
+                        "cost_category": "Late Registration Fee",
+                        "explanation": "An additional charge of $30 applies for late registration."
+                    },
+                    {
+                        "cost_category": "Additional Score Reports",
+                        "explanation": "Each additional score report sent to colleges costs around $12."
+                    },
+                    {
+                        "cost_category": "Test Prep Costs",
+                        "explanation": "Students may need to budget for SAT prep books, online courses, or tutoring services."
+                    }
+                ]
+            },
+            "relevance_of_test": {
+                "title": "Relevance of SAT for Higher Studies",
+                "points": [
+                    {
+                        "heading": "College Admissions",
+                        "description": "SAT scores play a crucial role in the admission process for universities, particularly in the United States."
+                    },
+                    {
+                        "heading": "Scholarships",
+                        "description": "Many institutions offer merit-based scholarships to students with high SAT scores."
+                    },
+                    {
+                        "heading": "Course Placement",
+                        "description": "Strong SAT performance can help students secure advanced placements or waive certain coursework."
+                    },
+                    {
+                        "heading": "International Recognition",
+                        "description": "The SAT is accepted by universities in countries beyond the US, including Canada, the UK, and Australia."
+                    }
+                ]
+            },
+            "top_consultancies_for_test": {
+                "title": "Top SAT Consultancies for Test Preparation",
+                "top_consultancies": [
+                    "Manya - The Princeton Review",
+                    "Jamboree Education",
+                    "PrepScholar SAT Tutoring",
+                    "Manhattan Review",
+                    "Kaplan Test Prep"
+                ]
+            }
+        }
+    },
+    {
+        "country": "GRE",
+        "data": {
+            "slug": "complete-gre-test-guide",
+            "title": "Complete GRE Test Guide: Preparation, Pattern, Cost, and Top Consultancies",
+            "meta_description": "Learn everything about the GRE test, including exam structure, costs, preparation tips, and the best consultancies to help you achieve your target score.",
+            "introduction": [
+                "The GRE (Graduate Record Examination) is a standardized test required for admission into many graduate and business school programs worldwide. Administered by ETS, the GRE measures verbal reasoning, quantitative reasoning, and analytical writing skills. A strong GRE score can significantly improve your chances of getting into top universities."
+            ],
+            "featured_image": {
+                "url": "/imgs/gre.jpeg",
+                "alt": "GRE test preparation materials with study guides and exam details"
+            },
+            "conclusion": "Achieving a high GRE score can enhance your graduate school applications and open doors to scholarships and prestigious programs. By understanding the test pattern, managing preparation effectively, and using reliable resources, you can maximize your GRE performance. Start your GRE preparation today and take the next step toward your academic and career goals.",
+            "test_pattern_table": {
+                "title": "GRE Test Pattern: Verbal, Quantitative, and Analytical Writing Breakdown",
+                "headings": [
+                    "Test Section",
+                    "Description of the Section"
+                ],
+                "description": "The GRE assesses candidates in three key areas: Verbal Reasoning, Quantitative Reasoning, and Analytical Writing. Here’s a breakdown of each section:",
+                "table_data": [
+                    {
+                        "test_section": "Analytical Writing (60 minutes)",
+                        "description": "Includes two writing tasks: analyzing an issue and analyzing an argument."
+                    },
+                    {
+                        "test_section": "Verbal Reasoning (60 minutes)",
+                        "description": "Consists of two sections, each with 20 questions, testing reading comprehension, critical reasoning, and vocabulary."
+                    },
+                    {
+                        "test_section": "Quantitative Reasoning (70 minutes)",
+                        "description": "Includes two sections of 20 questions each, covering arithmetic, algebra, geometry, and data interpretation."
+                    },
+                    {
+                        "test_section": "Experimental Section (Unscored)",
+                        "description": "An unscored section testing new questions; may be verbal or quantitative."
+                    }
+                ]
+            },
+            "cost_of_test_table": {
+                "title": "GRE Test Cost Breakdown: Fees, Additional Costs, and Preparation Expenses",
+                "headings": [
+                    "Cost Category",
+                    "Cost Explanation"
+                ],
+                "description": "The GRE test fee varies by country, with additional charges for extra services. Here’s a detailed cost breakdown:",
+                "table_data": [
+                    {
+                        "cost_category": "Standard GRE Fee",
+                        "explanation": "The test costs around $220, depending on the location."
+                    },
+                    {
+                        "cost_category": "GRE Rescheduling Fee",
+                        "explanation": "Rescheduling costs around $50, depending on the region."
+                    },
+                    {
+                        "cost_category": "Additional Score Reports",
+                        "explanation": "Each extra score report sent to universities costs around $30."
+                    },
+                    {
+                        "cost_category": "Test Prep Costs",
+                        "explanation": "Students may need to budget for GRE prep books, online courses, or tutoring services."
+                    }
+                ]
+            },
+            "relevance_of_test": {
+                "title": "Relevance of GRE for Graduate Studies",
+                "points": [
+                    {
+                        "heading": "Graduate School Admissions",
+                        "description": "GRE scores are required for admission to many master’s and PhD programs worldwide."
+                    },
+                    {
+                        "heading": "Business Schools",
+                        "description": "An increasing number of MBA programs now accept GRE scores as an alternative to the GMAT."
+                    },
+                    {
+                        "heading": "Scholarships & Fellowships",
+                        "description": "A high GRE score can improve your chances of securing scholarships and research grants."
+                    },
+                    {
+                        "heading": "Program Eligibility",
+                        "description": "GRE scores help universities assess applicants' analytical and quantitative skills for advanced studies."
+                    }
+                ]
+            },
+            "top_consultancies_for_test": {
+                "title": "Top GRE Consultancies for Test Preparation",
+                "top_consultancies": [
+                    "Kaplan GRE Prep",
+                    "The Princeton Review",
+                    "Manhattan Prep",
+                    "Magoosh GRE Coaching",
+                    "Jamboree Education"
+                ]
+            }
+        }
+    },
+    {
+        "country": "GRE",
+        "data": {
+            "slug": "complete-gre-test-guide",
+            "title": "Complete GRE Test Guide: Preparation, Pattern, Cost, and Top Consultancies",
+            "meta_description": "Learn everything about the GRE test, including exam structure, costs, preparation tips, and the best consultancies to help you achieve your target score.",
+            "introduction": [
+                "The GRE (Graduate Record Examination) is a standardized test required for admission into many graduate and business school programs worldwide. Administered by ETS, the GRE measures verbal reasoning, quantitative reasoning, and analytical writing skills. A strong GRE score can significantly improve your chances of getting into top universities."
+            ],
+            "featured_image": {
+                "url": "/imgs/gre.jpeg",
+                "alt": "GRE test preparation materials with study guides and exam details"
+            },
+            "conclusion": "Achieving a high GRE score can enhance your graduate school applications and open doors to scholarships and prestigious programs. By understanding the test pattern, managing preparation effectively, and using reliable resources, you can maximize your GRE performance. Start your GRE preparation today and take the next step toward your academic and career goals.",
+            "test_pattern_table": {
+                "title": "GRE Test Pattern: Verbal, Quantitative, and Analytical Writing Breakdown",
+                "headings": [
+                    "Test Section",
+                    "Description of the Section"
+                ],
+                "description": "The GRE assesses candidates in three key areas: Verbal Reasoning, Quantitative Reasoning, and Analytical Writing. Here’s a breakdown of each section:",
+                "table_data": [
+                    {
+                        "test_section": "Analytical Writing (60 minutes)",
+                        "description": "Includes two writing tasks: analyzing an issue and analyzing an argument."
+                    },
+                    {
+                        "test_section": "Verbal Reasoning (60 minutes)",
+                        "description": "Consists of two sections, each with 20 questions, testing reading comprehension, critical reasoning, and vocabulary."
+                    },
+                    {
+                        "test_section": "Quantitative Reasoning (70 minutes)",
+                        "description": "Includes two sections of 20 questions each, covering arithmetic, algebra, geometry, and data interpretation."
+                    },
+                    {
+                        "test_section": "Experimental Section (Unscored)",
+                        "description": "An unscored section testing new questions; may be verbal or quantitative."
+                    }
+                ]
+            },
+            "cost_of_test_table": {
+                "title": "GRE Test Cost Breakdown: Fees, Additional Costs, and Preparation Expenses",
+                "headings": [
+                    "Cost Category",
+                    "Cost Explanation"
+                ],
+                "description": "The GRE test fee varies by country, with additional charges for extra services. Here’s a detailed cost breakdown:",
+                "table_data": [
+                    {
+                        "cost_category": "Standard GRE Fee",
+                        "explanation": "The test costs around $220, depending on the location."
+                    },
+                    {
+                        "cost_category": "GRE Rescheduling Fee",
+                        "explanation": "Rescheduling costs around $50, depending on the region."
+                    },
+                    {
+                        "cost_category": "Additional Score Reports",
+                        "explanation": "Each extra score report sent to universities costs around $30."
+                    },
+                    {
+                        "cost_category": "Test Prep Costs",
+                        "explanation": "Students may need to budget for GRE prep books, online courses, or tutoring services."
+                    }
+                ]
+            },
+            "relevance_of_test": {
+                "title": "Relevance of GRE for Graduate Studies",
+                "points": [
+                    {
+                        "heading": "Graduate School Admissions",
+                        "description": "GRE scores are required for admission to many master’s and PhD programs worldwide."
+                    },
+                    {
+                        "heading": "Business Schools",
+                        "description": "An increasing number of MBA programs now accept GRE scores as an alternative to the GMAT."
+                    },
+                    {
+                        "heading": "Scholarships & Fellowships",
+                        "description": "A high GRE score can improve your chances of securing scholarships and research grants."
+                    },
+                    {
+                        "heading": "Program Eligibility",
+                        "description": "GRE scores help universities assess applicants' analytical and quantitative skills for advanced studies."
+                    }
+                ]
+            },
+            "top_consultancies_for_test": {
+                "title": "Top GRE Consultancies for Test Preparation",
+                "top_consultancies": [
+                    "Kaplan GRE Prep",
+                    "The Princeton Review",
+                    "Manhattan Prep",
+                    "Magoosh GRE Coaching",
+                    "Jamboree Education"
+                ]
+            }
+        }
+    },
+    {
+        "country": "GMAT",
+        "data": {
+            "slug": "complete-gmat-test-guide",
+            "title": "Complete GMAT Test Guide: Preparation, Pattern, Cost, and Top Consultancies",
+            "meta_description": "Discover everything about the GMAT, including test format, fees, preparation tips, and top consultancies to help you succeed in your MBA journey.",
+            "introduction": [
+                "The GMAT (Graduate Management Admission Test) is a globally recognized standardized exam used for admission to business schools and MBA programs. It assesses analytical, quantitative, verbal, and writing skills required for success in graduate business education. The GMAT is accepted by over 7,000 programs worldwide, making it a crucial step for business school aspirants."
+            ],
+            "featured_image": {
+                "url": "/imgs/gmat.jpeg",
+                "alt": "GMAT test preparation guide with study materials and test details"
+            },
+            "conclusion": "A strong GMAT score can significantly enhance your chances of admission to top business schools and open doors to prestigious MBA programs worldwide. With strategic preparation, you can improve your performance and achieve your target score. Start your GMAT preparation today and take a step closer to your dream business school.",
+            "test_pattern_table": {
+                "title": "GMAT Test Pattern: Quantitative, Verbal, Analytical & Integrated Reasoning Breakdown",
+                "headings": [
+                    "Test Section",
+                    "Description of the Section"
+                ],
+                "description": "The GMAT evaluates candidates in four key areas: Analytical Writing, Integrated Reasoning, Quantitative, and Verbal. Here's a detailed breakdown of each section:",
+                "table_data": [
+                    {
+                        "test_section": "Analytical Writing Assessment (30 minutes)",
+                        "description": "Analyze an argument and provide a well-structured critique."
+                    },
+                    {
+                        "test_section": "Integrated Reasoning (30 minutes)",
+                        "description": "Interpret and analyze data from multiple sources, including graphs and tables."
+                    },
+                    {
+                        "test_section": "Quantitative Reasoning (62 minutes)",
+                        "description": "Includes problem-solving and data sufficiency questions to test mathematical and analytical skills."
+                    },
+                    {
+                        "test_section": "Verbal Reasoning (65 minutes)",
+                        "description": "Tests reading comprehension, critical reasoning, and sentence correction."
+                    }
+                ]
+            },
+            "cost_of_test_table": {
+                "title": "GMAT Test Cost Breakdown: Fees, Additional Costs, and Preparation Expenses",
+                "headings": [
+                    "Cost Category",
+                    "Cost Explanation"
+                ],
+                "description": "The GMAT test fee varies by region, with additional charges for rescheduling and score reporting. Below is a breakdown of typical costs:",
+                "table_data": [
+                    {
+                        "cost_category": "Standard Test Fee",
+                        "explanation": "The GMAT costs around $275 in most locations."
+                    },
+                    {
+                        "cost_category": "Rescheduling Fee",
+                        "explanation": "Rescheduling the test costs between $50 to $150 depending on when the change is made."
+                    },
+                    {
+                        "cost_category": "Additional Score Reports",
+                        "explanation": "Sending additional GMAT score reports to schools costs $35 per institution."
+                    },
+                    {
+                        "cost_category": "GMAT Preparation Costs",
+                        "explanation": "Study materials and courses range from $50 to $1,000, depending on resources and coaching."
+                    }
+                ]
+            },
+            "relevance_of_test": {
+                "title": "Relevance of GMAT for MBA Admissions",
+                "points": [
+                    {
+                        "heading": "Business School Admissions",
+                        "description": "Most top MBA programs require a GMAT score as part of their admission process."
+                    },
+                    {
+                        "heading": "Scholarship Opportunities",
+                        "description": "A high GMAT score increases eligibility for merit-based scholarships."
+                    },
+                    {
+                        "heading": "Career Advancement",
+                        "description": "Many top consulting and finance firms prefer candidates with strong GMAT scores."
+                    },
+                    {
+                        "heading": "Global Recognition",
+                        "description": "The GMAT is accepted by over 7,000 programs in 110+ countries, making it a valuable credential."
+                    }
+                ]
+            },
+            "top_consultancies_for_test": {
+                "title": "Top GMAT Consultancies for Test Preparation",
+                "top_consultancies": [
+                    "Manhattan Prep",
+                    "Kaplan GMAT",
+                    "Princeton Review",
+                    "Jamboree Education",
+                    "Magoosh GMAT Prep"
+                ]
+            }
+        }
     }
 ]

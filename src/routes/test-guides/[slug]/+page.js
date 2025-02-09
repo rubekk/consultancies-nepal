@@ -1,8 +1,8 @@
-import countriesData from "$lib/data/countries.json";
+import testGuidesData from "$lib/data/test-guides.json";
 import { error } from "@sveltejs/kit";
 
 export const load = ({ params }) => {
-    const dataIndex = countriesData.findIndex(data => {
+    const dataIndex = testGuidesData.findIndex(data => {
         return data.data.slug === params.slug;
     });
 
@@ -10,7 +10,7 @@ export const load = ({ params }) => {
         throw error(404, "Not found");
     }
 
-    const countryData = countriesData[dataIndex];
+    const testGuideData = testGuidesData[dataIndex];
 
-    return { data: countryData };
+    return { data: testGuideData };
 };

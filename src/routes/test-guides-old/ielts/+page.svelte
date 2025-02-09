@@ -20,7 +20,7 @@
   <Heading tag="h4"
     >Everything You Need to Know About IELTS: Test Pattern, Relevance, and Costs</Heading
   >
-  <img src="/imgs/ielts.jpeg" alt="IELTS Image" />
+  <img src="/imgs/ielts.jpeg" alt="IELTS" />
   <p>
     The IELTS (International English Language Testing System) is a popular
     English proficiency test recognized by universities, employers, and

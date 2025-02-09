@@ -56,7 +56,7 @@
             {#each countryData.cost_to_study_table.table_data as table_data}
                 <TableBodyRow>
                     <TableBodyCell>{table_data.programs}</TableBodyCell>
-                    <TableBodyCell>{table_data.tution_fees}</TableBodyCell>
+                    <TableBodyCell>{table_data.tuition_fees}</TableBodyCell>
                 </TableBodyRow>
             {/each}
         </TableBody>
@@ -98,7 +98,7 @@
             {#each countryData.courses_and_cost_table.table_data as table_data}
                 <TableBodyRow>
                     <TableBodyCell>{table_data.course}</TableBodyCell>
-                    <TableBodyCell>{table_data.tution_fees}</TableBodyCell>
+                    <TableBodyCell>{table_data.tuition_fees}</TableBodyCell>
                     <TableBodyCell>
                         {#each table_data.popular_universities as university, index}
                             {university}, <br />
