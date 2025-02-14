@@ -1,16 +1,27 @@
 <script>
-  import { testData } from "$lib/index.js";
-  import TestCard from "../../components/card/TestCard.svelte";
-</script>
-
-<svelte:head>
-  <title>StudyAbroadNP - Language Test Guides</title>
-</svelte:head>
-
-<div class="test-guides-page">
-  <div class="test-guides-inner">
-    {#each testData as tData}
-      <TestCard testData={tData} />
-    {/each}
+    import TestGuideCard from "../../components/card/TestGuideCard.svelte";
+    import { testData } from "$lib/index.js";
+  </script>
+  
+  <svelte:head>
+    <title>StudyAbroadNP - Study Abroad Destinations</title>
+  </svelte:head>
+  
+  <div class="countries">
+    <div class="countries-inner">
+      {#each testData as tData}
+        <TestGuideCard testGuideData={tData} />
+      {/each}
+    </div>
   </div>
-</div>
+  
+  <style>
+    .countries-inner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  </style>
+  
