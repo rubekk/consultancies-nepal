@@ -1,6 +1,6 @@
 <script>
   import { page } from "$app/stores";
-  import { Listgroup } from "flowbite-svelte";
+  import { Heading, Listgroup } from "flowbite-svelte";
 
   let topConsult = [
     { name: "AECC Global", href: "/consultancies/aecc-global" },
@@ -19,12 +19,10 @@
   });
 </script>
 
-<h2 class="ml-2 mb-2 font-semibold text-xl">Top Consultancy</h2>
-<Listgroup
-  active
-  items={filteredConsult}
-  let:item
-  class="w-50 text-xl font-medium"
->
-  {item.name}
-</Listgroup>
+<div class="blog-right-section">
+  <Heading tag="h3">Top Consultancies</Heading>
+  <Listgroup active items={filteredConsult} let:item>
+    {item.name}
+  </Listgroup>
+</div>
+

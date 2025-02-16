@@ -10,7 +10,7 @@
 
 <Breadcrumb
     aria-label="Test guides Breadcrumb"
-    class="py-3 px-5 dark:bg-gray-900 w-100 mx-10 text-black-500"
+    class="w-100 text-black-500 dark:bg-gray-900"
 >
     <BreadcrumbItem href="/" home>HOME</BreadcrumbItem>
     <BreadcrumbItem href={"/" + pathnameBreakdown[0].replaceAll(" ", "-")}

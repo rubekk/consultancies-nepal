@@ -106,6 +106,21 @@ li{
 }
 
 /* media queries */
+@media (max-width: 800px) {
+    .blog-section {
+        width: 100%;
+        border: none;
+    }
+}
+
+@media (max-width: 475px) {
+    .table {
+        width: 450px !important;
+        overflow-x: scroll !important;
+    }
+}
+
+/* media queries */
 @media (max-width: 1200px){
     .faqs-inner{
         width: 1000px;
