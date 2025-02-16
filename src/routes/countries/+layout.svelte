@@ -1,24 +1,26 @@
 <script>
   import "./style.css";
   import { page } from "$app/stores";
-  import CountriesBreadCrumb from "../../components/breadcrumb/CountriesBreadCrumb.svelte";
+  import CommonBreadCrumb from "../../components/breadcrumb/CommonBreadCrumb.svelte";
   import CountriesRight from "../../components/right/CountriesRight.svelte";
 
-  $: pathname = $page.url.pathname;
+  let isCommonPage = false
+
+  $: isCommonPage = $page?.url?.pathname === "/countries";
 </script>
 
 <div class="country-layout">
   <div class="country-breadcrumb">
-    <CountriesBreadCrumb />
+    <CommonBreadCrumb />
   </div>
   <div class="country-row">
-    <div class={pathname === "/country" ? "country-row-single" : "country-left"}>
+    <div class={isCommonPage ? "country-row-single" : "country-left"}>
       <slot></slot>
     </div>
-    {#if pathname !== "/country"}
-    <div class="country-right">
-      <CountriesRight />
-    </div>
+    {#if !isCommonPage}
+      <div class="country-right">
+        <CountriesRight />
+      </div>
     {/if}
   </div>
 </div>

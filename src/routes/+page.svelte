@@ -1,9 +1,11 @@
 <script>
     import "./app.css";
-    import { data, faqData, countryData, testData } from "$lib/index.js";
+    import { data, faqData, testData } from "$lib/index.js";
+    import countriesData from "$lib/data/countries-short.json"
+    import testGuidesData from "$lib/data/test-guides-short.json"
     import ConsultancyCard from "../components/card/ConsultancyCard.svelte";
     import CountryCard from "../components/card/CountryCard.svelte";
-    import TestCard from "../components/card/TestCard.svelte";
+    import TestGuideCard from "../components/card/TestGuideCard.svelte";
     import { AccordionItem, Accordion, Badge, Button } from "flowbite-svelte";
     import { ArrowRightOutline } from "flowbite-svelte-icons";
 </script>
@@ -54,7 +56,7 @@
         <Badge class="mx-auto text-[1.5rem]">Study Destinations</Badge>
     </div>
     <div class="study-abroad-inner">
-        {#each countryData as cData, i}
+        {#each countriesData as cData, i}
             {#if i <= 7}
                 <CountryCard countryData={cData} />
             {/if}
@@ -62,7 +64,7 @@
     </div>
     <div class="btn-div">
         <Button color="alternative">
-            <a class="text-lg flex items-center" href="./study-abroad">
+            <a class="text-lg flex items-center" href="./countries">
                 View all Destinations
                 <ArrowRightOutline class="w-5 h-5 ms-2" />
             </a>
@@ -75,9 +77,9 @@
         <Badge class="mx-auto text-[1.5rem]">Test Guides</Badge>
     </div>
     <div class="test-guides-inner">
-        {#each testData as tData, i}
+        {#each testGuidesData as tData, i}
             {#if i <= 3}
-                <TestCard testData={tData} />
+                <TestGuideCard testGuideData={tData} />
             {/if}
         {/each}
     </div>

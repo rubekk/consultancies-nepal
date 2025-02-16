@@ -1,21 +1,19 @@
 <script>
   export let countryData;
-
-  let formattedCountry = countryData.countryName
-    .toLowerCase()
-    .replaceAll(" ", "-");
 </script>
 
-<div class="country-card">
-  <a href={`/study-abroad/${formattedCountry}`}>
-    <img
-      class="country-card-img"
-      src={countryData.imgSrc}
-      alt={`${countryData.countryName}`}
-    />
-    <p class="country-card-txt">{`${countryData.countryName}`}</p>
-  </a>
-</div>
+{#if countryData}
+  <div class="country-card">
+    <a href={`/countries/${countryData.slug}`}>
+      <img
+        class="country-card-img"
+        src={countryData.thumbnail_image.url}
+        alt={`${countryData.thumbnail_image.alt}`}
+      />
+      <p class="country-card-txt">{`${countryData.country}`}</p>
+    </a>
+  </div>
+{/if}
 
 <style>
   .country-card {
