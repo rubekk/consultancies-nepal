@@ -44,27 +44,27 @@
     "testGuides": [
       {
         "name": "IELTS",
-        "slug": "ielts-test-guide-nepali-students"
+        "slug": "complete-ielts-test-guide"
       },
       {
         "name": "PTE",
-        "slug": "pte-test-guide-nepali-students"
+        "slug": "complete-pte-test-guide"
       },
       {
         "name": "SAT",
-        "slug": "sat-test-guide-nepali-students"
+        "slug": "complete-sat-test-guide"
       },
       {
         "name": "TOEFL",
-        "slug": "toefl-test-guide-nepali-students"
+        "slug": "complete-toefl-test-guide"
       },
       {
         "name": "GRE",
-        "slug": "gre-test-guide-nepali-students"
+        "slug": "complete-gre-test-guide"
       },
       {
         "name": "GMAT",
-        "slug": "gmat-test-guide-nepali-students"
+        "slug": "complete-gmat-test-guide"
       }
     ]
   }

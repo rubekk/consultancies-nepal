@@ -1,25 +1,30 @@
 <script>
-    import "./style.css";
-    import { page } from "$app/stores";
-    import TestGuidesBreadCrumb from "../../components/breadcrumb/TestGuidesBreadCrumb.svelte";
-    import TestGuidesRight from "../../components/right/TestGuidesRight.svelte";
-  
-    $: pathname = $page.url.pathname;
-  </script>
-  
-  <div class="country-layout">
-    <div class="country-breadcrumb">
-      <TestGuidesBreadCrumb />
+  import "$lib/css/common-category.css";
+  import { page } from "$app/stores";
+  import TestGuidesRight from "../../components/right/TestGuidesRight.svelte";
+  import CommonBreadCrumb from "../../components/breadcrumb/CommonBreadCrumb.svelte";
+
+  let isCommonPage = false;
+
+  $: isCommonPage = $page.url.pathname === "/test-guides";
+</script>
+
+<div class="common-category-layout">
+  <div class="breadcrumb">
+    <CommonBreadCrumb />
+  </div>
+  {#if isCommonPage}
+    <div class="category-home">
+      <slot></slot>
     </div>
-    <div class="country-row">
-      <div class={pathname === "/test-guides" ? "test-guides-row-single" : "test-guides-left"}>
+  {:else}
+    <div class="blog-container">
+      <div class="blog">
         <slot></slot>
       </div>
-      {#if pathname !== "/country"}
-      <div class="country-right">
+      <div class="blog-right-sidebar">
         <TestGuidesRight />
       </div>
-      {/if}
     </div>
-  </div>
-  
+  {/if}
+</div>

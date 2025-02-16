@@ -10,7 +10,6 @@
         TableHead,
         TableHeadCell,
     } from "flowbite-svelte";
-    import "../style.css";
 
     export let data;
 
@@ -21,7 +20,7 @@
     <title>{countryData.title}</title>
 </svelte:head>
 
-<div class="study-abroad-blog-container">
+<div class="blog-section">
     <Heading tag="h1">{countryData.title}</Heading>
     <img
         src={countryData.featured_image.url}

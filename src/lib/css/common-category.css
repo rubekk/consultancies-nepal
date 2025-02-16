@@ -1,37 +1,37 @@
-.country-breadcrumb {
-    margin: 1rem 0;
-    position: sticky;
+/* common styles */
+.common-category-layout {
+    margin: 0 4rem;
 }
 
-.country-row {
-    margin: 0 2rem 2rem;
+.breadcrumb {
+    margin: 2rem 1rem;
+}
+
+.category-home {
+    margin-bottom: 2rem;
+}
+
+.blog-container {
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
 }
 
-.country-row-single {
-    width: 100%;
-}
-
-.country-left {
+.blog {
     width: 70%;
 }
 
-.country-right {
+.blog-right-sidebar {
     width: 30%;
-    align-self: flex-start;
-    position: sticky;
-    top: 1rem;
-    background: #ddd8d8;
-    padding: 0.8rem .5rem;
 }
 
-.study-abroad-blog-container {
-    padding: 0 1.3rem;
+.blog-section {
+    padding: 2rem 1.3rem;
     text-align: justify;
+    background-color: #fafafa;
+    border: 1px solid #f3f3f3;
 }
 
-.study-abroad-blog-container img {
+.blog-section img {
     margin: 2rem 0 0;
     width: 100%;
 }
@@ -40,34 +40,34 @@
     margin-top: 2rem;
 }
 
-.study-abroad-blog-container h1,
-.study-abroad-blog-container h2{
+.blog-section h1,
+.blog-section h2{
     color: #000;
 }
 
-.study-abroad-blog-container h1 {
-    font-size: 24px;
+.blog-section h1 {
+    font-size: 2rem;
     font-weight: 600;
 }
 
-.study-abroad-blog-container h2 {
+.blog-section h2 {
     margin: 2rem 0 0;
-    font-size: 24px;
+    font-size: 1.75rem;
     font-weight: 500;
 }
 
-.study-abroad-blog-container h3 {
+.blog-section h3 {
     margin: 1.5rem 0 .5rem;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
-.study-abroad-blog-container p {
+.blog-section p {
     margin: .75rem 0;
     font-size: 16px;
 }
 
-.study-abroad-blog-container li {
+.blog-section li {
     margin: .5rem 0;
 }
 
@@ -96,9 +96,23 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
+.blog-right-section {
+    padding: 1rem 1rem 2rem;
+    background-color: #fafafa;
+    border: 1px solid #f3f3f3;
+    position: sticky;
+    top: 1rem;
+}
+
+.blog-right-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /* media queries */
 @media (max-width: 800px) {
-    .study-abroad-blog-container {
+    .blog-section {
         width: 100%;
         border: none;
     }

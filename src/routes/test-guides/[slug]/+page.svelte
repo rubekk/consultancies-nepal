@@ -1,4 +1,5 @@
 <script>
+    import "./../style.css"
     import {
       List,
       Li,
@@ -20,11 +21,11 @@
     <title>{testGuideData.title}</title>
   </svelte:head>
   
-  <div class="test-container">
+  <div class="blog-section">
     <Heading tag="h1"
       >{testGuideData.title}</Heading
     >
-    <img src={testGuideData.featured_img.url} alt={testGuideData.featured_img.alt} />
+    <img src={testGuideData.featured_image.url} alt={testGuideData.featured_image.alt} />
     {#each testGuideData.introduction as introduction}
         <p>
             {introduction}
@@ -40,7 +41,7 @@
             {/each}
         </TableHead>
         <TableBody tableBodyClass="divide-y">
-            {#each countryData.test_pattern_table.table_data as table_data}
+            {#each testGuideData.test_pattern_table.table_data as table_data}
                 <TableBodyRow>
                     <TableBodyCell>{table_data.test_section}</TableBodyCell>
                     <TableBodyCell>{table_data.description}</TableBodyCell>
@@ -58,7 +59,7 @@
             {/each}
         </TableHead>
         <TableBody tableBodyClass="divide-y">
-            {#each countryData.cost_of_test_table.table_data as table_data}
+            {#each testGuideData.cost_of_test_table.table_data as table_data}
                 <TableBodyRow>
                     <TableBodyCell>{table_data.cost_category}</TableBodyCell>
                     <TableBodyCell>{table_data.explanation}</TableBodyCell>
@@ -72,7 +73,7 @@
     <List list="decimal" position="inside">
         {#each testGuideData.relevance_of_test.points as point}
             <Li
-                ><strong>{point.heading}</strong> - {document.description}</Li
+                ><strong>{point.heading}</strong> - {point.description}</Li
             >
         {/each}
     </List>

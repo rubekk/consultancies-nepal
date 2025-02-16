@@ -1,24 +1,31 @@
 <script>
-  import "./style.css";
+  import "$lib/css/common-category.css"
   import { page } from "$app/stores";
-  import CountriesBreadCrumb from "../../components/breadcrumb/CountriesBreadCrumb.svelte";
+  import CommonBreadCrumb from "../../components/breadcrumb/CommonBreadCrumb.svelte";
   import CountriesRight from "../../components/right/CountriesRight.svelte";
 
-  $: pathname = $page.url.pathname;
+  let isCommonPage = false;
+
+  $: isCommonPage = $page?.url?.pathname === "/countries";
 </script>
 
-<div class="country-layout">
-  <div class="country-breadcrumb">
-    <CountriesBreadCrumb />
+<div class="common-category-layout">
+  <div class="breadcrumb">
+    <CommonBreadCrumb />
   </div>
-  <div class="country-row">
-    <div class={pathname === "/country" ? "country-row-single" : "country-left"}>
+
+  {#if isCommonPage}
+    <div class="category-home">
       <slot></slot>
     </div>
-    {#if pathname !== "/country"}
-    <div class="country-right">
-      <CountriesRight />
+  {:else}
+    <div class="blog-container">
+      <div class="blog">
+        <slot></slot>
+      </div>
+      <div class="blog-right-sidebar">
+        <CountriesRight />
+      </div>
     </div>
-    {/if}
-  </div>
+  {/if}
 </div>

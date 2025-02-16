@@ -1,22 +1,7 @@
 <script>
 	import "./../style.css";
-	import { countriesList, testList } from "$lib/index.js";
+	import menu from "$lib/data/menu.json";
 	import { Badge, Carousel } from "flowbite-svelte";
-
-	const images = [
-		{
-			alt: "Cosmic timetraveler",
-			// src: "/images/carousel/cosmic-timetraveler-pYyOZ8q7AII-unsplash.webp",
-			src: "/imgs/abroad-study-1.jpeg",
-			title: "cosmic-timetraveler-pYyOZ8q7AII-unsplash.com",
-		},
-		{
-			alt: "Cristina Gottardi",
-			// src: "/images/carousel/cristina-gottardi-CSpjU6hYo_0-unsplash.webp",
-			src: "/imgs/aecc-global-1.jpeg",
-			title: "cristina-gottardi-CSpjU6hYo_0-unsplash.com",
-		},
-	];
 
 	export let data = {
 		name: "",
@@ -34,6 +19,17 @@
 		countriesFocused: [],
 	};
 
+	const countriesList = [
+		"australia",
+		"usa",
+		"canada",
+		"new zealand",
+		"united kingdom",
+		"japan",
+		"singapore",
+		"germany",
+		"europe",
+	];
 	const euroCountries = [
 		"france",
 		"estonia",
@@ -50,7 +46,21 @@
 		"ireland",
 		"mauritius",
 	];
+	const testList = ["ielts", "sat", "pte", "toefl", "gre", "gmat"];
+	const images = [
+		{
+			alt: "Cosmic timetraveler",
+			src: "/imgs/abroad-study-1.jpeg",
+			title: "cosmic-timetraveler-pYyOZ8q7AII-unsplash.com",
+		},
+		{
+			alt: "Cristina Gottardi",
+			src: "/imgs/aecc-global-1.jpeg",
+			title: "cristina-gottardi-CSpjU6hYo_0-unsplash.com",
+		},
+	];
 
+	// check if a country is valid or not
 	const checkCountry = (country) => {
 		let lowCountry = country.toLowerCase();
 
@@ -60,19 +70,32 @@
 		return countriesList.includes(lowCountry);
 	};
 
+	// get url of a country to add in anchor href
 	const getCountryURL = (country) => {
 		let lowCountry = country.toLowerCase();
-
 		if (euroCountries.includes(lowCountry)) lowCountry = "europe";
-		else if (lowCountry == "uk") lowCountry = "united kingdom";
 
-		return `/study-abroad/${lowCountry.replaceAll(" ", "-")}`;
+		let countrySlug = menu.studyDestinations.find(
+			(country) => country.name.toLowerCase() == lowCountry,
+		);
+
+		return countrySlug ? `/countries/${countrySlug.slug}` : "#";
 	};
 
+	// check if a test is valid or not
 	const checkTest = (test) => {
 		let lowTest = test.toLowerCase();
 
 		return testList.includes(lowTest);
+	};
+
+	// get url of a test to add in anchor href
+	const getTestURL = (test) => {
+		let testGuideSlug = menu.testGuides.find(
+			(tgTest) => tgTest.name.toLowerCase() == test.toLowerCase(),
+		);
+
+		return testGuideSlug ? `/test-guides/${testGuideSlug.slug}` : "#";
 	};
 </script>
 
@@ -81,7 +104,7 @@
 </svelte:head>
 
 {#if data.name && data.address}
-	<div class="consultancy-container">
+	<div class="blog-section">
 		<div class="consultancy-data">
 			<h1 class="text-3xl">{data.name}</h1>
 			<div class="consultancy-location m-2 text-gray-600">
@@ -151,9 +174,7 @@
 				{#each data.testPreparations as test}
 					{#if checkTest(test)}
 						<Badge class="mx-2" large color="dark">
-							<a href={`/test-guides/${test.toLowerCase()}`}
-								>{test}</a
-							>
+							<a href={getTestURL(test)} `>{test}</a>
 						</Badge>
 					{:else}
 						<Badge large color="dark">{test}</Badge>

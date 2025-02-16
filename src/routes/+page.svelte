@@ -1,10 +1,14 @@
 <script>
     import "./app.css";
-    import { data, faqData, countryData, testData } from "$lib/index.js";
+    import { data } from "$lib/index.js";
+    import countriesData from "$lib/data/countries-short.json"
+    import testGuidesData from "$lib/data/test-guides-short.json"
+    import Landing from "../components/home/Landing.svelte";
     import ConsultancyCard from "../components/card/ConsultancyCard.svelte";
     import CountryCard from "../components/card/CountryCard.svelte";
-    import TestCard from "../components/card/TestCard.svelte";
-    import { AccordionItem, Accordion, Badge, Button } from "flowbite-svelte";
+    import TestGuideCard from "../components/card/TestGuideCard.svelte";
+    import Faq from "../components/home/FAQ.svelte";
+    import { Badge, Button } from "flowbite-svelte";
     import { ArrowRightOutline } from "flowbite-svelte-icons";
 </script>
 
@@ -12,11 +16,26 @@
     <title>StudyAbroadNP - Home</title>
 </svelte:head>
 
-<div class="landing-img">
-    <div class="landing-tagline">
-        <div class="tagline-txt">
-            Explore the best <span>Consultancies</span><br />for abroad study!
-        </div>
+<Landing />
+
+<div class="study-abroad">
+    <div class="sub-title">
+        <Badge class="mx-auto text-[1.5rem]">Study Destinations</Badge>
+    </div>
+    <div class="study-abroad-inner">
+        {#each countriesData as cData, i}
+            {#if i <= 7}
+                <CountryCard countryData={cData} />
+            {/if}
+        {/each}
+    </div>
+    <div class="btn-div">
+        <Button color="alternative">
+            <a class="text-lg flex items-center" href="./countries">
+                View all Destinations
+                <ArrowRightOutline class="w-5 h-5 ms-2" />
+            </a>
+        </Button>
     </div>
 </div>
 
@@ -49,35 +68,14 @@
     </div>
 </div>
 
-<div class="study-abroad">
-    <div class="sub-title">
-        <Badge class="mx-auto text-[1.5rem]">Study Destinations</Badge>
-    </div>
-    <div class="study-abroad-inner">
-        {#each countryData as cData, i}
-            {#if i <= 7}
-                <CountryCard countryData={cData} />
-            {/if}
-        {/each}
-    </div>
-    <div class="btn-div">
-        <Button color="alternative">
-            <a class="text-lg flex items-center" href="./study-abroad">
-                View all Destinations
-                <ArrowRightOutline class="w-5 h-5 ms-2" />
-            </a>
-        </Button>
-    </div>
-</div>
-
 <div class="test-guides">
     <div class="sub-title">
         <Badge class="mx-auto text-[1.5rem]">Test Guides</Badge>
     </div>
     <div class="test-guides-inner">
-        {#each testData as tData, i}
+        {#each testGuidesData as tData, i}
             {#if i <= 3}
-                <TestCard testData={tData} />
+                <TestGuideCard testGuideData={tData} />
             {/if}
         {/each}
     </div>
@@ -91,20 +89,5 @@
     </div>
 </div>
 
-<div class="faqs">
-    <div class="sub-title">
-        <Badge class="mx-auto text-[1.5rem]">FAQs</Badge>
-    </div>
-    <Accordion
-        inactiveClass="text-gray-500 dark:text-gray-400 bg-white dark:hover:bg-gray-800"
-    >
-        {#each faqData as item, i}
-            <AccordionItem>
-                <span slot="header">{item.question}</span>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                    {item.answer}
-                </p>
-            </AccordionItem>
-        {/each}
-    </Accordion>
-</div>
+<Faq />
+

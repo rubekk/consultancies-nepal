@@ -1,0 +1,56 @@
+[
+    {
+        "test": "IELTS",
+        "slug": "complete-ielts-test-guide",
+        "introduction": "The IELTS (International English Language Testing System) is a globally recognized English proficiency test essential for those aiming to study abroad, work, or migrate to English-speaking countries. The IELTS Academic test is typically required for higher education, while the IELTS General Training is more suited for work visas or migration.",
+        "thumbnail_image": {
+            "url": "/imgs/ielts.jpeg",
+            "alt": "IELTS test preparation guide with study materials and test details"
+        }
+    },
+    {
+        "test": "TOEFL",
+        "slug": "complete-toefl-test-guide",
+        "introduction": "The TOEFL (Test of English as a Foreign Language) is a widely recognized English proficiency test used for academic purposes. It is primarily taken by individuals who wish to study in English-speaking countries. TOEFL is accepted by over 11,000 universities and institutions in more than 150 countries.",
+        "thumbnail_image": {
+            "url": "/imgs/toefl.jpeg",
+            "alt": "TOEFL test preparation guide with study materials and test details"
+        }
+    },
+    {
+        "test": "SAT",
+        "slug": "complete-sat-test-guide",
+        "introduction": "The SAT (Scholastic Assessment Test) is a standardized exam widely used for college admissions in the United States. Designed to assess a student's readiness for higher education, the SAT is accepted by thousands of universities worldwide. The test evaluates mathematical skills, evidence-based reading, and writing abilities.",
+        "thumbnail_image": {
+            "url": "/imgs/sat.jpeg",
+            "alt": "SAT test preparation materials with study guides and exam details"
+        }
+    },
+    {
+        "test": "PTE",
+        "slug": "complete-pte-test-guide",
+        "introduction": "The GRE (Graduate Record Examination) is a standardized test required for admission into many graduate and business school programs worldwide. Administered by ETS, the GRE measures verbal reasoning, quantitative reasoning, and analytical writing skills. A strong GRE score can significantly improve your chances of getting into top universities.",
+        "thumbnail_image": {
+            "url": "/imgs/gre.jpeg",
+            "alt": "GRE test preparation materials with study guides and exam details"
+        }
+    },
+    {
+        "test": "GRE",
+        "slug": "complete-gre-test-guide",
+        "introduction": "The GRE (Graduate Record Examination) is a standardized test required for admission into many graduate and business school programs worldwide. Administered by ETS, the GRE measures verbal reasoning, quantitative reasoning, and analytical writing skills. A strong GRE score can significantly improve your chances of getting into top universities.",
+        "thumbnail_image": {
+            "url": "/imgs/gre.jpeg",
+            "alt": "GRE test preparation materials with study guides and exam details"
+        }
+    },
+    {
+        "test": "GMAT",
+        "slug": "complete-gmat-test-guide",
+        "introduction": "The GMAT (Graduate Management Admission Test) is a globally recognized standardized exam used for admission to business schools and MBA programs. It assesses analytical, quantitative, verbal, and writing skills required for success in graduate business education. The GMAT is accepted by over 7,000 programs worldwide, making it a crucial step for business school aspirants.",
+        "thumbnail_image": {
+            "url": "/imgs/gmat.jpeg",
+            "alt": "GMAT test preparation guide with study materials and test details"
+        }
+    }
+]
