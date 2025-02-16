@@ -21,7 +21,7 @@
     <title>{testGuideData.title}</title>
   </svelte:head>
   
-  <div class="test-container">
+  <div class="blog-section">
     <Heading tag="h1"
       >{testGuideData.title}</Heading
     >

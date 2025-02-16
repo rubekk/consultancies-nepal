@@ -1,5 +1,5 @@
 <script>
-  import "./style.css";
+  import "./../css/common-category.css";
   import { page } from "$app/stores";
   import TestGuidesRight from "../../components/right/TestGuidesRight.svelte";
   import CommonBreadCrumb from "../../components/breadcrumb/CommonBreadCrumb.svelte";
@@ -9,18 +9,22 @@
   $: isCommonPage = $page.url.pathname === "/test-guides";
 </script>
 
-<div class="country-layout">
-  <div class="country-breadcrumb">
+<div class="common-category-layout">
+  <div class="breadcrumb">
     <CommonBreadCrumb />
   </div>
-  <div class="country-row">
-    <div class={isCommonPage ? "test-guides-row-single" : "test-guides-left"}>
+  {#if isCommonPage}
+    <div class="category-home">
       <slot></slot>
     </div>
-    {#if !isCommonPage}
-      <div class="country-right">
+  {:else}
+    <div class="blog-container">
+      <div class="blog">
+        <slot></slot>
+      </div>
+      <div class="blog-right-sidebar">
         <TestGuidesRight />
       </div>
-    {/if}
-  </div>
+    </div>
+  {/if}
 </div>

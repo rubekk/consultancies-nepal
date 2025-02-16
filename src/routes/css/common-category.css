@@ -2,8 +2,13 @@
 .common-category-layout {
     margin: 0 4rem;
 }
+
 .breadcrumb {
     margin: 2rem 1rem;
+}
+
+.category-home {
+    margin-bottom: 2rem;
 }
 
 .blog-container {

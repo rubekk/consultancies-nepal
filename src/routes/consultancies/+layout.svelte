@@ -1,24 +1,31 @@
 <script>
-  import "./style.css";
+  import "./../css/common-category.css";
   import { page } from "$app/stores";
   import CommonBreadCrumb from "../../components/breadcrumb/CommonBreadCrumb.svelte";
   import ConsultanciesRight from "../../components/right/ConsultanciesRight.svelte";
 
-  $: pathname = $page.url.pathname;
+  let isCommonPage = false;
+
+  $: isCommonPage = $page?.url?.pathname === "/consultancies";
 </script>
 
-<div class="consultancies-layout">
-  <div class="consultancies-breadcrumb">
+<div class="common-category-layout">
+  <div class="breadcrumb">
     <CommonBreadCrumb />
   </div>
-  <div class="consultancies-row">
-    <div class={pathname === "/consultancies" ? "consultancies-row-single" : "consultancies-left"}>
+
+  {#if isCommonPage}
+    <div class="category-home">
       <slot></slot>
     </div>
-    {#if pathname !== "/consultancies"}
-    <div class="consultancies-right">
-      <ConsultanciesRight />
+  {:else}
+    <div class="blog-container">
+      <div class="blog">
+        <slot></slot>
+      </div>
+      <div class="blog-right-sidebar">
+        <ConsultanciesRight />
+      </div>
     </div>
-    {/if}
-  </div>
+  {/if}
 </div>

@@ -6,13 +6,11 @@
 	const images = [
 		{
 			alt: "Cosmic timetraveler",
-			// src: "/images/carousel/cosmic-timetraveler-pYyOZ8q7AII-unsplash.webp",
 			src: "/imgs/abroad-study-1.jpeg",
 			title: "cosmic-timetraveler-pYyOZ8q7AII-unsplash.com",
 		},
 		{
 			alt: "Cristina Gottardi",
-			// src: "/images/carousel/cristina-gottardi-CSpjU6hYo_0-unsplash.webp",
 			src: "/imgs/aecc-global-1.jpeg",
 			title: "cristina-gottardi-CSpjU6hYo_0-unsplash.com",
 		},
@@ -81,7 +79,7 @@
 </svelte:head>
 
 {#if data.name && data.address}
-	<div class="consultancy-container">
+	<div class="blog-section">
 		<div class="consultancy-data">
 			<h1 class="text-3xl">{data.name}</h1>
 			<div class="consultancy-location m-2 text-gray-600">
