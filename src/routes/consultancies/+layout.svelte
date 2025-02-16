@@ -1,5 +1,5 @@
 <script>
-  import "./../css/common-category.css";
+  import "$lib/css/common-category.css";
   import { page } from "$app/stores";
   import CommonBreadCrumb from "../../components/breadcrumb/CommonBreadCrumb.svelte";
   import ConsultanciesRight from "../../components/right/ConsultanciesRight.svelte";

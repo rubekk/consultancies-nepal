@@ -28,6 +28,7 @@
   </NavBrand>
   <NavHamburger />
   <NavUl>
+    <NavLi href="/universities">Universities</NavLi>
     <NavLi class="cursor-pointer">
       Study Destinations
       <ChevronDownOutline
@@ -40,7 +41,6 @@
         >
       {/each}
     </Dropdown>
-    <NavLi href="/universities">Universities</NavLi>
     <NavLi class="cursor-pointer">
       Test Guides
       <ChevronDownOutline
